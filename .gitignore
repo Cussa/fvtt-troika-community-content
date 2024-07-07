@@ -1,0 +1,6 @@
+node_modules/**/*
+packs/**/*
+**/.DS_Store
+result.js
+table.txt
+scripts
