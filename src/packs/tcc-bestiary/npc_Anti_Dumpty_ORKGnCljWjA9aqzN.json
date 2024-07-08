@@ -1,0 +1,189 @@
+{
+  "name": "Anti Dumpty",
+  "type": "npc",
+  "system": {
+    "initiativeTokens": 2,
+    "stamina": {
+      "value": 14,
+      "max": 14
+    },
+    "skill": {
+      "value": 8
+    },
+    "armour": 1,
+    "mienOptions": {
+      "0": {
+        "number": 1,
+        "description": "Scheming"
+      },
+      "1": {
+        "number": 2,
+        "description": "Fuming"
+      },
+      "2": {
+        "number": 3,
+        "description": "Quietly humming to itself"
+      },
+      "3": {
+        "number": 4,
+        "description": "Mock-mimmicking the PCs"
+      },
+      "4": {
+        "number": 5,
+        "description": "Uncharacteristically charitable"
+      },
+      "5": {
+        "number": 6,
+        "description": "Contrarian"
+      }
+    },
+    "attribution": {
+      "source": "Diogo Barros and Roque Romero [Troika! Community Jam: Bestiary 2024]",
+      "link": "https://discord.com/channels/@me/1230581357663486143/1253382932442386474"
+    },
+    "special": "<p>When the Anti Dumpty reaches 0 Stamina, it breaks into a thousand little cosmic eggshell pieces. Each individual piece has its own set of eyes and mouth, and the Anti Dumpty's unpleasant persona intact. All the king's horses and all the king's men cannot put them back together.</p>",
+    "notes": "<p>The Anti Dumpty sat on a wall. In the middle of space. Between the infinitesimal cracks in materiality. For every part has its counterpart: the Anti Dumpty is the evil twin that ate its sibling in the womb. It is a being of antiparticles coalescent into a stygian orb radiating malice.</p>",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    }
+  },
+  "items": [
+    {
+      "name": "Antineutron Beam",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "attack": {
+          "dr1": "4",
+          "dr2": "4",
+          "dr3": "6",
+          "dr4": "8",
+          "dr5": "8",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "inventorySlots": 1,
+        "sortOrder": -1,
+        "canAttack": true,
+        "equipped": true,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0,
+        "quantity": 1,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676774446536,
+        "modifiedTime": 1676827741728,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "_id": "Z1TQprFKIdyGmM7S",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_key": "!actors.items!ORKGnCljWjA9aqzN.Z1TQprFKIdyGmM7S"
+    }
+  ],
+  "folder": "Ek1HYsdcAISGniy4",
+  "_id": "ORKGnCljWjA9aqzN",
+  "img": "icons/svg/mystery-man.svg",
+  "prototypeToken": {
+    "name": "Anti Dumpty",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1720426925116,
+    "modifiedTime": 1720427084613,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!ORKGnCljWjA9aqzN"
+}

@@ -1,0 +1,189 @@
+{
+  "name": "MOTHERLESS CAT OF THE NIGHT",
+  "type": "npc",
+  "system": {
+    "initiativeTokens": 2,
+    "stamina": {
+      "value": 4,
+      "max": 4
+    },
+    "skill": {
+      "value": 8
+    },
+    "armour": 0,
+    "mienOptions": {
+      "0": {
+        "number": 1,
+        "description": "Playful"
+      },
+      "1": {
+        "number": 2,
+        "description": "Hungry"
+      },
+      "2": {
+        "number": 3,
+        "description": "Pissed"
+      },
+      "3": {
+        "number": 4,
+        "description": "Gossipy"
+      },
+      "4": {
+        "number": 5,
+        "description": "In Heat"
+      },
+      "5": {
+        "number": 6,
+        "description": "Nonchalant"
+      }
+    },
+    "attribution": {
+      "source": "John Erwin Casia [Troika! Community Jam: Bestiary 2024]",
+      "link": "https://mister-erwin.itch.io/motherless-cat-of-the-night"
+    },
+    "special": "<p>There are always 3d6 Motherless Cats of the Night in a large territory, usually a city or ruin, knowing each others' presence and disposition. They can easily share information with each other when not in danger.</p><p>A Motherless Cat of the Night can always move thru darkness and shadows as if they can see thru it. When they move, they can choose to teleport from one shadow to another that they can see.</p><p>Alone, one can be convinced and bribed with delicious food or sparkly trinkets for information around their territory. When in company of other Motherless Cats of the Night, they all act in the interest of the Night.</p>",
+    "notes": "<p>They were abandoned and so the Night took care of them. They often prowl in lonesome, but are never alone. The Night hides and protects them, and in return they lurk and survey for her.</p><p>When you hear them cry from a distance, they find you interesting.</p><p>When you feel them purr by your feet, they find you lovely.</p><p>When you sense them hiss by your shoulders, they are coming to get you.</p>",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    }
+  },
+  "items": [
+    {
+      "name": "cat claws",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "inventorySlots": 1,
+        "sortOrder": -1,
+        "canAttack": true,
+        "equipped": true,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0,
+        "quantity": 1,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676773918462,
+        "modifiedTime": 1676827737963,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "_id": "Bt3M1u6hLCDit8qU",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_key": "!actors.items!usTyTd7bmp6u3rpk.Bt3M1u6hLCDit8qU"
+    }
+  ],
+  "folder": "Ek1HYsdcAISGniy4",
+  "_id": "usTyTd7bmp6u3rpk",
+  "img": "modules/troika-community-content/assets/arts/bestiary2024/motherless-cat-of-the-night.webp",
+  "prototypeToken": {
+    "name": "MOTHERLESS CAT OF THE NIGHT",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "assets/arts/bestiary2024/motherless-cat-of-the-night.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1720426924786,
+    "modifiedTime": 1720427084613,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!usTyTd7bmp6u3rpk"
+}

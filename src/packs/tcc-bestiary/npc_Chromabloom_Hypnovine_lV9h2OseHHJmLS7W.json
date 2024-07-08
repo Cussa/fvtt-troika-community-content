@@ -1,0 +1,189 @@
+{
+  "name": "Chromabloom Hypnovine",
+  "type": "npc",
+  "system": {
+    "initiativeTokens": 3,
+    "stamina": {
+      "value": 12,
+      "max": 12
+    },
+    "skill": {
+      "value": 7
+    },
+    "armour": 2,
+    "mienOptions": {
+      "0": {
+        "number": 1,
+        "description": "Pulsating and dormant"
+      },
+      "1": {
+        "number": 2,
+        "description": "Shifting and hostile"
+      },
+      "2": {
+        "number": 3,
+        "description": "Coiling and defensive"
+      },
+      "3": {
+        "number": 4,
+        "description": "Coiling but mischievous"
+      },
+      "4": {
+        "number": 5,
+        "description": "Indifferent"
+      },
+      "5": {
+        "number": 6,
+        "description": "Reaching out, aggressive"
+      }
+    },
+    "attribution": {
+      "source": "Ilias Iovis [Troika! Community Jam: Bestiary 2024]",
+      "link": "https://iliasiovis.itch.io/"
+    },
+    "special": "<p>Anyone who gazes at the Chromabloom Hypnovine's shifting lights must pass a Luck check or become entranced, unable to take any action for 1d6 rounds or until damaged.</p>",
+    "notes": "<p>A swirling bush-like mass of metallic vines and leaves, shimmering with a chrome-like sheen. Its form is constantly shifting and changing, a mesmerizing shape sparkling with luminescent patterns.</p>",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    }
+  },
+  "items": [
+    {
+      "name": "Vines",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "attack": {
+          "dr1": "4",
+          "dr2": "6",
+          "dr3": "8",
+          "dr4": "8",
+          "dr5": "10",
+          "dr6": "12",
+          "dr7": "14"
+        },
+        "inventorySlots": 1,
+        "sortOrder": -1,
+        "canAttack": true,
+        "equipped": true,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0,
+        "quantity": 1,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676774038555,
+        "modifiedTime": 1676827737963,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "_id": "XrTZhSY9ak4BLpmp",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_key": "!actors.items!lV9h2OseHHJmLS7W.XrTZhSY9ak4BLpmp"
+    }
+  ],
+  "folder": "Ek1HYsdcAISGniy4",
+  "_id": "lV9h2OseHHJmLS7W",
+  "img": "modules/troika-community-content/assets/arts/bestiary2024/chromabloom-hypnovine.webp",
+  "prototypeToken": {
+    "name": "Chromabloom Hypnovine",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "assets/arts/bestiary2024/chromabloom-hypnovine.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1720426924992,
+    "modifiedTime": 1720427084613,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!lV9h2OseHHJmLS7W"
+}

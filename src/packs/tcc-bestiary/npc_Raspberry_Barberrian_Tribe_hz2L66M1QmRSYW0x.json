@@ -1,0 +1,189 @@
+{
+  "name": "Raspberry Barberrian Tribe",
+  "type": "npc",
+  "system": {
+    "initiativeTokens": 10,
+    "stamina": {
+      "value": 8,
+      "max": 8
+    },
+    "skill": {
+      "value": 5
+    },
+    "armour": 1,
+    "mienOptions": {
+      "0": {
+        "number": 1,
+        "description": "Defensive"
+      },
+      "1": {
+        "number": 2,
+        "description": "Watchful"
+      },
+      "2": {
+        "number": 3,
+        "description": "Frenzied"
+      },
+      "3": {
+        "number": 4,
+        "description": "Curious"
+      },
+      "4": {
+        "number": 5,
+        "description": "Territorial"
+      },
+      "5": {
+        "number": 6,
+        "description": "Hostile"
+      }
+    },
+    "attribution": {
+      "source": "Uncharted [Troika! Community Jam: Bestiary 2024]",
+      "link": "https://unchartedworlds.itch.io/"
+    },
+    "special": "<p>When defeated in combat the tiny tribe have a 1D6 chance of regrouping more tribes-folk and making a second inevitably fruitless charge with half their starting stamina.</p>",
+    "notes": "<p>These wild fruity clans are almost always found nestled in overgrown hedgerows and abandoned kitchen gardens. Fiercely territorial and rarely alone, these tiny berry warriors will defend their villages from every direction and without mercy, living, fighting and dying as one singular glut to the sound of their tiny screams and warcries.</p><p>They are also rumoured to be fantastic baked in a pastry case, by those inclined to such heinous crimes.</p>",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    }
+  },
+  "items": [
+    {
+      "name": "Tiny Thorn Spears",
+      "type": "gear",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "description": "",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "3",
+          "dr4": "3",
+          "dr5": "4",
+          "dr6": "5",
+          "dr7": "6"
+        },
+        "inventorySlots": 0,
+        "sortOrder": -1,
+        "canAttack": true,
+        "equipped": true,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0,
+        "quantity": 1,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676774542203,
+        "modifiedTime": 1676827731619,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "_id": "3q9rGqF8cdvwmLu4",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_key": "!actors.items!hz2L66M1QmRSYW0x.3q9rGqF8cdvwmLu4"
+    }
+  ],
+  "folder": "Ek1HYsdcAISGniy4",
+  "_id": "hz2L66M1QmRSYW0x",
+  "img": "icons/svg/mystery-man.svg",
+  "prototypeToken": {
+    "name": "Raspberry Barberrian Tribe",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1720426924934,
+    "modifiedTime": 1720427084613,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!hz2L66M1QmRSYW0x"
+}

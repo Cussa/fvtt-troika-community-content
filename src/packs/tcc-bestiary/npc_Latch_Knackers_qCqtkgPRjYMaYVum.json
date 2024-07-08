@@ -1,0 +1,189 @@
+{
+  "name": "Latch Knackers",
+  "type": "npc",
+  "system": {
+    "initiativeTokens": 3,
+    "stamina": {
+      "value": 10,
+      "max": 10
+    },
+    "skill": {
+      "value": 8
+    },
+    "armour": 1,
+    "mienOptions": {
+      "0": {
+        "number": 1,
+        "description": "Sleeping"
+      },
+      "1": {
+        "number": 2,
+        "description": "Sorrowful"
+      },
+      "2": {
+        "number": 3,
+        "description": "Mischievous"
+      },
+      "3": {
+        "number": 4,
+        "description": "Aggressive"
+      },
+      "4": {
+        "number": 5,
+        "description": "Helpful"
+      },
+      "5": {
+        "number": 6,
+        "description": "Violent"
+      }
+    },
+    "attribution": {
+      "source": "Jason Riffle [Troika! Community Jam: Bestiary 2024]",
+      "link": "https://heavehostudio.itch.io/"
+    },
+    "special": "<p>Latch Knackers can see perfectly in darkness and require no light source to navigate the deep dark.</p><p>They project their signature tapping sound anywhere within line of sight and use this ability as both a boon and a warning, drawing attention to hazards or luring explorers into a trap. Use this to build tension and play tricks.</p><p>If defeated in combat they will reform in d6 days unless they are laid to rest on the surface.</p>",
+    "notes": "<p>The Dwarves of the Latch abandoned their mines ages ago, and none now remembers when or why. The long shafts and delves pockmark the surrounding mountains and hillsides like old scars. Villagers began to reopen these old workings to see if any coal or ore remained in the deep dark, and they were not disappointed. The Dwarves left exposed veins of anthracite, and galena the fledgling miners could exploit. But they also left the Latch Knackers, souls of miners who perished in the deep dark and were never laid to rest. The presence of Latch Knackers in mines may be noted by mischief or mayhem in equal measure, a stolen tool or crumbling slate fall, but always with their rhythmic knocking. Tap, tap, tap…</p>",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    }
+  },
+  "items": [
+    {
+      "name": "Ghostly Pick",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "attack": {
+          "dr1": "1",
+          "dr2": "2",
+          "dr3": "4",
+          "dr4": "6",
+          "dr5": "8",
+          "dr6": "10",
+          "dr7": "12"
+        },
+        "inventorySlots": 1,
+        "sortOrder": -1,
+        "canAttack": true,
+        "equipped": true,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 1,
+        "quantity": 1,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676773960983,
+        "modifiedTime": 1676827737962,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "_id": "9bmO719gDCVI5oDg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_key": "!actors.items!qCqtkgPRjYMaYVum.9bmO719gDCVI5oDg"
+    }
+  ],
+  "folder": "Ek1HYsdcAISGniy4",
+  "_id": "qCqtkgPRjYMaYVum",
+  "img": "icons/svg/mystery-man.svg",
+  "prototypeToken": {
+    "name": "Latch Knackers",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1720426924900,
+    "modifiedTime": 1720427084613,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!qCqtkgPRjYMaYVum"
+}

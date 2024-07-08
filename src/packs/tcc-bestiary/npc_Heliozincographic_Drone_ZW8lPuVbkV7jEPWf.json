@@ -1,0 +1,189 @@
+{
+  "name": "Heliozincographic Drone",
+  "type": "npc",
+  "system": {
+    "initiativeTokens": 4,
+    "stamina": {
+      "value": 15,
+      "max": 15
+    },
+    "skill": {
+      "value": 10
+    },
+    "armour": 2,
+    "mienOptions": {
+      "0": {
+        "number": 1,
+        "description": "Beeping"
+      },
+      "1": {
+        "number": 2,
+        "description": "Ensconced"
+      },
+      "2": {
+        "number": 3,
+        "description": "Exultant"
+      },
+      "3": {
+        "number": 4,
+        "description": "Prospecting"
+      },
+      "4": {
+        "number": 5,
+        "description": "Stiff"
+      },
+      "5": {
+        "number": 6,
+        "description": "Verdigrised"
+      }
+    },
+    "attribution": {
+      "source": "Ewen Macalister [Troika! Community Jam: Bestiary 2024]",
+      "link": "https://talesfromthelamp.substack.com/"
+    },
+    "special": "<p>Capable of hovering up to average head height. A successful attack from a Photos Emitter blinds the target for its next turn. The mapping unit may be salvaged from the remains of a deactivated Helizincographic Drone, disclosing a notable geographic feature nearby.</p><p>LOCAL FEATURE</p><p>1: Vast natural chasm</p><p>2: Alien fossils of lost sentients</p><p>3: Lair of deadly local flora</p><p>4: Lakes of an unfamiliar liquid</p><p>5: Endangered insect species</p><p>6: Yardangs of rare minerals</p>",
+    "notes": "<p>When the Worshipful Company of Exographic Barons still held great influence, they sent forth myriad exploratory engines to scour and survey habitable lands across far-flung spheres. Few such machines returned, the vast majority instead concluding that preservation of natural landscapes was imperative - eliminating any beings deemed extraneous. Yet still their mechanical styluses scratch on; untold wilderness logged and categorised under each stroke.</p>",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    }
+  },
+  "items": [
+    {
+      "name": "Photos Emitter",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "<p><span id=\"docs-internal-guid-0ae31bbb-7fff-892f-1438-e8f6b5bfddeb\">A fusil is a long Weapon that looks like a rifle and can be used in melee as a Club. A Photos Emitter holds 6 charges before the plasmic core needs replacing.</span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "4",
+          "dr3": "4",
+          "dr4": "6",
+          "dr5": "12",
+          "dr6": "18",
+          "dr7": "24"
+        },
+        "inventorySlots": 1,
+        "sortOrder": -1,
+        "canAttack": true,
+        "equipped": true,
+        "armourProvided": 0,
+        "requiresTwoHands": true,
+        "armourIgnored": 1,
+        "quantity": 1,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676774368030,
+        "modifiedTime": 1676827741728,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "_id": "Jtc0WW4v5zXQ32cN",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_key": "!actors.items!ZW8lPuVbkV7jEPWf.Jtc0WW4v5zXQ32cN"
+    }
+  ],
+  "folder": "Ek1HYsdcAISGniy4",
+  "_id": "ZW8lPuVbkV7jEPWf",
+  "img": "modules/troika-community-content/assets/arts/bestiary2024/heliozincographic-drone.webp",
+  "prototypeToken": {
+    "name": "Heliozincographic Drone",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "assets/arts/bestiary2024/heliozincographic-drone.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1720426925082,
+    "modifiedTime": 1720427084613,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!ZW8lPuVbkV7jEPWf"
+}

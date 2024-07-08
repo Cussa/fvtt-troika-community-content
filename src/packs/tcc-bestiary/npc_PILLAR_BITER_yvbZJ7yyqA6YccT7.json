@@ -1,0 +1,144 @@
+{
+  "name": "PILLAR-BITER",
+  "type": "npc",
+  "system": {
+    "initiativeTokens": 3,
+    "stamina": {
+      "value": 11,
+      "max": 11
+    },
+    "skill": {
+      "value": 5
+    },
+    "armour": 1,
+    "mienOptions": {
+      "0": {
+        "number": 1,
+        "description": "Guilty"
+      },
+      "1": {
+        "number": 2,
+        "description": "Feigning an Ecstatic Trance"
+      },
+      "2": {
+        "number": 3,
+        "description": "Smug"
+      },
+      "3": {
+        "number": 4,
+        "description": "Desperately Hungry"
+      },
+      "4": {
+        "number": 5,
+        "description": "Tummy Ache"
+      },
+      "5": {
+        "number": 6,
+        "description": "Lonely"
+      }
+    },
+    "attribution": {
+      "source": "Franc [Troika! Community Jam: Bestiary 2024]",
+      "link": "http://francfrancfranc.github.io/Francsblog"
+    },
+    "special": "<p>Damage as weapon</p><p>Armour: 1 (quicker than it looks)</p><p>As an action, the Pillar-Biter treats anything holy as Provisions, regaining 1D6 Stamina. Their endless hunger means they may benefit from this without limit per day. In the case of holy persons, they may regain any damage dealt to their foe in a Grapple contest.</p>",
+    "notes": "<p>\"Who is a pillar-biter in the church, shits devils in his own house.\" -- Troikan proverb</p><p>The hierophage is cursed with the urge to ingest all things holy and blessed with the dental fortitude to do so. By day, pillar-biters are to be found in Troika's places of worship, always in the first row at mass or more often than not leading it. At night, they are down in the catacombs, chewing steadily on mummies, relics, or even the church's very foundations.</p><p>In the famous case of the Holy Sepulchre of Donnovan Thrice-Knighted, three generations of pillar-biters managed to gnaw away the consecrated earth itself, until finally the entire structure collapsed into the warrens beneath.</p><p>Physically, the pillar-biter presents little threat, being little more than a man with a thick jaw, not to mention often unhealthy due to a lack of sunlight and B-vitamins. The true danger instead comes from their position in the clergy and the high estimation of their fellow worshippers. He who learns of a hierophage's true nature will likely soon find papal guards, hired thugs, or zealous mobs knocking at their doors.</p>",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    }
+  },
+  "items": [],
+  "folder": "Ek1HYsdcAISGniy4",
+  "_id": "yvbZJ7yyqA6YccT7",
+  "img": "modules/troika-community-content/assets/arts/bestiary2024/pillar-bitter.webp",
+  "prototypeToken": {
+    "name": "PILLAR-BITER",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "assets/arts/bestiary2024/pillar-bitter.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1720426925064,
+    "modifiedTime": 1720427084613,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!yvbZJ7yyqA6YccT7"
+}

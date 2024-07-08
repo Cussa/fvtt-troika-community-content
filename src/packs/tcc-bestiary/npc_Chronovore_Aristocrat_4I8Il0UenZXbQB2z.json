@@ -1,0 +1,189 @@
+{
+  "name": "Chronovore Aristocrat",
+  "type": "npc",
+  "system": {
+    "initiativeTokens": 3,
+    "stamina": {
+      "value": 8,
+      "max": 8
+    },
+    "skill": {
+      "value": 10
+    },
+    "armour": 1,
+    "mienOptions": {
+      "0": {
+        "number": 1,
+        "description": "Starving For Your Potentialities"
+      },
+      "1": {
+        "number": 2,
+        "description": "Quite Famished, Truth Be Told"
+      },
+      "2": {
+        "number": 3,
+        "description": "Indignant, But Sated"
+      },
+      "3": {
+        "number": 4,
+        "description": "Shifty and Restless"
+      },
+      "4": {
+        "number": 5,
+        "description": "Delusionally Grand"
+      },
+      "5": {
+        "number": 6,
+        "description": "Basking in the Afterglow"
+      }
+    },
+    "attribution": {
+      "source": "Chronovore Aristocrat by Wilderwhim [Troika! Community Jam: Bestiary 2024]",
+      "link": "https://wilderwhim.itch.io/chronovore-aristocrat"
+    },
+    "special": "<p>Chronovores steal latent possibilities from unconscious organisms. When they feast upon the brain waves of an unwitting victim, it erases a possible future timeline from reality. This sustains the Chronovore and restores 1D3 stamina (it also makes Chronovores quite pleased with themselves). Afterwards, the victim (if still living) feels just a little less hopeful about their prospects in life.</p>",
+    "notes": "<p>Those darkened beings from beyond the heavens whose eyes burn like starlight. They prey upon the unsuspecting and gorge themselves on bright dreams. Those that have proven themselves in the Court of the Chronovore Primarch are elevated to join his immortal cabal.</p>",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    }
+  },
+  "items": [
+    {
+      "name": "Sword",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "attack": {
+          "dr1": "4",
+          "dr2": "6",
+          "dr3": "6",
+          "dr4": "6",
+          "dr5": "6",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "inventorySlots": 1,
+        "sortOrder": -1,
+        "canAttack": true,
+        "equipped": true,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0,
+        "quantity": 1,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676773855160,
+        "modifiedTime": 1676827737965,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "_id": "IS2sMKcvIOs65lkN",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_key": "!actors.items!4I8Il0UenZXbQB2z.IS2sMKcvIOs65lkN"
+    }
+  ],
+  "folder": "Ek1HYsdcAISGniy4",
+  "_id": "4I8Il0UenZXbQB2z",
+  "img": "modules/troika-community-content/assets/arts/bestiary2024/chronovore-aristocrat.webp",
+  "prototypeToken": {
+    "name": "Chronovore Aristocrat",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "assets/arts/bestiary2024/chronovore-aristocrat.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1720426924865,
+    "modifiedTime": 1720427084613,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!4I8Il0UenZXbQB2z"
+}

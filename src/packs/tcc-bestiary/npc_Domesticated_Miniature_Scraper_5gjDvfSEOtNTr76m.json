@@ -1,0 +1,189 @@
+{
+  "name": "Domesticated Miniature Scraper",
+  "type": "npc",
+  "system": {
+    "initiativeTokens": 3,
+    "stamina": {
+      "value": 10,
+      "max": 10
+    },
+    "skill": {
+      "value": 6
+    },
+    "armour": 1,
+    "mienOptions": {
+      "0": {
+        "number": 1,
+        "description": "1. Contentedly Cleaning"
+      },
+      "1": {
+        "number": 2,
+        "description": "2. Angered"
+      },
+      "2": {
+        "number": 3,
+        "description": "3. Hungry"
+      },
+      "3": {
+        "number": 4,
+        "description": "4. Anxious"
+      },
+      "4": {
+        "number": 5,
+        "description": "5. Threatened"
+      },
+      "5": {
+        "number": 6,
+        "description": "6. Curious"
+      }
+    },
+    "attribution": {
+      "source": "Tom Woodland [Troika! Community Jam: Bestiary 2024]",
+      "link": "https://ludopunks.itch.io/"
+    },
+    "special": "<p>When angered, hungry, anxious, threatened or curious, the Scraper will rise up on its two back arms and lifts its body vertical, exposing its hideous spongey digestive glands and barb toothed radulas. It will then spray acidic ooze and / or fall on its prey, simultaneously grappling them with its boney arms and pulling them into itself. It will then curl into a ball and digest the subject whole.</p><p>If a subject is attacked in this manner by the Scraper, they must test their skill or become grappled.</p>",
+    "notes": "<p>The domesticated miniature scraper resembles a scaled common garden slug and measures around 1.8m from head to tail with an arm span of 1.5m from barbed scraper to barbed scraper. It is commonly found in employment by Troika’s butchers, rapidly slithering around the shop floor and scraping up any offal and viscera with the scraping claw at the end of its 4 sinewy, skeletal arms. It pulls the tidbits towards its foot flange where the food is sucked underneath the body of the Scraper towards its toothy radula and digestive glands to be rapidly digested and absorbed by the intensely acidic ooze which it secretes.</p><p>The aroma of the secretion is likened to citrus and spring meadows. It is pleasant enough and saves its owners a pretty silver penny in mopping the ruddy floors of the abattoir.</p><p>The Scraper was once one of the most feared apex predators to have ever been discovered, but now thanks to the abundance of food in the city and the breakthroughs of Lady Marjorum Bank in selective breeding and her practice of negative reinforcement using the Jolt spell and a hot poker, Scrapers are small and satiated enough to be beloved shop pets and valuable business assets . Only 47 deaths have been attributed to Scrapers in Troika this year and only half of those were paying customers.</p>",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    }
+  },
+  "items": [
+    {
+      "name": "Acid Spit",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "attack": {
+          "dr1": "1",
+          "dr2": "2",
+          "dr3": "3",
+          "dr4": "6",
+          "dr5": "12",
+          "dr6": "13",
+          "dr7": "14"
+        },
+        "inventorySlots": 2,
+        "sortOrder": -1,
+        "canAttack": true,
+        "equipped": true,
+        "armourProvided": 0,
+        "requiresTwoHands": true,
+        "armourIgnored": 1,
+        "quantity": 1,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676774150495,
+        "modifiedTime": 1676827737964,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "_id": "APpRf2DCMsWA7DQQ",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_key": "!actors.items!5gjDvfSEOtNTr76m.APpRf2DCMsWA7DQQ"
+    }
+  ],
+  "folder": "Ek1HYsdcAISGniy4",
+  "_id": "5gjDvfSEOtNTr76m",
+  "img": "modules/troika-community-content/assets/arts/bestiary2024/the-domesticated-miniature-scraper.webp",
+  "prototypeToken": {
+    "name": "Domesticated Miniature Scraper",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "assets/arts/bestiary2024/the-domesticated-miniature-scraper.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1720426924954,
+    "modifiedTime": 1720427084613,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!5gjDvfSEOtNTr76m"
+}

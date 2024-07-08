@@ -1,0 +1,239 @@
+{
+  "name": "The Cloak",
+  "type": "npc",
+  "system": {
+    "initiativeTokens": 4,
+    "stamina": {
+      "value": 8,
+      "max": 8
+    },
+    "skill": {
+      "value": 10
+    },
+    "armour": 3,
+    "mienOptions": {
+      "0": {
+        "number": 1,
+        "description": "Puppylike playfulness"
+      },
+      "1": {
+        "number": 2,
+        "description": "Cuddly curiosity"
+      },
+      "2": {
+        "number": 3,
+        "description": "Tactful tolerance"
+      },
+      "3": {
+        "number": 4,
+        "description": "Drowsy distain"
+      },
+      "4": {
+        "number": 5,
+        "description": "Determined distrust"
+      },
+      "5": {
+        "number": 6,
+        "description": "Hateful hostility"
+      }
+    },
+    "attribution": {
+      "source": "CadejoNegro [Troika! Community Jam: Bestiary 2024]",
+      "link": "https://cadejonegro.itch.io/"
+    },
+    "special": "<p>Telepathy: If The Cloak sends part of itself inside your ear (and from there into your brain), you will be able to telepathically communicate with the cloak and anyone else it has connected to its network within three miles (five kilometers). Some claim that once inside your brain, The Cloak can also influence the way you think, which is patently untrue.</p>\n<p>Regeneration: The Cloak regenerates from harm in mere hours. Even if it takes enough damage to disintegrate into unthinking dust, the dust will slowly reunite and reform within 24 hours. We have not received any credible reports of anyone having permanently destroy one. Rumors that recent mass extinction events in several spheres are related to retaliation from the Greater Collective for attempts to destroy one of them are nothing more than that, rumors, and should not be disseminated.</p>",
+    "notes": "<p>Extremely rare, the extraterrestrial collectives of nano-organisms, each collectively known as The Cloak, are harvested from the Greater Collective by space-faring wizards and used as, well, cloaks. They are sentient, can float through the air, and communicate telepathically. If one decides it likes someone, it will allow them to wear it, and then protect them, alert them of danger, and even carry them short distances through the air. It can separate itself into smaller pieces, but its intelligence and stats are directly related to its size.</p>",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    },
+    "mien": ""
+  },
+  "items": [
+    {
+      "name": "Whip",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "attack": {
+          "dr1": "4",
+          "dr2": "4",
+          "dr3": "6",
+          "dr4": "6",
+          "dr5": "8",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "inventorySlots": 1,
+        "sortOrder": -1,
+        "canAttack": true,
+        "equipped": true,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0,
+        "quantity": 1,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676774008693,
+        "modifiedTime": 1676827737965,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "_id": "W7db3bWgar8abJqw",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_key": "!actors.items!YKBpoSUg8JswtVuV.W7db3bWgar8abJqw"
+    },
+    {
+      "name": "Suffocate",
+      "type": "gear",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "description": "",
+        "attack": {
+          "dr1": "4",
+          "dr2": "6",
+          "dr3": "6",
+          "dr4": "8",
+          "dr5": "8",
+          "dr6": "10",
+          "dr7": "12"
+        },
+        "inventorySlots": 0,
+        "sortOrder": -1,
+        "canAttack": true,
+        "equipped": true,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0,
+        "quantity": 1,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.troika.troika-srd-weapons.Item.xb9XFbYSBUDNQ2IJ"
+        }
+      },
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "1.5.0",
+        "coreVersion": "11.315",
+        "createdTime": 1676774542203,
+        "modifiedTime": 1720427053725,
+        "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+      },
+      "_id": "8ZRHZAk2otEoxLvE",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3,
+        "7IDFZvOGXqWmmgkb": 3
+      },
+      "_key": "!actors.items!YKBpoSUg8JswtVuV.8ZRHZAk2otEoxLvE"
+    }
+  ],
+  "folder": "Ek1HYsdcAISGniy4",
+  "_id": "YKBpoSUg8JswtVuV",
+  "img": "icons/svg/mystery-man.svg",
+  "prototypeToken": {
+    "name": "The Cloak",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1720426924941,
+    "modifiedTime": 1720427084613,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!YKBpoSUg8JswtVuV"
+}

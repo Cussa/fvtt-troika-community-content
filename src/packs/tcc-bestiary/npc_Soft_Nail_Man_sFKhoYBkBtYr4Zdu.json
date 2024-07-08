@@ -1,0 +1,189 @@
+{
+  "name": "Soft Nail Man",
+  "type": "npc",
+  "system": {
+    "initiativeTokens": 3,
+    "stamina": {
+      "value": 18,
+      "max": 18
+    },
+    "skill": {
+      "value": 7
+    },
+    "armour": 1,
+    "mienOptions": {
+      "0": {
+        "number": 1,
+        "description": "Sleepy"
+      },
+      "1": {
+        "number": 2,
+        "description": "Vengeful"
+      },
+      "2": {
+        "number": 3,
+        "description": "Distracted"
+      },
+      "3": {
+        "number": 4,
+        "description": "Alerted"
+      },
+      "4": {
+        "number": 5,
+        "description": "Sickly"
+      },
+      "5": {
+        "number": 6,
+        "description": "Agitated"
+      }
+    },
+    "attribution": {
+      "source": "MamuZinha & Cussa Mitre [Troika! Community Jam: Bestiary 2024]",
+      "link": "https://hodpub.com"
+    },
+    "special": "<p>When an enemy token is drawn, the GM can choose to attack with the Soft Nail Man. If the Soft Nail Man attacks an awake character and deals damage, the character must test their skill to stay awake. If they fail, they fall asleep and can retake the test whenever their token is drawn to wake up.</p><p>For sleeping characters, the Soft Nail Man inserts its finger into the mouth, nose, ear, wounds, or any other exposed orifice without requiring a test. Characters must test their luck to avoid exposure to the infection or curse. If they are affected, they have 7 days before they start to transform into a Soft Nail Man. During the transformation, they gain the ability to put creatures to sleep and are tempted to insert their soft nail into others' orifices, though they do not transmit the infection/curse at this stage. After 10 days, the transformation is complete, and they become a monster, effectively equivalent to death, requiring the player to create a new character.</p><p>This transformation can be prevented if, before its completion, the character takes a Keratin Potion, which is extremely expensive due to its primary ingredient: dragon scales.</p>",
+    "notes": "<p>There are no specific records about the Soft Nail Man. Most people believe this creature is just a tale told to children to scare them into behaving. However, some researchers think there is more truth to the tale than they would like to admit. Mentions of the Soft Nail Man describe a humanoid creature with large dark circles under its eyes, a result of never sleeping. It walks in a peculiar manner, taking slow, deliberate steps, but can move quickly when it desires.</p><p>Some say the Soft Nail Man is the result of an infection, while others believe it to be a curse. There is no logical explanation for when the first one appeared. The transformation process seems to involve increasingly less sleep and the growth of excessively long, flacid and putrid nails.</p>",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    }
+  },
+  "items": [
+    {
+      "name": "Nail",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "inventorySlots": 1,
+        "sortOrder": -1,
+        "canAttack": true,
+        "equipped": true,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0,
+        "quantity": 1,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676773918462,
+        "modifiedTime": 1676827737963,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "_id": "Bt3M1u6hLCDit8qU",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_key": "!actors.items!sFKhoYBkBtYr4Zdu.Bt3M1u6hLCDit8qU"
+    }
+  ],
+  "folder": "Ek1HYsdcAISGniy4",
+  "_id": "sFKhoYBkBtYr4Zdu",
+  "img": "icons/svg/mystery-man.svg",
+  "prototypeToken": {
+    "name": "Soft Nail Man",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1720426925098,
+    "modifiedTime": 1720427084613,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!sFKhoYBkBtYr4Zdu"
+}

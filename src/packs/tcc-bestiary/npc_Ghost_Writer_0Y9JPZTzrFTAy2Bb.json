@@ -1,0 +1,189 @@
+{
+  "name": "Ghost Writer",
+  "type": "npc",
+  "system": {
+    "initiativeTokens": 2,
+    "stamina": {
+      "value": 22,
+      "max": 22
+    },
+    "skill": {
+      "value": 8
+    },
+    "armour": 1,
+    "mienOptions": {
+      "0": {
+        "number": 1,
+        "description": "Romance(a romantic soul, very sensitive and often wistful)"
+      },
+      "1": {
+        "number": 2,
+        "description": "Grimdark(A pessimistic soul, bent on seeing the worst in things)"
+      },
+      "2": {
+        "number": 3,
+        "description": "Noir(Passionate of misteries and black, very edgy personality)"
+      },
+      "3": {
+        "number": 4,
+        "description": "Action(Fast, excited and energetic, won't spend too much time talking, but will add a lot of mouth noises)"
+      },
+      "4": {
+        "number": 5,
+        "description": "Fantasy(Extremely boastful and epic character)"
+      },
+      "5": {
+        "number": 6,
+        "description": "Comedian (very snarky, sarcastic and egocentrical, loves dark humor)"
+      }
+    },
+    "attribution": {
+      "source": "Stefano Palma [Troika! Community Jam: Bestiary 2024]",
+      "link": "https://mindtricks.itch.io/"
+    },
+    "special": "<p>The burning artistic soul cannot completely counteract the lawful nature of this rotten soul, any creature struck three times will die with a striking precision one week from the last hit, or be forced to write complaints and resources for approximately five hours, to appeal the decision. There's a debate on which fate of the two is worse. All the information required for this process will be delivered via a pamphlet exactly 24 hours after the third blow.</p>",
+    "notes": "<p>Large spheres needs tends to generate creatures halfway between life and death, a sort of grim reaper, to facilitate the passage of souls. Most of them tend to be skulliform creatures, usually equipped with some sort of fancy weapon like a schythe and/or fancy vehicle, like a stallion or a flaming motorcycle. In some cases, however, some peculiar spheres, filled of many unspeakable and unthinkable horrors like bureaucracy and tons of rules, may produce a very different creature.</p><p>Half ghosts, half demons, half lawyers, less then half mathematicians, these creatures are usually grim, stone cold apparition of law and unbending rules, with the sole purpose of making as difficult as possible escaping death, be it rightful or not.</p><p>This particular specimen, however is a peculiar beast even compared to its siblgins. It's not clear if this creature was forcefully exiled or willfully abandoned his post, but a burning (half) soul of an artist made this one, utterly incompatible with its original birthplace, making it to set out in the world looking for fortune and unfortunate souls to expose to its less than stellar writing.</p><p>Its appearance can vary, usually some sort of historical or modern attire, strictly human clothes, with a skeleton inside, instead of the classical plumpy pinky human.</p><p>Very litigious, its usual way of attacking foes consist of writing snarky remarks or horrendous fan fictions, depending on its genre, of its target causing a spontaneous artistic blow so strong that the target body will open up a wound by itself. That's, at least, what he thinks, the reality is that the paper he writes on is capable to transfer the pressure of the pen or quill from it to its target, if angled correctly.</p><p>The mien of this creature is rather peculiar, the genre of the writing of this ghastly author will vary with it, having influence over his personality and his overall attitude</p>",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    }
+  },
+  "items": [
+    {
+      "name": "KNIFE",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "inventorySlots": 1,
+        "sortOrder": -1,
+        "canAttack": true,
+        "equipped": true,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0,
+        "quantity": 1,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676773918462,
+        "modifiedTime": 1676827737963,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "_id": "Bt3M1u6hLCDit8qU",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_key": "!actors.items!0Y9JPZTzrFTAy2Bb.Bt3M1u6hLCDit8qU"
+    }
+  ],
+  "folder": "Ek1HYsdcAISGniy4",
+  "_id": "0Y9JPZTzrFTAy2Bb",
+  "img": "modules/troika-community-content/assets/arts/bestiary2024/ghost-writer.webp",
+  "prototypeToken": {
+    "name": "Ghost Writer",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "assets/arts/bestiary2024/ghost-writer.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1720426924916,
+    "modifiedTime": 1720427084613,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!0Y9JPZTzrFTAy2Bb"
+}

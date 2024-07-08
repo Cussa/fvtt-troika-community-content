@@ -1,0 +1,189 @@
+{
+  "name": "Dimensional Rambler",
+  "type": "npc",
+  "system": {
+    "initiativeTokens": 4,
+    "stamina": {
+      "value": 10,
+      "max": 10
+    },
+    "skill": {
+      "value": 8
+    },
+    "armour": 1,
+    "mienOptions": {
+      "0": {
+        "number": 1,
+        "description": "Rambling"
+      },
+      "1": {
+        "number": 2,
+        "description": "Popping in and out of dimensions"
+      },
+      "2": {
+        "number": 3,
+        "description": "Contemplative and lost in thought"
+      },
+      "3": {
+        "number": 4,
+        "description": "Missing it’s youth"
+      },
+      "4": {
+        "number": 5,
+        "description": "Sorting through a pile of trinkets"
+      },
+      "5": {
+        "number": 6,
+        "description": "Speaking in riddles"
+      }
+    },
+    "attribution": {
+      "source": "Jarred McDonald [Troika! Community Jam: Bestiary 2024]",
+      "link": "https://jekyll94.itch.io"
+    },
+    "special": "<p>Special 1-</p><p>Any players caught up in the long, laborious ramblings of this creature must roll their Luck, with a score of under half the value of their total current Luck. Unfortunate adventurers are whisked away to another dimension. Players are returned to their own world once the Dimensional Rambler is dealt with.</p><p>Special 2-</p><p>Every turn the Dimensional Rambler takes, has a 1 in 6 chance (score of 4 on 1D6) of negating any player damage as it phases in and out of dimensions to avoid being interrupted until that players turn is over.</p>",
+    "notes": "<p>Resembling some form of imp or sprite and often found in rundown stores for curios and oddities, the Dimensional Rambler will spout nonsense that trails off into nothing. The mad ramblings serve to confuse adventurers, leaving them vulnerable to be spirited away into one of the many pocket dimensions that, with a snap of its fingers, the Dimensional Rambler has access to. These pocket dimensions are full of shiny trinkets, things that were of the style at the time, and adventurers from times forgotten.</p>",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    }
+  },
+  "items": [
+    {
+      "name": "KNIFE",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "inventorySlots": 1,
+        "sortOrder": -1,
+        "canAttack": true,
+        "equipped": true,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0,
+        "quantity": 1,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676773918462,
+        "modifiedTime": 1676827737963,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "_id": "Bt3M1u6hLCDit8qU",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_key": "!actors.items!3YOEO6DWMOYsR5Bz.Bt3M1u6hLCDit8qU"
+    }
+  ],
+  "folder": "Ek1HYsdcAISGniy4",
+  "_id": "3YOEO6DWMOYsR5Bz",
+  "img": "icons/svg/mystery-man.svg",
+  "prototypeToken": {
+    "name": "Dimensional Rambler",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1720426924876,
+    "modifiedTime": 1720427084613,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!3YOEO6DWMOYsR5Bz"
+}

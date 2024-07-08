@@ -1,0 +1,189 @@
+{
+  "name": "Projectaur",
+  "type": "npc",
+  "system": {
+    "initiativeTokens": 4,
+    "stamina": {
+      "value": 16,
+      "max": 16
+    },
+    "skill": {
+      "value": 9
+    },
+    "armour": 1,
+    "mienOptions": {
+      "0": {
+        "number": 1,
+        "description": "Comedy"
+      },
+      "1": {
+        "number": 2,
+        "description": "Tragedy"
+      },
+      "2": {
+        "number": 3,
+        "description": "Romance"
+      },
+      "3": {
+        "number": 4,
+        "description": "Documentary"
+      },
+      "4": {
+        "number": 5,
+        "description": "Horror"
+      },
+      "5": {
+        "number": 6,
+        "description": "War"
+      }
+    },
+    "attribution": {
+      "source": "Austin Holm [Troika! Community Jam: Bestiary 2024]",
+      "link": "http://watcherdm.com"
+    },
+    "special": "<p>Comedy wants only to spread joy; it does this by pinning down passersby and projecting itself into their minds. Victims who fail to Test their Luck spend the next 1d6 days in convulsive spasms of laughter. As you can imagine, this prevents adventuring and quickly becomes unpleasant. Victims may be cured with the Fear spell or Rhinoman stand-up, which is so unfunny it counteracts the effect.</p><p>Once Comedy has infected a victim, it will scamper off to avoid retribution. It feasts on the sounds of prompted joy.</p><p>Tragedy is the polar opposite of Comedy; naturally, they are very similar. Victims sob and weep for 1d6 days and can be cured by Purple Lens or ice cream treats. Please contact the author if you know of other cures.</p><p>Romance induces a state of obsession in its victims. They will defend Romance to death, attack its other targets in a jealous rage, and search for the monster in its absence. Such searchers cannot improve skills while affected and cannot benefit from Exography, Astrology, or Tracking Skills (other than to find the Romance Lamp-Ogre).</p><p>The poor souls attacked by Romance can be cured by true Love’s Kiss™ or freezing cold.</p><p>Documentary prefers solitude and contemplation to hunting. It does not feed on human emotion, preferring to absorb knowledge. The creature leaves a trail of blank books in its wake. Victims of its projection attack Test Luck or else fall asleep; for the next 1d6 days, they dream of the lost civilization of the Projectaurs and gain no benefits from sleep. At the end of this period, the ‘victim’ may increase either Mathmology, Languages, Evaluate, Healing, or any Crafting Skill by 1.</p><p>Horror paralyzes its victims with fear and then feeds off of their screams. Victims Test Luck or else spend the round screaming; their initiative drops to 0, and the noise alerts nearby monsters. At the end of each round, the victim may Test Luck again. Unless the target succeeds, the effect continues.</p><p>A character whose Luck is reduced to 0 in this way becomes catatonic; the Projectaur uses such victims as decor to scare others.</p><p>Traditional cures include being swaddled in a warm blanket for three rounds or seeing puppies, kittens, and babies frolic. For some, the Presence spell may also be effective.</p><p>War is the deadliest of the Projectaurs. Its projection effect need not be focused on a pinned target; if it uses this ability, all creatures within its line of sight must Test Luck or become violent servants of War for the next 1d6 rounds. If a creature kills another sapient being while thus afflicted, the effect is permanent. It rarely travels without a squadron of soldiers.</p><p>Its victims cannot be cured.</p>",
+    "notes": "<p>Projectaurs (also called Lamp-Ogres) are grey-skinned giants with film projectors for heads. They stand three to four metres tall. When awake, their reels spin, and their lenses emit light, projecting the cinema of a lost civilization wherever they look.</p><p>The film playing in the Projectaur’s head determines its disposition and abilities. Savvy adventurers may take advantage of this, swapping the reels out to change the monster’s mein; this requires that the Projectaur be grappled and another reel be loaded to switch to. The current reel cannot be removed while in use. These strange heads are fully biological (other than the film reels) but look and function like their mechanical counterparts.</p><p>Lamp-Ogres do not speak; they communicate entirely by film clips. For example, a Romance Projectaur might play the scene of its film where the lovers break up to indicate territorial aggression. Ambitious Referees may choose to preselect a few film clips or .gifs to communicate, creating an impressive effect; others may prefer just to describe the footage, allowing for more flexibility and less prep.</p>",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    }
+  },
+  "items": [
+    {
+      "name": "Claws",
+      "type": "gear",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "description": "",
+        "attack": {
+          "dr1": "4",
+          "dr2": "6",
+          "dr3": "6",
+          "dr4": "8",
+          "dr5": "8",
+          "dr6": "10",
+          "dr7": "12"
+        },
+        "inventorySlots": 0,
+        "sortOrder": -1,
+        "canAttack": true,
+        "equipped": true,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0,
+        "quantity": 1,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676774542203,
+        "modifiedTime": 1676827731618,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "_id": "xb9XFbYSBUDNQ2IJ",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_key": "!actors.items!0rv6atemtS6yALMl.xb9XFbYSBUDNQ2IJ"
+    }
+  ],
+  "folder": "Ek1HYsdcAISGniy4",
+  "_id": "0rv6atemtS6yALMl",
+  "img": "modules/troika-community-content/assets/arts/bestiary2024/projectaur.webp",
+  "prototypeToken": {
+    "name": "Projectaur",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "assets/arts/bestiary2024/projectaur.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1720426924895,
+    "modifiedTime": 1720427084613,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!0rv6atemtS6yALMl"
+}

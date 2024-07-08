@@ -1,0 +1,189 @@
+{
+  "name": "Eye Merchant",
+  "type": "npc",
+  "system": {
+    "initiativeTokens": 1,
+    "stamina": {
+      "value": 6,
+      "max": 6
+    },
+    "skill": {
+      "value": 6
+    },
+    "armour": 1,
+    "mienOptions": {
+      "0": {
+        "number": 1,
+        "description": "Spurious"
+      },
+      "1": {
+        "number": 2,
+        "description": "Guarded"
+      },
+      "2": {
+        "number": 3,
+        "description": "Annoyed"
+      },
+      "3": {
+        "number": 4,
+        "description": "Busy"
+      },
+      "4": {
+        "number": 5,
+        "description": "Menacing"
+      },
+      "5": {
+        "number": 6,
+        "description": "Malicious"
+      }
+    },
+    "attribution": {
+      "source": "Imad Ottallah [Troika! Community Jam: Bestiary 2024]",
+      "link": "https://www.instagram.com/iko_draws?igsh=cHNrMDBoaDZ0bW4z&utm_source=qr"
+    },
+    "special": "",
+    "notes": "<p>The Eye Merchants of Ula Carosa loiter outside the walls of the Golden City, peddling their wares to those who seek to enter. Only the eyes of the innocent may gaze upon the splendors of the city and the merchants have made a lucrative business collecting and selling such eyes. For a price, the merchant will remove your eyes with it’s Scoop Dagger, and replace them with a perfectly functional mismatched pair from it’s jar. This quick and relatively painful procedure will allow you to view the magnificence of Golden City, with only minimal side effects! Drowsiness, dry eyes, hallucinations, strange memories may occur. Stomach pain may also occur, especially in bipeds.</p>",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    }
+  },
+  "items": [
+    {
+      "name": "Wicked Scoop Dagger",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "inventorySlots": 1,
+        "sortOrder": -1,
+        "canAttack": true,
+        "equipped": true,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0,
+        "quantity": 1,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676773918462,
+        "modifiedTime": 1676827737963,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "_id": "Bt3M1u6hLCDit8qU",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_key": "!actors.items!IRIKFMqQiEXu1RW9.Bt3M1u6hLCDit8qU"
+    }
+  ],
+  "folder": "Ek1HYsdcAISGniy4",
+  "_id": "IRIKFMqQiEXu1RW9",
+  "img": "modules/troika-community-content/assets/arts/bestiary2024/eye-merchant.jpeg",
+  "prototypeToken": {
+    "name": "Eye Merchant",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "assets/arts/bestiary2024/eye-merchant.jpeg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1720426925106,
+    "modifiedTime": 1720427084613,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!IRIKFMqQiEXu1RW9"
+}

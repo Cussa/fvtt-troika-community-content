@@ -1,0 +1,189 @@
+{
+  "name": "Feathered Automaton Hoarder",
+  "type": "npc",
+  "system": {
+    "initiativeTokens": 2,
+    "stamina": {
+      "value": 7,
+      "max": 7
+    },
+    "skill": {
+      "value": 6
+    },
+    "armour": 1,
+    "mienOptions": {
+      "0": {
+        "number": 1,
+        "description": "Thieving"
+      },
+      "1": {
+        "number": 2,
+        "description": "Merchantile"
+      },
+      "2": {
+        "number": 3,
+        "description": "Recently plundered"
+      },
+      "3": {
+        "number": 4,
+        "description": "Shaking down a traveller"
+      },
+      "4": {
+        "number": 5,
+        "description": "Digging for forgotten treasure"
+      },
+      "5": {
+        "number": 6,
+        "description": "Acting oddly defensive"
+      }
+    },
+    "attribution": {
+      "source": "Grooving Gamer [Troika! Community Jam: Bestiary 2024]",
+      "link": "https://grooving-gamer.itch.io/"
+    },
+    "special": "<p>Armour: Magpie feather cloak</p><p>On a hit the affected player must test their luck, on a fail they lose a pocket sized item to the Automatons vortex. A player may test their luck when they land an attack against the automaton in order to instead attempt to retrieve their items from the vortex, on a fail they pull out 1d6 assorted trinkets.</p>",
+    "notes": "<p>There was a time when the Order of Heavy Pockets infested the hump back sky, and there wasnt a thing they couldn't take-if they wanted it. Those days have long since past and now only their feathered automatons remain, wandering the spheres and filling their pocket dimensions with anything they can get their talons around.</p><p>The automatons look akin to brass skeletons, clad in the feathers of varius birds, primarily the feathers of Magpies-tthe Order of Heavy Pockets' calling card.</p>",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    }
+  },
+  "items": [
+    {
+      "name": "Talons",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "inventorySlots": 1,
+        "sortOrder": -1,
+        "canAttack": true,
+        "equipped": true,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0,
+        "quantity": 1,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676773918462,
+        "modifiedTime": 1676827737963,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "_id": "Bt3M1u6hLCDit8qU",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_key": "!actors.items!8dUe5bCLl4UjXBmr.Bt3M1u6hLCDit8qU"
+    }
+  ],
+  "folder": "Ek1HYsdcAISGniy4",
+  "_id": "8dUe5bCLl4UjXBmr",
+  "img": "modules/troika-community-content/assets/arts/bestiary2024/feathered-automaton-hoarder.webp",
+  "prototypeToken": {
+    "name": "Feathered Automaton Hoarder",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "assets/arts/bestiary2024/feathered-automaton-hoarder.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1720426925111,
+    "modifiedTime": 1720427084613,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!8dUe5bCLl4UjXBmr"
+}

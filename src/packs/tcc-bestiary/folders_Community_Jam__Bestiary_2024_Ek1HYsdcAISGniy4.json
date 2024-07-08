@@ -1,0 +1,18 @@
+{
+  "type": "Actor",
+  "name": "Community Jam: Bestiary 2024",
+  "_id": "Ek1HYsdcAISGniy4",
+  "folder": null,
+  "sorting": "a",
+  "sort": 100000,
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1720426924777,
+    "modifiedTime": 1720427084697,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!folders!Ek1HYsdcAISGniy4"
+}

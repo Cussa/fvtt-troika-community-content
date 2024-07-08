@@ -1,0 +1,189 @@
+{
+  "name": "CAULKER",
+  "type": "npc",
+  "system": {
+    "initiativeTokens": 4,
+    "stamina": {
+      "value": 20,
+      "max": 20
+    },
+    "skill": {
+      "value": 3
+    },
+    "armour": 2,
+    "mienOptions": {
+      "0": {
+        "number": 1,
+        "description": "Preoccupied with expanding its collection of taxidermies"
+      },
+      "1": {
+        "number": 2,
+        "description": "Almost entirely sleeping"
+      },
+      "2": {
+        "number": 3,
+        "description": "Barely sentient but approving"
+      },
+      "3": {
+        "number": 4,
+        "description": "Thoughtlessly cruel like nature"
+      },
+      "4": {
+        "number": 5,
+        "description": "Longing"
+      },
+      "5": {
+        "number": 6,
+        "description": "Shy"
+      }
+    },
+    "attribution": {
+      "source": "Isla St [Troika! Community Jam: Bestiary 2024]",
+      "link": "https://islast.itch.io/caulker"
+    },
+    "special": "<p>When a caulker experiences self actualisation it falls upwards into the sky with its home.</p>",
+    "notes": "<p>A caulker is a sticky cerise dendritic monster. If you laid its filaments end to end it would be as long as the path of Saint Imogen The Addled through the Entrails of Tremoring. If you collapsed it into a ball it could be swallowed by Small Dog.</p><p>Its brain is its body; it is blind but its hearing is perfect and comprehensive. It sleeps in chunks and lives its life sprawled diffusely though compressed spaces. A single caulker may occupy the cracks, gaps and seams of an several city blocks. An unexpectedly low incidence of drafts or leaks is a telltale sign of a resident caulker in your neighbourhood, as is an occasional pink flicker in the peripheral vision.</p><p>When a caulker finds itself exposed or driven from a hiding place it will immediately seek to house itself again with any available debris.</p>",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    }
+  },
+  "items": [
+    {
+      "name": "AS SMALL BEAST",
+      "type": "gear",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "description": "",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "3",
+          "dr4": "3",
+          "dr5": "4",
+          "dr6": "5",
+          "dr7": "6"
+        },
+        "inventorySlots": 0,
+        "sortOrder": -1,
+        "canAttack": true,
+        "equipped": true,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0,
+        "quantity": 1,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676774542203,
+        "modifiedTime": 1676827731619,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "_id": "3q9rGqF8cdvwmLu4",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_key": "!actors.items!Nh2UKAPxukQovlTa.3q9rGqF8cdvwmLu4"
+    }
+  ],
+  "folder": "Ek1HYsdcAISGniy4",
+  "_id": "Nh2UKAPxukQovlTa",
+  "img": "icons/svg/mystery-man.svg",
+  "prototypeToken": {
+    "name": "CAULKER",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1720426925132,
+    "modifiedTime": 1720427084613,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!Nh2UKAPxukQovlTa"
+}

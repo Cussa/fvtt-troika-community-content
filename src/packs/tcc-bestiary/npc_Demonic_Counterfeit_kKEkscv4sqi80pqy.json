@@ -1,0 +1,189 @@
+{
+  "name": "Demonic Counterfeit",
+  "type": "npc",
+  "system": {
+    "initiativeTokens": 2,
+    "stamina": {
+      "value": 10,
+      "max": 10
+    },
+    "skill": {
+      "value": 7
+    },
+    "armour": 0,
+    "mienOptions": {
+      "0": {
+        "number": 1,
+        "description": "Bored"
+      },
+      "1": {
+        "number": 2,
+        "description": "Pondering"
+      },
+      "2": {
+        "number": 3,
+        "description": "Confused"
+      },
+      "3": {
+        "number": 4,
+        "description": "Nervous"
+      },
+      "4": {
+        "number": 5,
+        "description": "Paranoid"
+      },
+      "5": {
+        "number": 6,
+        "description": "Tired"
+      }
+    },
+    "attribution": {
+      "source": "itsfiyaxx [Troika! Community Jam: Bestiary 2024]",
+      "link": "https://itsfiyaxx.itch.io/demonic-counterfeit"
+    },
+    "special": "<p>Demonic Counterfeits can converse with any demon without consequence. Help and answers are always freely given to them.</p>",
+    "notes": "<p>To any sane observer a Demonic Counterfeir appears to be some guy in a really bad demon costume. A third eye haphazardly drawn on a sticky note and taped to their forefead and their horns a combination of paper mache and a floppy headband. Somehow no one ever seems to question their validity. On the flip side, many can not help but gravitate them. The closest a demon ever comes to respect is when their around. If only they had the drive to do something with this power.</p>",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    }
+  },
+  "items": [
+    {
+      "name": "Knife",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "inventorySlots": 1,
+        "sortOrder": -1,
+        "canAttack": true,
+        "equipped": true,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0,
+        "quantity": 1,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676773918462,
+        "modifiedTime": 1676827737963,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "_id": "Bt3M1u6hLCDit8qU",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_key": "!actors.items!kKEkscv4sqi80pqy.Bt3M1u6hLCDit8qU"
+    }
+  ],
+  "folder": "Ek1HYsdcAISGniy4",
+  "_id": "kKEkscv4sqi80pqy",
+  "img": "icons/svg/mystery-man.svg",
+  "prototypeToken": {
+    "name": "Demonic Counterfeit",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1720426925151,
+    "modifiedTime": 1720427084613,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!kKEkscv4sqi80pqy"
+}

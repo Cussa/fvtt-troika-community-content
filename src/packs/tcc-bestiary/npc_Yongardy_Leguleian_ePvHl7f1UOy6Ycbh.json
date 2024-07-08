@@ -1,0 +1,239 @@
+{
+  "name": "Yongardy Leguleian",
+  "type": "npc",
+  "system": {
+    "initiativeTokens": 3,
+    "stamina": {
+      "value": 12,
+      "max": 12
+    },
+    "skill": {
+      "value": 8
+    },
+    "armour": 1,
+    "mienOptions": {
+      "0": {
+        "number": 1,
+        "description": "Officious"
+      },
+      "1": {
+        "number": 2,
+        "description": "Unsettlingly humble"
+      },
+      "2": {
+        "number": 3,
+        "description": "Intense"
+      },
+      "3": {
+        "number": 4,
+        "description": "Stoic"
+      },
+      "4": {
+        "number": 5,
+        "description": "Wounded (flesh)"
+      },
+      "5": {
+        "number": 6,
+        "description": "Wounded (pride)"
+      }
+    },
+    "attribution": {
+      "source": "Sam Worthington [Troika! Community Jam: Bestiary 2024]",
+      "link": "https://worthytown.itch.io/yongardy-leguleian"
+    },
+    "special": "<p>Yongardy lawyers may Test Etiquette to present a Writ of Magdamus and draft a lone leguleian as a court-appointed henchman.</p>",
+    "notes": "<p>Leguleians are itinerant practitioners of Yongardy law, albeit through a monocled lens of frontier justice. Those derided as \"pettifoggers\" have forsworn the wealth of celebrated barristers and ruthlessly settle petty quibbles for little more than their daily bread. A gnash of gremlins once scrounged up enough pence to send a leguleian after the adventurers who had likewise been paid to destroy their nest. Though leguleians prefer to be the wandering arm of the Law, some are found under retainer to manticores who crave archaic legal debates and bloody trials on demand.</p>",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    },
+    "mien": ""
+  },
+  "items": [
+    {
+      "name": "Sword",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "attack": {
+          "dr1": "4",
+          "dr2": "6",
+          "dr3": "6",
+          "dr4": "6",
+          "dr5": "6",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "inventorySlots": 1,
+        "sortOrder": -1,
+        "canAttack": true,
+        "equipped": true,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0,
+        "quantity": 1,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676773855160,
+        "modifiedTime": 1676827737965,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "_id": "IS2sMKcvIOs65lkN",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_key": "!actors.items!ePvHl7f1UOy6Ycbh.IS2sMKcvIOs65lkN"
+    },
+    {
+      "name": "Shield",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "4",
+          "dr5": "4",
+          "dr6": "6",
+          "dr7": "8"
+        },
+        "inventorySlots": 1,
+        "sortOrder": -1,
+        "canAttack": true,
+        "equipped": true,
+        "armourProvided": 1,
+        "requiresTwoHands": false,
+        "armourIgnored": 0,
+        "quantity": 1,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.troika.troika-srd-weapons.Item.9eJ745SEW2sEVOP8"
+        }
+      },
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "1.5.0",
+        "coreVersion": "11.315",
+        "createdTime": 1676774287404,
+        "modifiedTime": 1720426953584,
+        "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+      },
+      "_id": "O4wU2EdSxbhnTogk",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3,
+        "7IDFZvOGXqWmmgkb": 3
+      },
+      "_key": "!actors.items!ePvHl7f1UOy6Ycbh.O4wU2EdSxbhnTogk"
+    }
+  ],
+  "folder": "Ek1HYsdcAISGniy4",
+  "_id": "ePvHl7f1UOy6Ycbh",
+  "img": "modules/troika-community-content/assets/arts/bestiary2024/yongardy-leguleian.webp",
+  "prototypeToken": {
+    "name": "Yongardy Leguleian",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "assets/arts/bestiary2024/yongardy-leguleian.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1720426925074,
+    "modifiedTime": 1720427084613,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!ePvHl7f1UOy6Ycbh"
+}

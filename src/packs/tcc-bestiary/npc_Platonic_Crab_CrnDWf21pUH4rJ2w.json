@@ -1,0 +1,189 @@
+{
+  "name": "Platonic Crab",
+  "type": "npc",
+  "system": {
+    "initiativeTokens": 9,
+    "stamina": {
+      "value": 28,
+      "max": 28
+    },
+    "skill": {
+      "value": 13
+    },
+    "armour": 4,
+    "mienOptions": {
+      "0": {
+        "number": 1,
+        "description": "Frighteningly bored"
+      },
+      "1": {
+        "number": 2,
+        "description": "Folding reality into interesting shapes"
+      },
+      "2": {
+        "number": 3,
+        "description": "Looking for a new problem to solve"
+      },
+      "3": {
+        "number": 4,
+        "description": "Stuck on an astoundingly difficult mathmological puzzle"
+      },
+      "4": {
+        "number": 5,
+        "description": "About to moult (itchy)"
+      },
+      "5": {
+        "number": 6,
+        "description": "Paranoid"
+      }
+    },
+    "attribution": {
+      "source": "Mike Knee [Troika! Community Jam: Bestiary 2024]",
+      "link": "https://gentlyrotting.itch.io/"
+    },
+    "special": "<p>Platonic crabs can alter the properties of things they touch, driving them to more ideal versions of themselves. Instead of dealing damage to a target with its pincers the crab can instead choose to force them to test their luck (or skill for NPCs) or become somewhat more crablike. If this happens to any creature or object more than 3 times they are irrevocably turned into a crab.</p>",
+    "notes": "<p>Platonic crabs are not true crabs, rather, a sub-species of dragon that decided to convergently evolve the crab body-plan over the course of an otherwise pretty boring Thursday afternoon.</p><p>The crabs’ outer shells are fractal, folded out from the bubbling chaos of the sub-reality behind the spheres and regimented into eye-bleedingly unlikely shapes, uniformly in a shade of nauseating impossible mauve. Discarded platonic crab moults are indescribably valuable, but rare, as the crabs guard them jealously. Careful analysis of a platonic crab moult would reveal the deepest desire of the crab it came from, dangerous knowledge in the wrong hands.</p><p>Platonic crabs tend to be obsessive and maniacal. They are all exceptional mathmologists, largely without peer amongst the countless spheres.</p>",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    }
+  },
+  "items": [
+    {
+      "name": "Enormous Pincers",
+      "type": "gear",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "description": "",
+        "attack": {
+          "dr1": "4",
+          "dr2": "8",
+          "dr3": "12",
+          "dr4": "12",
+          "dr5": "16",
+          "dr6": "18",
+          "dr7": "24"
+        },
+        "inventorySlots": 0,
+        "sortOrder": -1,
+        "canAttack": true,
+        "equipped": true,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 1,
+        "quantity": 1,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676774542203,
+        "modifiedTime": 1676827731617,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "_id": "GL4724dlvX3x9jtl",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_key": "!actors.items!CrnDWf21pUH4rJ2w.GL4724dlvX3x9jtl"
+    }
+  ],
+  "folder": "Ek1HYsdcAISGniy4",
+  "_id": "CrnDWf21pUH4rJ2w",
+  "img": "modules/troika-community-content/assets/arts/bestiary2024/the-platonic-crab.webp",
+  "prototypeToken": {
+    "name": "Platonic Crab",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "assets/arts/bestiary2024/the-platonic-crab.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1720426924965,
+    "modifiedTime": 1720427084613,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!CrnDWf21pUH4rJ2w"
+}

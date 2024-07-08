@@ -1,0 +1,144 @@
+{
+  "name": "Syndrome-Inducing Imposter",
+  "type": "npc",
+  "system": {
+    "initiativeTokens": 0,
+    "stamina": {
+      "value": 1,
+      "max": 1
+    },
+    "skill": {
+      "value": 0
+    },
+    "armour": 0,
+    "mienOptions": {
+      "0": {
+        "number": 1,
+        "description": "Boastful"
+      },
+      "1": {
+        "number": 2,
+        "description": "Shill"
+      },
+      "2": {
+        "number": 3,
+        "description": "“Just relax”"
+      },
+      "3": {
+        "number": 4,
+        "description": "Thieving"
+      },
+      "4": {
+        "number": 5,
+        "description": "-splaining"
+      },
+      "5": {
+        "number": 6,
+        "description": "Puppy Eyes"
+      }
+    },
+    "attribution": {
+      "source": "Gabriel Caetano Barbosa [Troika! Community Jam: Bestiary 2024]",
+      "link": "https://thegiftofgabes.itch.io/"
+    },
+    "special": "<p>DAMAGE: Same as host</p><p>Syndrome-Inducing Imposters find potential hosts after they succeed at a Skill check and receive great praise for it. Next time the character fails a Skill check, they must Test their Luck to avoid getting infected. On a miss, the failed Skill check becomes successful against all odds and the Imposter settles in. Any time the host makes a Skill check, they must Test their Luck again, or the parasite will succeed in their place and steal the Advanced Skill used or 1 point from Skill. The host will then receive praise for the inexplicable achievement or success. When the Host has 0 Skill, their soul is completely consumed and the parasite finally takes their place. Synrome-Inducing Imposter parasites can’t be killed by normal means but can be removed with brain surgery. It will temporarily scurry away for 1d6 days when the Hedziz Ivory Man that spawned it is exposed or after very a expensive therapy session.</p>",
+    "notes": "<p>A lurker.  A Thief. A killjoy. You don't know it's there, not at first. A little compliment for a job well done - a job you never did! A congratulation for winning a prize - but you didn't even sign up to compete! Recognition, praise, smiles, even envy from people you never met before until... until you begin to think you are the impostor! Aren't you?</p><p>Born out of overconfident, unprepared Hedziz Ivory Men, a Syndrome-Inducing Imposter is a soul-sucking parasite that latches onto unsuspecting, skilled and capable individuals hit by frustration or doubt. Once the parasite finds a suitable host, they begin sucking their victims abilities and using them to accomplish tasks in their place through space-time interference until the host becomes nothing but a shade of what could have been - soulless and unaccomplished.​</p>",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    }
+  },
+  "items": [],
+  "folder": "Ek1HYsdcAISGniy4",
+  "_id": "M2bJp8yH0pghXKd7",
+  "img": "icons/svg/mystery-man.svg",
+  "prototypeToken": {
+    "name": "Syndrome-Inducing Imposter",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1720426925146,
+    "modifiedTime": 1720427084613,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!M2bJp8yH0pghXKd7"
+}

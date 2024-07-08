@@ -1,0 +1,189 @@
+{
+  "name": "Silt Earl",
+  "type": "npc",
+  "system": {
+    "initiativeTokens": 1,
+    "stamina": {
+      "value": 13,
+      "max": 13
+    },
+    "skill": {
+      "value": 7
+    },
+    "armour": 2,
+    "mienOptions": {
+      "0": {
+        "number": 1,
+        "description": "Dismissive"
+      },
+      "1": {
+        "number": 2,
+        "description": "Belicose"
+      },
+      "2": {
+        "number": 3,
+        "description": "Mercurial"
+      },
+      "3": {
+        "number": 4,
+        "description": "Engratiating"
+      },
+      "4": {
+        "number": 5,
+        "description": "Feigned Disinterest"
+      },
+      "5": {
+        "number": 6,
+        "description": "Irrationally Anxious"
+      }
+    },
+    "attribution": {
+      "source": "Atelier Pilcrow [Troika! Community Jam: Bestiary 2024]",
+      "link": "https://unclevova.itch.io/"
+    },
+    "special": "<p>When hit by a Sludgen Squoyle, the target's next Initiative token is ignored and returned to the Stack at a random position.</p>",
+    "notes": "<p>Silt Earls search for squires to impress into service (by force, if necessary) carrying out tedious lists of tasks. To serve a Silt Earl successfully is impossible; every finished task begets an extensive review and is rewarded with additional tasks.  They detest simple meals and oranges. Instead, they enjoy linguistic riddles and improbable [red] yarns.</p>",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    }
+  },
+  "items": [
+    {
+      "name": "Sludgen Squoyle",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "attack": {
+          "dr1": "1",
+          "dr2": "2",
+          "dr3": "4",
+          "dr4": "6",
+          "dr5": "8",
+          "dr6": "10",
+          "dr7": "12"
+        },
+        "inventorySlots": 1,
+        "sortOrder": -1,
+        "canAttack": true,
+        "equipped": true,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 1,
+        "quantity": 1,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676773960983,
+        "modifiedTime": 1676827737962,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "_id": "9bmO719gDCVI5oDg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_key": "!actors.items!o68jKjRSG80IGrye.9bmO719gDCVI5oDg"
+    }
+  ],
+  "folder": "Ek1HYsdcAISGniy4",
+  "_id": "o68jKjRSG80IGrye",
+  "img": "modules/troika-community-content/assets/arts/bestiary2024/silt-earl.webp",
+  "prototypeToken": {
+    "name": "Silt Earl",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "assets/arts/bestiary2024/silt-earl.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1720426925121,
+    "modifiedTime": 1720427084613,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!o68jKjRSG80IGrye"
+}

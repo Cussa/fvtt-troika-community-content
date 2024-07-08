@@ -1,0 +1,189 @@
+{
+  "name": "TOURNEY FROGMOUTH",
+  "type": "npc",
+  "system": {
+    "initiativeTokens": 3,
+    "stamina": {
+      "value": 6,
+      "max": 6
+    },
+    "skill": {
+      "value": 8
+    },
+    "armour": 0,
+    "mienOptions": {
+      "0": {
+        "number": 1,
+        "description": "Tilted"
+      },
+      "1": {
+        "number": 2,
+        "description": "Patient"
+      },
+      "2": {
+        "number": 3,
+        "description": "Preening"
+      },
+      "3": {
+        "number": 4,
+        "description": "Hawking-up hooves"
+      },
+      "4": {
+        "number": 5,
+        "description": "Admiring its reflection"
+      },
+      "5": {
+        "number": 6,
+        "description": "Practising standing on one leg"
+      }
+    },
+    "attribution": {
+      "source": "Sean F. Smith [Troika! Community Jam: Bestiary 2024]",
+      "link": "http://seanfsmith.itch.io"
+    },
+    "special": "<p>Being trained in the art and science of JOUST, the tourney frogmouth only counts as being armoured with value 3 when it is taking its turn.</p>",
+    "notes": "<p>An owl on asymmetric stilts, wearing armour made for lizardkin or demi-oni, the tourney frogmouth believes its birthright is to replace unicorns as heraldic beasts.</p>",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    }
+  },
+  "items": [
+    {
+      "name": "strigine lance",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "attack": {
+          "dr1": "1",
+          "dr2": "2",
+          "dr3": "3",
+          "dr4": "6",
+          "dr5": "12",
+          "dr6": "13",
+          "dr7": "14"
+        },
+        "inventorySlots": 2,
+        "sortOrder": -1,
+        "canAttack": true,
+        "equipped": true,
+        "armourProvided": 0,
+        "requiresTwoHands": true,
+        "armourIgnored": 1,
+        "quantity": 1,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676774150495,
+        "modifiedTime": 1676827737964,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "_id": "APpRf2DCMsWA7DQQ",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_key": "!actors.items!fPrlJWGeCc3AfjfT.APpRf2DCMsWA7DQQ"
+    }
+  ],
+  "folder": "Ek1HYsdcAISGniy4",
+  "_id": "fPrlJWGeCc3AfjfT",
+  "img": "modules/troika-community-content/assets/arts/bestiary2024/tourney-frogmouth.webp",
+  "prototypeToken": {
+    "name": "TOURNEY FROGMOUTH",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "assets/arts/bestiary2024/tourney-frogmouth.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1720426924885,
+    "modifiedTime": 1720427084613,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!fPrlJWGeCc3AfjfT"
+}

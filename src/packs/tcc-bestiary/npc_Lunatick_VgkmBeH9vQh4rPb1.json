@@ -1,0 +1,189 @@
+{
+  "name": "Lunatick",
+  "type": "npc",
+  "system": {
+    "initiativeTokens": 2,
+    "stamina": {
+      "value": 5,
+      "max": 5
+    },
+    "skill": {
+      "value": 7
+    },
+    "armour": 0,
+    "mienOptions": {
+      "0": {
+        "number": 1,
+        "description": "Aware - Its beacon lures you from within its pool. *"
+      },
+      "1": {
+        "number": 2,
+        "description": "Drinking in its own reflection."
+      },
+      "2": {
+        "number": 3,
+        "description": "Satiated - Invisible. Asleep on the bank, or bubbles breaking the waters surface."
+      },
+      "3": {
+        "number": 4,
+        "description": "Guarding its pool."
+      },
+      "4": {
+        "number": 5,
+        "description": "Unaware - Their beacons, synchronised, dance on the water's surface. *"
+      },
+      "5": {
+        "number": 6,
+        "description": "Pre-feeding frenzy, howling at the moon, beacons ablaze."
+      }
+    },
+    "attribution": {
+      "source": "Tom Woodland [Troika! Community Jam: Bestiary 2024]",
+      "link": "https://ludopunks.itch.io/the-lunatick"
+    },
+    "special": "<p>The Lunaticks beacon is always lit providing it is awake. The Lunatick is nocturnal.</p><p>Their fur is totally matte black and absorbs all light, rendering them invisible (with the exception of their piercing, tearing claws) to everyone including themselves. The only time their face is visible is when they wear the skull of a drowned traveler and illuminate their fiery head beacon, a process which they use in order to feed on their own reflection.</p><p>If you witness the beacons, test your luck or become mesmerized and move towards them by 4 meters each turn.</p><p>If Mien equals to Aware or Unaware, Test Luck or become mesmerised</p>",
+    "notes": "<p>Lurking in marshes, licks of blue flame dance above waters at night like wispy beacons, follow them and their true purpose will rise from the waters unseen. The fire’s an illusion, burning from the head crest of the Lunatick. They lurk around the wetlands in packs, their beacon crests lit, their fur absorbing all light which touches it. Any traveler who strays into the swamp, may drown and be torn apart by the claws of the lunaticks who live deep in the waters. The pack of vain, hungry creatures will then use the skulls as masks which they admire in their reflection on the waters. During the feeding, their fiery head beacon will blaze, illuminating the waters. After they drink their reflections, fortifying themselves for another night, their beacons die out and the skull mask, drained, will crumble into dust. Beware the fat slumbering Lunaticks who lay, dreaming at the bottom of the marshes.</p>",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    }
+  },
+  "items": [
+    {
+      "name": "Claws",
+      "type": "gear",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "description": "",
+        "attack": {
+          "dr1": "4",
+          "dr2": "6",
+          "dr3": "6",
+          "dr4": "8",
+          "dr5": "8",
+          "dr6": "10",
+          "dr7": "12"
+        },
+        "inventorySlots": 0,
+        "sortOrder": -1,
+        "canAttack": true,
+        "equipped": true,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0,
+        "quantity": 1,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676774542203,
+        "modifiedTime": 1676827731618,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "_id": "xb9XFbYSBUDNQ2IJ",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_key": "!actors.items!VgkmBeH9vQh4rPb1.xb9XFbYSBUDNQ2IJ"
+    }
+  ],
+  "folder": "Ek1HYsdcAISGniy4",
+  "_id": "VgkmBeH9vQh4rPb1",
+  "img": "modules/troika-community-content/assets/arts/bestiary2024/the-lunatick.webp",
+  "prototypeToken": {
+    "name": "Lunatick",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "assets/arts/bestiary2024/the-lunatick.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1720426924907,
+    "modifiedTime": 1720427084613,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!VgkmBeH9vQh4rPb1"
+}

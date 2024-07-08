@@ -1,0 +1,144 @@
+{
+  "name": "Portentia",
+  "type": "npc",
+  "system": {
+    "initiativeTokens": 0,
+    "stamina": {
+      "value": 16,
+      "max": 16
+    },
+    "skill": {
+      "value": 2
+    },
+    "armour": 1,
+    "mienOptions": {
+      "0": {
+        "number": 1,
+        "description": "Being viciously devoured by a (Large Creature of GM’s choice)"
+      },
+      "1": {
+        "number": 2,
+        "description": "Being viscerally torn apart by a pack of (Small creatures of GM’s choice)"
+      },
+      "2": {
+        "number": 3,
+        "description": "Being crushed flat by a large falling object"
+      },
+      "3": {
+        "number": 4,
+        "description": "Burning to a crisp in a grand conflagration"
+      },
+      "4": {
+        "number": 5,
+        "description": "Drowning in a deep, dark body of water"
+      },
+      "5": {
+        "number": 6,
+        "description": "Being stabbed in the back by (Other party member of GM’s choice)"
+      }
+    },
+    "attribution": {
+      "source": "Peregrin Jones [Troika! Community Jam: Bestiary 2024]",
+      "link": "https://wanderingfalcon.itch.io/"
+    },
+    "special": "<p>DAMAGE: as special</p><p>Any creature who strays within 50m of the flower must make a Luck roll (or skill for NPC's), if they fail they will fall under the sway of the flower.</p><p>Any creature influenced in this way will feel an utmost calm, with only the urge to dip its head into the flower's pool, receiving 1d6 stamina healing and a vision from the table below. Unbeknownst to the victim, such a vision is also the seed of the plant: detailing the exact circumstances under which they might perish and a new bloom grow up from their lifeless corpse.</p><p>They will then be set free, none the wiser until the situation described occurs, at which point they will instantly find themselves under the effects of both the Purple Lens and Befuddle spells, as described in the Troika! Rulebook. These effects last until the situation resolves itself, or they die… at which point a brand new Portentia bloom will spill forth from within their skull. If they survive, but the situation occurs again, the effects will return, but this time the Befuddle spell will give double the effect it did previously… and so on.</p><p>Its MIEN is the Vision of Character’s Demise</p>",
+    "notes": "<p>There are a thousand different species of flower scattered across the forests of Invertia's roof, every one a beautiful lure for one type of creature or another.</p><p>The Portentia, however, is probably the only variety that targets sentience in particular.</p><p>Hanging from a hammock of tough vines; its rubbery petals form a gigantic, sweet-smelling cup always filled near to the brim with crystal clear water.</p><p>The area surrounding the flower will be suffused with its enticing, incense-like scent, a scent which seems to naturally cause sensations of deep and lasting calm and the subtle urge to dip one’s head into that refreshing pool.</p>",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    }
+  },
+  "items": [],
+  "folder": "Ek1HYsdcAISGniy4",
+  "_id": "KW7KRcJ3X8FDGdsT",
+  "img": "icons/svg/mystery-man.svg",
+  "prototypeToken": {
+    "name": "Portentia",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1720426925014,
+    "modifiedTime": 1720427084613,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!KW7KRcJ3X8FDGdsT"
+}

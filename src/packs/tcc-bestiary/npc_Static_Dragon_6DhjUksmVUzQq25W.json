@@ -1,0 +1,189 @@
+{
+  "name": "Static Dragon",
+  "type": "npc",
+  "system": {
+    "initiativeTokens": 3,
+    "stamina": {
+      "value": 28,
+      "max": 28
+    },
+    "skill": {
+      "value": 11
+    },
+    "armour": 4,
+    "mienOptions": {
+      "0": {
+        "number": 1,
+        "description": "RAGING"
+      },
+      "1": {
+        "number": 2,
+        "description": "SELF-PITYING"
+      },
+      "2": {
+        "number": 3,
+        "description": "SCREECHING LIKE A MODEM"
+      },
+      "3": {
+        "number": 4,
+        "description": "ALREADY HUNTING THE PLAYER CHARACTERS"
+      },
+      "4": {
+        "number": 5,
+        "description": "SNORING LIKE A CHAINSAW"
+      },
+      "5": {
+        "number": 6,
+        "description": "BAD CASE OF THE GIGGLES"
+      }
+    },
+    "attribution": {
+      "source": "Evey Lockhart [Troika! Community Jam: Bestiary 2024]",
+      "link": "https://violentmedia.itch.io/static-dragon"
+    },
+    "special": "<p>As a 2D figure, multiply folded, only portions of the static dragon will be visible to any singular observer. Further, blows that do not strike perpendicular to a visible face do little damage (this is the source of the creatures exceptionally high Armor). Once this is discovered, the Dragon's Armor is reduced to 1.</p>",
+    "notes": "<p>What shapes could the static become?</p><p>What lines could it draw, in the space of forever, untuned and timeless, eternal?</p><p>Though it be birthed within a moment from a singular screen, it is, it was, and always shall be.</p><p>It is noise, not signal. It folds and glides in jagged, erratic sawtooth waves.</p><p>It eats averages and shits out void.  We are all, all of us and everything, built out of averages.</p><p>Killing the Static Dragon remains the only escape from the UHF Graveyard Worlds.</p>",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    }
+  },
+  "items": [
+    {
+      "name": "PIXELATING TEETH",
+      "type": "gear",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "description": "",
+        "attack": {
+          "dr1": "6",
+          "dr2": "8",
+          "dr3": "12",
+          "dr4": "16",
+          "dr5": "18",
+          "dr6": "24",
+          "dr7": "36"
+        },
+        "inventorySlots": 0,
+        "sortOrder": -1,
+        "canAttack": true,
+        "equipped": true,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0,
+        "quantity": 1,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676774869953,
+        "modifiedTime": 1676827731619,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "_id": "BxoLBbolbe0gOrit",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_key": "!actors.items!6DhjUksmVUzQq25W.BxoLBbolbe0gOrit"
+    }
+  ],
+  "folder": "Ek1HYsdcAISGniy4",
+  "_id": "6DhjUksmVUzQq25W",
+  "img": "modules/troika-community-content/assets/arts/bestiary2024/static-dragon.webp",
+  "prototypeToken": {
+    "name": "Static Dragon",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "assets/arts/bestiary2024/static-dragon.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1720426925092,
+    "modifiedTime": 1720427084613,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!6DhjUksmVUzQq25W"
+}
