@@ -81,5 +81,9 @@
   ],
   "esmodules": [],
   "styles": [],
-  "manifest": "https://tkc-dev-s3-manifests.s3.amazonaws.com/troika-community-content/0.0.1.json"
+  "manifest": "https://tkc-dev-s3-manifests.s3.amazonaws.com/troika-community-content/0.0.1.json",
+  "download": "https://github.com/Cussa/fvtt-troika-community-content/releases/download/1.0.0/module.zip",
+  "readme": "https://github.com/Cussa/fvtt-troika-community-content/",
+  "changelog": "https://github.com/Cussa/fvtt-troika-community-content/releases/",
+  "bugs": "https://github.com/Cussa/fvtt-troika-community-content/issues"
 }
