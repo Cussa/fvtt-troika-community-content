@@ -21,8 +21,8 @@ jobs:
         files: 'module.json'
       env:
         version: ${{github.event.release.tag_name}}
-        manifest: https://github.com/${{github.repository}}/releases/download/${{github.event.release.tag_name}}/module.json
-        download: https://github.com/${{github.repository}}/releases/download/${{github.event.release.tag_name}}/module.zip
+        manifest: https://github.com/${{github.repository}}/releases/download/${{github.event.release.tag_name}}/${{ env.package_type }}.json
+        download: https://github.com/${{github.repository}}/releases/download/${{github.event.release.tag_name}}/${{ env.package_type }}.zip
         flags: "{}"
 
     - name: Install Foundry VTT Cli and pack the source
@@ -31,7 +31,7 @@ jobs:
         node scripts/convertJSONtoLDB.mjs
 
     # Create a zip file with all files required by the system to add to the release
-    - run: zip -r ${{ env.package_type }}.zip README.md module.json packs/
+    - run: zip -r ${{ env.package_type }}.zip README.md module.json assets/ packs/
 
     # Create a release for this specific version
     - name: Update Release with Files
