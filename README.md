@@ -4,6 +4,10 @@
 
 The content from this module is created by the Troika Community, via the Jams organized by Cussa Mitre/Hod Publishing and other resources.
 
+Sources:
+
+- [Troika! Community Jam: Bestiary 2024](https://itch.io/jam/troika-community-jam-bestiary-2024)
+
 All creations included in this module were authorized by the authors. Each author is attributed on the item created.
 
 > *The Troika Community Content Foundry module is an independent production by several creators and is not affiliated with the Melsonian Arts Council.*

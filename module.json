@@ -1,7 +1,7 @@
 {
-  "id": "swyvers-premium",
-  "title": "Swyvers - Premium Content",
-  "version": "1.0.3",
+  "id": "troika-community-content",
+  "title": "Troika - Community Content",
+  "version": "0.0.1",
   "compatibility": {
     "minimum": "11",
     "verified": "12"
@@ -16,7 +16,7 @@
   "relationships": {
     "systems": [
       {
-        "id": "swyvers",
+        "id": "troika",
         "type": "system",
         "compatibility": {}
       }
@@ -24,208 +24,62 @@
   },
   "packs": [
     {
-      "name": "swyvers-rules",
-      "label": "Swyvers - Player Rules",
-      "path": "packs/swyvers-rules",
-      "type": "JournalEntry",
-      "system": "swyvers",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "swyvers-rollable-tables",
-      "label": "Swyvers - Rollable Tables",
-      "path": "packs/swyvers-rollable-tables",
-      "type": "RollTable",
-      "system": "swyvers",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "swyvers-arseholes-and-adversaries",
-      "label": "Swyvers - Arseholes & Adversaries",
-      "path": "packs/swyvers-arseholes-and-adversaries",
+      "name": "troika-community-content-bestiary",
+      "label": "Bestiary",
+      "path": "packs/tcc-bestiary",
       "type": "Actor",
-      "system": "swyvers",
+      "system": "troika",
       "ownership": {
         "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
       }
     },
     {
-      "name": "swyvers-items",
-      "label": "Swyvers - Items",
-      "path": "packs/swyvers-items",
-      "type": "Item",
-      "system": "swyvers",
+      "name": "troika-community-content-backgrounds",
+      "label": "Backgrounds",
+      "path": "packs/tcc-backgrounds",
+      "type": "Actor",
+      "system": "troika",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
     },
     {
-      "name": "swyvers-spells",
-      "label": "Swyvers - Spells",
-      "path": "packs/swyvers-spells",
+      "name": "troika-community-content-spells",
+      "label": "Spells",
+      "path": "packs/tcc-spells",
       "type": "Item",
-      "system": "swyvers",
+      "system": "troika",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
     },
     {
-      "name": "swyvers-macros",
-      "label": "Swyvers - Macros",
-      "path": "packs/swyvers-macros",
-      "type": "Macro",
-      "system": "swyvers",
+      "name": "troika-community-content-weapons",
+      "label": "Weapons",
+      "path": "packs/tcc-weapons",
+      "type": "Item",
+      "system": "troika",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
-    },
-    {
-      "name": "swyvers-gm-rules",
-      "label": "Swyvers - GM rules",
-      "path": "packs/swyvers-gm-rules",
-      "type": "JournalEntry",
-      "system": "swyvers",
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "swyvers-blue-cheese-left-to-rot",
-      "label": "Swyvers - Blue Cheese, Left to Rot",
-      "path": "packs/swyvers-blue-cheese-left-to-rot",
-      "type": "Adventure",
-      "system": "swyvers",
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "swyvers-armours",
-      "label": "Swyvers - Armours",
-      "path": "packs/swyvers-armours",
-      "type": "Item",
-      "system": "swyvers",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "swyvers-weapons",
-      "label": "Swyvers - Weapons",
-      "path": "packs/swyvers-weapons",
-      "type": "Item",
-      "system": "swyvers",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "swyvers-spell-components",
-      "label": "Swyvers - Spell Components",
-      "path": "packs/swyvers-spell-components",
-      "type": "Item",
-      "system": "swyvers",
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "swyvers-despots",
-      "label": "Swyvers - Despots",
-      "path": "packs/swyvers-despots",
-      "type": "Item",
-      "system": "swyvers",
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "swyvers-core",
-      "label": "Swyvers - Core",
-      "path": "packs/swyvers-core",
-      "type": "Adventure",
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "swyvers"
     }
   ],
   "packFolders": [
     {
-      "name": "Swyvers",
-      "sorting": "m",
+      "name": "Troika - Community Content",
       "packs": [
-        "swyvers-rules",
-        "swyvers-gm-rules",
-        "swyvers-core",
-        "swyvers-rollable-tables",
-        "swyvers-arseholes-and-adversaries",
-        "swyvers-macros",
-        "swyvers-blue-cheese-left-to-rot",
-        "swyvers-core"
-      ],
-      "folders": [
-        {
-          "name": "Items",
-          "sorting": "m",
-          "packs": [
-            "swyvers-items",
-            "swyvers-armours",
-            "swyvers-weapons"
-          ],
-          "folders": []
-        },
-        {
-          "name": "Magic",
-          "sorting": "m",
-          "color": "#941919",
-          "packs": [
-            "swyvers-spells",
-            "swyvers-spell-components",
-            "swyvers-despots"
-          ],
-          "folders": []
-        }
+        "troika-community-content-bestiary",
+        "troika-community-content-backgrounds",
+        "troika-community-content-spells",
+        "troika-community-content-weapons"
       ]
     }
   ],
-  "esmodules": [
-    "module/swyvers-premium.mjs"
-  ],
-  "styles": [
-    "css/swyvers-premium.css"
-  ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "lang/en.json",
-      "flags": {}
-    }
-  ],
-  "manifest": "https://tkc-dev-s3-manifests.s3.amazonaws.com/swyvers-premium/0.0.1.json",
-  "protected": false,
-  "flags": {
-    "hotReload": {
-      "extensions": ["css", "hbs", "json"],
-      "paths": ["lang", "css", "templates"]
-    }
-  }
+  "esmodules": [],
+  "styles": [],
+  "manifest": "https://tkc-dev-s3-manifests.s3.amazonaws.com/troika-community-content/0.0.1.json"
 }
