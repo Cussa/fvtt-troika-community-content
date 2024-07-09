@@ -106,7 +106,8 @@
   ],
   "folder": "Ek1HYsdcAISGniy4",
   "_id": "Nh2UKAPxukQovlTa",
-  "img": "icons/svg/mystery-man.svg",
+
+  "img": "modules/troika-community-content/assets/arts/bestiary2024/caulker.webp",
   "prototypeToken": {
     "name": "CAULKER",
     "displayName": 0,
@@ -114,7 +115,7 @@
     "appendNumber": false,
     "prependAdjective": false,
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "modules/troika-community-content/assets/arts/bestiary2024/caulker.webp",
       "scaleX": 1,
       "scaleY": 1,
       "offsetX": 0,

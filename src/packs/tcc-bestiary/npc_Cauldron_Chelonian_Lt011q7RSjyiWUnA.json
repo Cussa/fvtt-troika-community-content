@@ -106,7 +106,7 @@
   ],
   "folder": "Ek1HYsdcAISGniy4",
   "_id": "Lt011q7RSjyiWUnA",
-  "img": "modules/troika-community-content/assets/arts/bestiary2024/caulker.webp",
+  "img": "icons/svg/mystery-man.svg",
   "prototypeToken": {
     "name": "Cauldron Chelonian",
     "displayName": 0,
@@ -114,7 +114,7 @@
     "appendNumber": false,
     "prependAdjective": false,
     "texture": {
-      "src": "assets/arts/bestiary2024/caulker.webp",
+      "src": "icons/svg/mystery-man.svg",
       "scaleX": 1,
       "scaleY": 1,
       "offsetX": 0,

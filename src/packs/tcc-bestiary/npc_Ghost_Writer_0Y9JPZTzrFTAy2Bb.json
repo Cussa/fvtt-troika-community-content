@@ -114,7 +114,7 @@
     "appendNumber": false,
     "prependAdjective": false,
     "texture": {
-      "src": "assets/arts/bestiary2024/ghost-writer.webp",
+      "src": "modules/troika-community-content/assets/arts/bestiary2024/ghost-writer.webp",
       "scaleX": 1,
       "scaleY": 1,
       "offsetX": 0,
