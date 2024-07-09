@@ -1,0 +1,110 @@
+body {
+  font-family: "AveriaLibre";
+  font-size: 16px;
+  // background: #F2f2f2;
+
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+p {
+  margin-top: 0;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+%page {
+  break-before: page;
+}
+
+div.page {
+  @extend %page;
+}
+
+div.enemy {
+  @extend %page;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+
+  div.text {
+    flex: 4;
+
+    p {
+      text-align: justify;
+    }
+  }
+
+  div.info {
+    flex: 2;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  &:nth-child(odd) {
+    div.text {
+      order: 0;
+    }
+
+    div.info {
+      order: 1;
+    }
+  }
+
+  &:nth-child(even) {
+    div.text {
+      order: 1;
+    }
+
+    div.info {
+      order: 0;
+
+      p {
+        text-align: right;
+      }
+    }
+  }
+}
+
+table {
+  width: 100%;
+  border-spacing: 0;
+  margin-top: 1em;
+
+  caption {
+    font-size: 20px;
+  }
+
+  td {
+    border: 1px solid black;
+    padding: 2px 4px;
+
+    &:first-child {
+      width: 10%;
+      text-align: center;
+    }
+  }
+
+  &.attack {
+    td {
+      width: 14%;
+      text-align: center;
+    }
+  }
+}
