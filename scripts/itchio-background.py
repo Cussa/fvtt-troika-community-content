@@ -177,6 +177,7 @@ def handle_new_skill(skill: str):
 
     if not itemMatch:
         errorList.append(f'NEW SKILL "{skill}" has format error')
+        return None
 
     itemName = itemMatch.group("name")
     rank = itemMatch.group("rank")
@@ -218,7 +219,34 @@ def handle_srd_spell(spell: str):
 
 
 def handle_new_spell(spell: str):
-    pass
+    newSpellRegex = r"^(?P<rank>\d*?) Spell - (?P<name>.*?) \((?P<cost>\d*?) -\s?(?P<description>.*?)\)$"
+    clearSpell = clear(spell)
+    itemMatch = re.match(newSpellRegex, clearSpell)
+
+    if not itemMatch:
+        errorList.append(f'NEW SPELL "{clearSpell}" has format error')
+        return None
+
+    itemName = itemMatch.group("name")
+    rank = itemMatch.group("rank")
+    cost = itemMatch.group("cost")
+    description = itemMatch.group("description")
+
+    if not cost or not description:
+        errorList.append(f'NEW SPELL "{clearSpell}" has format error')
+        return None
+
+    return f"""
+    {{
+        "name": "{itemName}",
+        "type": "spell",
+        "system": {{
+            "description": "<p>{description}</p>",
+            "rank": "{rank}",
+            "castingCost": "{cost}",
+        }},
+    }}
+"""
 
 
 def handle_spell(spell: str):
