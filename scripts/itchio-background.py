@@ -8,10 +8,16 @@ errorList = []
 armour = 0
 
 
-def find_json(item, type: str):
+def handle_json_issue(message, log: bool):
+    if log:
+        errorList.append(message)
+    return None
+
+
+def find_json(item, type: str, log: bool = True):
     itemName = item.lower().replace(" ", "_")
-    folders = {"weapon": "weapons-and-attacks", "item": "items"}
-    itemTypes = {"weapon": "gear", "item": "items"}
+    folders = {"weapon": "weapons-and-attacks", "item": "items", "skill": "skills"}
+    itemTypes = {"weapon": "gear", "item": "items", "skill": "skill"}
 
     result = [
         os.path.join(dp, f)
@@ -21,12 +27,14 @@ def find_json(item, type: str):
         for f in filenames
         if f.lower().startswith(f"{itemTypes[type]}_{itemName}")
     ]
+
     if len(result) == 0:
-        errorList.append(f'{type.capitalize()} "{item}" not found')
-        return None
+        return handle_json_issue(f'{type.capitalize()} "{item}" not found', log)
+
     if len(result) > 1:
-        errorList.append(f'MORE than one {type.capitalize()} "{item}" found')
-        return None
+        return handle_json_issue(
+            f'MORE than one {type.capitalize()} "{item}" found', log
+        )
 
     with open(result[0], "r") as f:
         itemJson = f.read()
@@ -124,6 +132,94 @@ def handle_possessions(possessions):
     return items
 
 
+def handle_srd_skill(skill: str):
+    spaceIndex = skill.index(" ")
+    item = find_json(clear(skill[spaceIndex + 1 :]), "skill", False)
+    if not item:
+        return item
+
+    item = item.replace('"rank": "1",', f'"rank": "{skill[:spaceIndex]}",')
+    return item
+
+
+def handle_new_skill(skill: str):
+    newItemRegex = r"^(?P<rank>\d*?) (?P<name>.*?)(?:\s\((?P<description>.*?)\))?$"
+    clearSkill = clear(skill)
+    itemMatch = re.match(newItemRegex, clearSkill)
+
+    if not itemMatch:
+        errorList.append(f'NEW SKILL "{skill}" has format error')
+
+    itemName = itemMatch.group("name")
+    rank = itemMatch.group("rank")
+    description = itemMatch.group("description") or ""
+
+    return f"""
+    {{
+        "name": "{itemName}",
+        "type": "skill",
+        "system": {{
+            "description": "<p>{description}</p>",
+            "rank": "{rank}",
+        }},
+    }}
+"""
+
+
+def handle_skill(skill: str):
+    if "(" in skill:
+        return handle_new_skill(skill)
+
+    item = handle_srd_skill(skill)
+    if not item:
+        item = handle_new_skill(skill)
+
+    return item
+
+
+def handle_srd_spell(spell: str):
+    pass
+
+
+def handle_new_spell(spell: str):
+    pass
+
+
+def handle_spell(spell: str):
+    if "(" in spell:
+        return handle_new_spell(spell)
+
+    return handle_srd_spell(spell)
+
+
+def handle_advanced_skill(advanced_skill: str):
+    if "Spell" in advanced_skill:
+        return handle_spell(advanced_skill)
+
+    return handle_skill(advanced_skill)
+
+
+def handle_advanced_skills(adavnced_skills: list):
+    items = []
+    for line in adavnced_skills:
+        item = handle_advanced_skill(line)
+        if item:
+            items.append(item)
+    return items
+
+
+def handle_img(backgroundName):
+    fileName = backgroundName.lower().replace(" ", "-")
+    backgroundImg = f"./assets/arts/{folder}/{fileName}.webp"
+    if os.path.isfile(backgroundImg):
+        backgroundImg = (
+            f"modules/troika-community-content/assets/arts/{folder}/{fileName}.webp"
+        )
+        return backgroundImg
+
+    return "icons/svg/mystery-man.svg"
+
+
 def clear_list(lines):
     current = []
     for line in lines:
@@ -156,25 +252,24 @@ def addBackground(lines):
         special = clear_list(lines[specialLine + 1 : attributionLine])
 
     possessions = handle_possessions(lines[possessionsLine + 1 : advancedSkillsLine])
+    advancedSkills = handle_advanced_skills(lines[advancedSkillsLine + 1 : specialLine])
 
     notes = clear_list(lines[1:possessionsLine])
 
     source = clear(lines[attributionLine][13:])
     link = clear(lines[attributionLine + 1][5:])
 
-    allItems = ",\n".join(possessions)
+    allItems = ",\n".join(possessions + advancedSkills)
     items = f"[{allItems}]"
-    # damageResult = handle_damage(lines[5])
-    # items = damageResult["items"]
-    # if damageResult["special"]:
-    #     newSpecial = damageResult["special"]
-    #     special = f"<p>{newSpecial}</p>{special}"
+
+    img = handle_img(name)
 
     command = f"""
 await Actor.create(
 {{
     name: '{name}',
     type: "background",
+    img: "{img}",
     system: {{
         armour: {armour},
         attribution: {{
@@ -209,11 +304,11 @@ result = [
 
 with open("result.js", "w") as file:
     file.write(
-        f"""moduleFolder = game.folders.getName("Community Jam: Backgrounds {complement}");
+        f"""moduleFolder = game.folders.getName("CJ: Backgrounds {complement}");
 if (moduleFolder == undefined){{
     moduleFolder = await Folder.create({{
         type: "Actor",
-        name: "Community Jam: Backgrounds {complement}"
+        name: "CJ: Backgrounds {complement}"
     }});
 }}
 """
@@ -226,7 +321,7 @@ for file in result:
         lines = f.readlines()
     addBackground(lines)
     if len(errorList):
-        print(lines[0])
+        print(clear(lines[0]))
         for e in errorList:
             print(f"- {e}")
         print("=================================")
