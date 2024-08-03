@@ -187,7 +187,9 @@ def handle_skill(skill: str):
 
 def handle_srd_spell(spell: str):
     spaceIndex = spell.index(" ")
-    item = find_json(clear(spell[spaceIndex + 1 :].lower().replace("spell - ", "")), "spell")
+    item = find_json(
+        clear(spell[spaceIndex + 1 :].lower().replace("spell - ", "")), "spell"
+    )
     if not item:
         return item
 
@@ -213,9 +215,12 @@ def handle_advanced_skill(advanced_skill: str):
     return handle_skill(advanced_skill)
 
 
-def handle_advanced_skills(adavnced_skills: list):
+def handle_advanced_skills(adavnced_skills: list[str]):
     items = []
     for line in adavnced_skills:
+        if not line.strip():
+            continue
+
         item = handle_advanced_skill(line)
         if item:
             items.append(item)
