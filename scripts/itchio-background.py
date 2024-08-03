@@ -119,21 +119,25 @@ def handle_new_item(possession):
 
 
 def handle_possession(possession):
-    if "(" not in possession:
-        return handle_srd_possession(possession)
-
     if "(damage as" in possession.lower():
         return handle_srd_weapon(possession)
 
     if "(armour:" in possession:
         return handle_armour(possession)
 
+    item = handle_srd_possession(possession)
+    if item:
+        return item
+    
     return handle_new_item(possession)
 
 
-def handle_possessions(possessions):
+def handle_possessions(possessions: list[str]):
     items = []
     for line in possessions:
+        if not line.strip():
+            continue
+
         item = handle_possession(line)
         if item:
             items.append(item)
