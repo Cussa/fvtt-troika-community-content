@@ -16,8 +16,13 @@ def handle_json_issue(message, log: bool):
 
 def find_json(item, type: str, log: bool = True):
     itemName = item.lower().replace(" ", "_")
-    folders = {"weapon": "weapons-and-attacks", "item": "items", "skill": "skills"}
-    itemTypes = {"weapon": "gear", "item": "items", "skill": "skill"}
+    folders = {
+        "weapon": "weapons-and-attacks",
+        "item": "items",
+        "skill": "skills",
+        "spell": "spells",
+    }
+    itemTypes = {"weapon": "gear", "item": "items", "skill": "skill", "spell": "spell"}
 
     result = [
         os.path.join(dp, f)
@@ -181,7 +186,13 @@ def handle_skill(skill: str):
 
 
 def handle_srd_spell(spell: str):
-    pass
+    spaceIndex = spell.index(" ")
+    item = find_json(clear(spell[spaceIndex + 1 :].lower().replace("spell - ", "")), "spell")
+    if not item:
+        return item
+
+    item = item.replace('"rank": "1",', f'"rank": "{spell[:spaceIndex]}",')
+    return item
 
 
 def handle_new_spell(spell: str):
@@ -196,7 +207,7 @@ def handle_spell(spell: str):
 
 
 def handle_advanced_skill(advanced_skill: str):
-    if "Spell" in advanced_skill:
+    if "spell" in advanced_skill.lower():
         return handle_spell(advanced_skill)
 
     return handle_skill(advanced_skill)
