@@ -49,7 +49,7 @@ def find_json(item, type: str, log: bool = True):
 
 
 def handle_srd_possession(possession):
-    item = find_json(possession[2:], "item")
+    item = find_json(possession[2:], "item", False)
     return item
 
 
@@ -92,7 +92,7 @@ def handle_srd_weapon(possession):
 
 def handle_new_item(possession):
     newItemRegex = (
-        r"^- (?P<name>.*) \(slot:?\s?(?P<slot>.*?)(?: - (?P<description>.*?))?\)$"
+        r"^- (?P<name>.*)(?: \(slot:?\s?(?P<slot>.*?)(?: - (?P<description>.*?))?\))?$"
     )
     itemMatch = re.match(newItemRegex, possession)
 
@@ -101,7 +101,7 @@ def handle_new_item(possession):
         return None
 
     itemName = itemMatch.group("name")
-    slots = itemMatch.group("slot")
+    slots = itemMatch.group("slot") or 1
     description = itemMatch.group("description") or ""
 
     return f"""
@@ -309,7 +309,7 @@ await Actor.create(
     command = (
         command.replace("True", "true")
         .replace("False", "false")
-        .replace("None", "null")
+        .replace(" None", " null")
     )
     with open("result.js", "a") as file:
         file.write(command)
@@ -323,7 +323,6 @@ result = [
     os.path.join(dp, f)
     for dp, dn, filenames in os.walk(f"./submissions/{folder}")
     for f in filenames
-    # if not f.startswith("imported_")
 ]
 
 if filter:
