@@ -71,7 +71,7 @@ def handle_armour(possession):
 
 
 def handle_srd_weapon(possession):
-    baseWeaponIndex = possession.index("damage as")
+    baseWeaponIndex = possession.lower().index("damage as")
     baseWeaponName = possession[baseWeaponIndex + 10 : -2]
     baseWeaponJson = find_json(baseWeaponName, "weapon")
 
@@ -86,15 +86,18 @@ def handle_srd_weapon(possession):
 
 
 def handle_new_item(possession):
-    newItemRegex = r"- (?P<name>.*) \(slot:? (?P<slot>.*?) - (?P<description>.*?)\)"
+    newItemRegex = (
+        r"^- (?P<name>.*) \(slot:?\s?(?P<slot>.*?)(?: - (?P<description>.*?))?\)$"
+    )
     itemMatch = re.match(newItemRegex, possession)
 
     if not itemMatch:
-        errorList.append(f'NEW ITEM "{possession}" has format error')
+        errorList.append(f'NEW ITEM "{clear(possession)}" has format error')
+        return None
 
     itemName = itemMatch.group("name")
     slots = itemMatch.group("slot")
-    description = itemMatch.group("description")
+    description = itemMatch.group("description") or ""
 
     return f"""
     {{
@@ -114,7 +117,7 @@ def handle_possession(possession):
     if "(" not in possession:
         return handle_srd_possession(possession)
 
-    if "(damage as" in possession:
+    if "(damage as" in possession.lower():
         return handle_srd_weapon(possession)
 
     if "(armour:" in possession:
