@@ -89,12 +89,28 @@ def handle_srd_weapon(possession):
 
     return item
 
+def handle_new_item_simple(possession):
+    return f"""
+    {{
+        "name": "{clear(possession)[2:]}",
+        "type": "gear",
+        "system": {{
+            "inventorySlots": 1,
+            "equipped": true,
+            "quantity": 1,
+        }},
+    }}
+"""
 
 def handle_new_item(possession):
+    if "(" not in possession:
+        return handle_new_item_simple(possession)
+
     newItemRegex = (
-        r"^- (?P<name>.*)(?: \(slot:?\s?(?P<slot>.*?)(?: - (?P<description>.*?))?\))?$"
+        r"^- (?P<name>.*) \(slot:?\s?(?P<slot>.*?)(?: - (?P<description>.*?))?\)$"
     )
-    itemMatch = re.match(newItemRegex, possession)
+    clearItem = clear(possession)
+    itemMatch = re.match(newItemRegex, clearItem)
 
     if not itemMatch:
         errorList.append(f'NEW ITEM "{clear(possession)}" has format error')
@@ -122,7 +138,7 @@ def handle_possession(possession):
     if "(damage as" in possession.lower():
         return handle_srd_weapon(possession)
 
-    if "(armour:" in possession:
+    if "(armour:" in possession.lower():
         return handle_armour(possession)
 
     item = handle_srd_possession(possession)
