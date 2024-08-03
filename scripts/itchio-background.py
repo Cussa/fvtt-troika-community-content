@@ -308,6 +308,7 @@ await Actor.create(
 
 folder = sys.argv[1]
 complement = sys.argv[2]
+filter = sys.argv[3] if len(sys.argv) > 3 else ""
 
 result = [
     os.path.join(dp, f)
@@ -315,6 +316,9 @@ result = [
     for f in filenames
     # if not f.startswith("imported_")
 ]
+
+if filter:
+    result = [f for f in result if filter in f.lower()]
 
 with open("result.js", "w") as file:
     file.write(
