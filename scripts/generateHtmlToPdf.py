@@ -28,11 +28,12 @@ def addNpc(npc):
     <tr><td>{item["system"]["attack"]["dr1"]}</td><td>{item["system"]["attack"]["dr2"]}</td><td>{item["system"]["attack"]["dr3"]}</td><td>{item["system"]["attack"]["dr4"]}</td><td>{item["system"]["attack"]["dr5"]}</td><td>{item["system"]["attack"]["dr6"]}</td><td>{item["system"]["attack"]["dr7"]}</td></tr>
 </table>
 """
-    link = re.sub(nameRegex, "", npc["name"])
+    link = npc["name"].replace(" ", "§")  # re.sub(nameRegex, "", npc["name"])
     command = f"""
 <div class="enemy" id="{link}">
+    
     <div class="text">
-        <h1>{npc["name"]}</h1>
+        <h1><a class="bookmark" href="https://internal/{link}">{npc["name"]}</a></h1>
         <p><a href="{system["attribution"]["link"]}" target="_blank">{system["attribution"]["source"].replace("[", "<br>[")}</a></p>
         {system["notes"]}
         {special}
@@ -45,7 +46,7 @@ def addNpc(npc):
         <p><span class="bold">ARMOUR:</span> <span class="italic">{system["armour"]}</span></p>
         {damage}
 
-        <table>
+        <table class="mien">
             <caption>Mien</caption>
             <tr><td>1</td><td>{system["mienOptions"]["0"]["description"]}</td></tr>
             <tr><td>2</td><td>{system["mienOptions"]["1"]["description"]}</td></tr>
@@ -103,11 +104,18 @@ with open("pdf.html", "w") as file:
 <p class="italic">The Troika Community Content Foundry module is an independent production<br>by several creators and is not affiliated with the Melsonian Arts Council.</p>
 <img src="imgs/compatible-with-troika.png">
 </div>
-<div class="">
-<h1>Bestiary</h1>
-<ol>{"".join(bestiaryList)}</ol>
+<table class="page">
+<thead><tr><td>Troika! Community Content</td></tr></thead>
+<tfoot><tr><td>Organized and Compiled by Cussa Mitre - Layout by Rodrigo Grola - Hod Publishing</td></tr></tfoot>
+<tbody><tr><td>
+<div class="title">
+<h1><a class="bookmark" href="https://group/Bestiary">Bestiary</a></h1>
 </div>
 {"".join(info)}
+<div class="title">
+<h1>Thanks for supporting the Troika Community!</h1>
+</div>
+</td></tr></tfoot></table>
 </body>
 </html>
 """

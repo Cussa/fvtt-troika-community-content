@@ -1,5 +1,12 @@
 @page {
   size: A4;
+
+  // margin-top: 20px;
+
+  // @top {
+  //   /* header with counter functions to insert page counters */
+  //   content: "Page " counter(page) " of " counter(pages) " pages "
+  // }
 }
 
 @media print {
@@ -12,4 +19,12 @@
     height: 100vh;
     text-align: center;
   }
+  // a.bookmark{
+  //   // display: none;
+  //   // visibility: hidden;
+  //   opacity: 0;
+  //   height: 0;
+  //   display: block;
+  //   // pointer-events: none;
+  // }
 }
