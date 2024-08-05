@@ -66,6 +66,28 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "troika-community-content-skills",
+      "label": "Skills",
+      "path": "packs/tcc-skills",
+      "type": "Item",
+      "system": "troika",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "troika-community-content-gear",
+      "label": "Gear",
+      "path": "packs/tcc-gear",
+      "type": "Item",
+      "system": "troika",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "packFolders": [
@@ -75,7 +97,9 @@
         "troika-community-content-bestiary",
         "troika-community-content-backgrounds",
         "troika-community-content-spells",
-        "troika-community-content-weapons"
+        "troika-community-content-weapons",
+        "troika-community-content-skills",
+        "troika-community-content-gear"
       ]
     }
   ],

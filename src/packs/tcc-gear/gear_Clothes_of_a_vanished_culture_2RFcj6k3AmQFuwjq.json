@@ -1,0 +1,47 @@
+{
+  "name": "Clothes of a vanished culture",
+  "type": "gear",
+  "img": "modules/troika-community-content/assets/tokens/item.svg",
+  "system": {
+    "description": "<p>Colourful but worn out clothes and fabrics from a long lost civilisation</p>",
+    "inventorySlots": 1,
+    "equipped": true,
+    "quantity": 1,
+    "attribution": {
+      "source": "Ilias Iovis [Troika! Community Jam: Backgrounds 2024]",
+      "link": "https://iliasiovis.itch.io"
+    },
+    "canAttack": false,
+    "attack": {
+      "dr1": "2",
+      "dr2": "2",
+      "dr3": "2",
+      "dr4": "2",
+      "dr5": "4",
+      "dr6": "8",
+      "dr7": "10"
+    },
+    "sortOrder": -1,
+    "armourProvided": 0,
+    "requiresTwoHands": false,
+    "armourIgnored": 0
+  },
+  "folder": "7wRIEMRrRlS13CeR",
+  "_id": "2RFcj6k3AmQFuwjq",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1722885501593,
+    "modifiedTime": 1722885501593,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!items!2RFcj6k3AmQFuwjq"
+}

@@ -5,6 +5,10 @@ from datetime import datetime
 
 
 nameRegex = re.compile(r"[^a-zA-Z0-9]")
+bestiaryList = []
+bestiaryIndex = []
+backgroundsList = []
+backgroundsIndex = []
 
 
 def addNpc(npc):
@@ -67,6 +71,121 @@ def addNpc(npc):
     return [command, link]
 
 
+def handlePossession(item):
+    name = item["name"]
+    inventorySlots = item["system"]["inventorySlots"]
+    description = ""
+    attribution = item["system"]["attribution"]
+    if attribution and attribution["source"]:
+        description = item["system"]["description"].replace("<p></p>", "")
+        if description:
+            description = f"<em>{description}</em>"
+    return f"<li>{name} (Slot: {inventorySlots}){description}</li>"
+
+
+def handleSkill(item):
+    name = item["name"]
+    rank = item["system"]["rank"]
+    description = ""
+    attribution = item["system"]["attribution"]
+    if attribution and attribution["source"]:
+        description = item["system"]["description"].replace("<p></p>", "")
+        if description:
+            description = f"<em>{description}</em>"
+    return f"<li>{rank} {name}{description}</li>"
+
+
+def handleSpell(item):
+    name = item["name"]
+    rank = item["system"]["rank"]
+    description = ""
+    cost = item["system"]["castingCost"]
+    attribution = item["system"]["attribution"]
+    if attribution and attribution["source"]:
+        description = item["system"]["description"].replace("<p></p>", "")
+        description = description.replace(
+            "@UUID[Compendium.troika.troika-srd-roll-tables.RollTable.F5Hxv1QRaOCAVbpg]{SRD Random Spell Roll Table}",
+            "Roll the SRD Random Spell Table",
+        )
+        if description:
+            description = f"<em>{description}</em>"
+    return f"<li>{rank} Spell - {name} (Cost: {cost}){description}</li>"
+
+
+def addBackground(background):
+    system = background["system"]
+    special = ""
+    image = f"""<img src="{background["img"].replace("modules/troika-community-content/", "")}" >"""
+
+    if system["special"]:
+        special = f"<h2>Special</h2>{system['special']}"
+
+    possessionsList = []
+    advancedSkillsList = []
+
+    for item in background["items"]:
+        if item["type"] == "gear":
+            possessionsList.append(handlePossession(item))
+        elif item["type"] == "skill":
+            advancedSkillsList.append(handleSkill(item))
+        elif item["type"] == "spell":
+            advancedSkillsList.append(handleSpell(item))
+
+    advancedSkillsList.sort(reverse=True)
+
+    #     if len(background["items"]):
+
+    #         for item in background["items"]:
+    #             damage += f"""
+    # <table class="attack">
+    #     <caption>{item["name"]}</caption>
+    #     <tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7+</td></tr>
+    #     <tr><td>{item["system"]["attack"]["dr1"]}</td><td>{item["system"]["attack"]["dr2"]}</td><td>{item["system"]["attack"]["dr3"]}</td><td>{item["system"]["attack"]["dr4"]}</td><td>{item["system"]["attack"]["dr5"]}</td><td>{item["system"]["attack"]["dr6"]}</td><td>{item["system"]["attack"]["dr7"]}</td></tr>
+    # </table>
+    # """
+    link = background["name"].replace(" ", "§")  # re.sub(nameRegex, "", npc["name"])
+    command = f"""
+<div class="background" id="{link}">
+    
+    <div class="text">
+        <h1><a class="bookmark" href="https://internal/{link}">{background["name"]}</a></h1>
+        <p><a href="{system["attribution"]["link"]}" target="_blank">{system["attribution"]["source"].replace("[", "<br>[")}</a></p>
+        {system["notes"]}
+        <h2 class="bold">Possessions</h2>
+        <ul>
+        {"".join(possessionsList)}
+        </ul>
+        <h2 class="bold">Advanced Skills</h2>
+        <ul>
+        {"".join(advancedSkillsList)}
+        </ul>
+        {special}
+    </div>
+    <div class="info">
+        {image}
+    </div>
+</div>"""
+
+    author = system["attribution"]["source"][
+        : system["attribution"]["source"].index(" [") - 2
+    ]
+    link = f"""<li><a class="bookmark" href="https://index/Backgrounds{link}"><em>{background["name"]}</em> by {author}</a></li>"""
+
+    return [command, link]
+
+
+def addObject(filename, filedata):
+    global bestiaryIndex, bestiaryList, backgroundsIndex, backgroundsList
+    if "tcc-bestiary" in filename:
+        result = addNpc(filedata)
+        bestiaryList.append(result[0])
+        bestiaryIndex.append(result[1])
+    elif "tcc-backgrounds" in filename:
+        result = addBackground(filedata)
+        backgroundsList.append(result[0])
+        backgroundsIndex.append(result[1])
+
+
 result = [
     os.path.join(dp, f)
     for dp, dn, filenames in os.walk(f"./src/packs")
@@ -74,8 +193,6 @@ result = [
     if not f.startswith("folder")
 ]
 result.sort()
-info = []
-bestiaryList = []
 
 
 # datetime object containing current date and time
@@ -83,12 +200,9 @@ now = datetime.now()
 dt_string = now.strftime("%m-%Y (%d.%H.%M)")
 
 for file in result:
-
     with open(file, "r") as f:
         filedata = json.load(f)
-    result = addNpc(filedata)
-    info.append(result[0])
-    bestiaryList.append(result[1])
+    addObject(file, filedata)
 
 
 with open("pdf.html", "w") as file:
@@ -123,14 +237,23 @@ Cover Image: <a href="https://commons.wikimedia.org/wiki/File:James_Gillray_-_We
 <thead><tr><td><img src="assets/header.webp"></td></tr></thead>
 <tfoot><tr><td><hr>{dt_string}</td></tr></tfoot>
 <tbody><tr><td>
-<div class="title">
+<div class="page title">
+<h1><a class="bookmark" href="https://group/Backgrounds">Backgrounds</a></h1>
+</div>
+{"".join(backgroundsList)}
+<div class="page title">
 <h1><a class="bookmark" href="https://group/Bestiary">Bestiary</a></h1>
 </div>
-{"".join(info)}
+{"".join(bestiaryList)}
 <div class="page">
-<h1>Index</h1>
+<h1><a class="bookmark" href="https://group/Index">Index</a></h1>
+<h2>Backgrounds</h2>
 <ul>
-{''.join(bestiaryList)}
+{''.join(backgroundsIndex)}
+</ul>
+<h2>Bestiary</h2>
+<ul>
+{''.join(bestiaryIndex)}
 </ul>
 </div>
 <div class="page title">

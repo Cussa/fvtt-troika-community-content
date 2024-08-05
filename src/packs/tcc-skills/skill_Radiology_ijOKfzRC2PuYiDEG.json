@@ -1,0 +1,43 @@
+{
+  "name": "Radiology",
+  "type": "skill",
+  "img": "modules/troika-community-content/assets/tokens/skill.svg",
+  "system": {
+    "description": "<p>Understanding of radioactivity and radioactive elements</p>",
+    "rank": 1,
+    "attribution": {
+      "source": "Ilias Iovis [Troika! Community Jam: Backgrounds 2024]",
+      "link": "https://iliasiovis.itch.io"
+    },
+    "canAttack": false,
+    "attack": {
+      "dr1": "2",
+      "dr2": "2",
+      "dr3": "2",
+      "dr4": "2",
+      "dr5": "4",
+      "dr6": "8",
+      "dr7": "10"
+    },
+    "modifier": 0,
+    "improvement": false
+  },
+  "folder": "g3uSy8eyK3mNgHiO",
+  "_id": "ijOKfzRC2PuYiDEG",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1722885501585,
+    "modifiedTime": 1722885501585,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!items!ijOKfzRC2PuYiDEG"
+}

@@ -7,6 +7,14 @@ import sys
 errorList = []
 armour = 0
 
+newSkillList = []
+newSpellList = []
+newGearList = []
+
+attributionJsonText = ""
+
+rankRegex = r"\"rank\":\s?\"\d*?\""
+
 
 def handle_json_issue(message, log: bool):
     if log:
@@ -58,7 +66,7 @@ def handle_armour(possession):
     parenthesis = possession.index("(")
     armourName = possession[2 : parenthesis - 1]
     armourValueIndex = possession.index(": ")
-    armourValue = possession[armourValueIndex + 2 : -2]
+    armourValue = possession[armourValueIndex + 2 : -1]
 
     armour = armourValue
     return f"""
@@ -89,7 +97,9 @@ def handle_srd_weapon(possession):
 
     return item
 
+
 def handle_new_item_simple(possession):
+    global attributionJsonText
     return f"""
     {{
         "name": "{clear(possession)[2:]}",
@@ -98,16 +108,20 @@ def handle_new_item_simple(possession):
             "inventorySlots": 1,
             "equipped": true,
             "quantity": 1,
+            "description": "",
+            {attributionJsonText},
         }},
     }}
 """
 
+
 def handle_new_item(possession):
+    global attributionJsonText
     if "(" not in possession:
         return handle_new_item_simple(possession)
 
     newItemRegex = (
-        r"^- (?P<name>.*) \(slot:?\s?(?P<slot>.*?)(?: - (?P<description>.*?))?\)$"
+        r"^- (?P<name>.*) \(slot:?\s?(?P<slot>.*?)(?: - (?P<description>.*?))?\).?\s?$"
     )
     clearItem = clear(possession)
     itemMatch = re.match(newItemRegex, clearItem)
@@ -120,18 +134,23 @@ def handle_new_item(possession):
     slots = itemMatch.group("slot") or 1
     description = itemMatch.group("description") or ""
 
-    return f"""
+    newGear = f"""
     {{
         "name": "{itemName}",
         "type": "gear",
+        "img": "modules/troika-community-content/assets/tokens/item.svg",
         "system": {{
             "description": "<p>{description}</p>",
             "inventorySlots": {slots},
             "equipped": true,
             "quantity": 1,
+            {attributionJsonText},
         }},
     }}
 """
+    if description:
+        newGearList.append(newGear)
+    return newGear
 
 
 def handle_possession(possession):
@@ -144,13 +163,14 @@ def handle_possession(possession):
     item = handle_srd_possession(possession)
     if item:
         return item
-    
+
     return handle_new_item(possession)
 
 
 def handle_possessions(possessions: list[str]):
     items = []
     for line in possessions:
+        line = clear(line)
         if not line.strip():
             continue
 
@@ -171,6 +191,7 @@ def handle_srd_skill(skill: str):
 
 
 def handle_new_skill(skill: str):
+    global attributionJsonText
     newItemRegex = r"^(?P<rank>\d*?) (?P<name>.*?)(?:\s\((?P<description>.*?)\))?$"
     clearSkill = clear(skill)
     itemMatch = re.match(newItemRegex, clearSkill)
@@ -183,16 +204,21 @@ def handle_new_skill(skill: str):
     rank = itemMatch.group("rank")
     description = itemMatch.group("description") or ""
 
-    return f"""
+    newSkill = f"""
     {{
         "name": "{itemName}",
         "type": "skill",
+        "img": "modules/troika-community-content/assets/tokens/skill.svg",
         "system": {{
             "description": "<p>{description}</p>",
             "rank": "{rank}",
+            {attributionJsonText},
         }},
     }}
 """
+    if description:
+        newSkillList.append(newSkill)
+    return newSkill
 
 
 def handle_skill(skill: str):
@@ -209,7 +235,7 @@ def handle_skill(skill: str):
 def handle_srd_spell(spell: str):
     spaceIndex = spell.index(" ")
     item = find_json(
-        clear(spell[spaceIndex + 1 :].lower().replace("spell - ", "")), "spell"
+        clear(spell[spaceIndex + 1 :]).lower().replace("spell - ", ""), "spell"
     )
     if not item:
         return item
@@ -219,7 +245,8 @@ def handle_srd_spell(spell: str):
 
 
 def handle_new_spell(spell: str):
-    newSpellRegex = r"^(?P<rank>\d*?) Spell - (?P<name>.*?) \((?P<cost>\d*?) -\s?(?P<description>.*?)\)$"
+    global attributionJsonText
+    newSpellRegex = r"^(?P<rank>\d*?) Spell [–-] (?P<name>.*?) \((?P<cost>\d*?) -\s?(?P<description>.*?)\)$"
     clearSpell = clear(spell)
     itemMatch = re.match(newSpellRegex, clearSpell)
 
@@ -236,17 +263,22 @@ def handle_new_spell(spell: str):
         errorList.append(f'NEW SPELL "{clearSpell}" has format error')
         return None
 
-    return f"""
+    newSpell = f"""
     {{
         "name": "{itemName}",
         "type": "spell",
+        "img": "modules/troika-community-content/assets/tokens/spell.svg",
         "system": {{
             "description": "<p>{description}</p>",
             "rank": "{rank}",
             "castingCost": "{cost}",
+            {attributionJsonText},
         }},
     }}
 """
+
+    newSpellList.append(newSpell)
+    return newSpell
 
 
 def handle_spell(spell: str):
@@ -266,6 +298,7 @@ def handle_advanced_skill(advanced_skill: str):
 def handle_advanced_skills(adavnced_skills: list[str]):
     items = []
     for line in adavnced_skills:
+        line = clear(line)
         if not line.strip():
             continue
 
@@ -284,7 +317,7 @@ def handle_img(backgroundName):
         )
         return backgroundImg
 
-    return "icons/svg/mystery-man.svg"
+    return "modules/troika-community-content/assets/tokens/backgrounds.svg"
 
 
 def clear_list(lines):
@@ -301,11 +334,11 @@ def clear(line: str, text=None):
     current = line
     if text:
         current = line.replace(text, "")
-    return current.replace("\n", "").replace('"', '\\"').strip()
+    return current.replace("\n", "").replace('"', '\\"').replace("–", "-").strip()
 
 
 def addBackground(lines):
-
+    global attributionJsonText
     name = clear(lines[0])
 
     possessionsLine = lines.index("POSSESSIONS:\n")
@@ -318,13 +351,18 @@ def addBackground(lines):
         specialLine = lines.index("SPECIAL\n")
         special = clear_list(lines[specialLine + 1 : attributionLine])
 
+    source = clear(lines[attributionLine][13:])
+    link = clear(lines[attributionLine + 1][5:])
+
+    attributionJsonText = f""""attribution": {{
+    "source": "{source} [Troika! Community Jam: Backgrounds {complement}]",
+    "link": "{link}"
+}}"""
+
     possessions = handle_possessions(lines[possessionsLine + 1 : advancedSkillsLine])
     advancedSkills = handle_advanced_skills(lines[advancedSkillsLine + 1 : specialLine])
 
     notes = clear_list(lines[1:possessionsLine])
-
-    source = clear(lines[attributionLine][13:])
-    link = clear(lines[attributionLine + 1][5:])
 
     allItems = ",\n".join(possessions + advancedSkills)
     items = f"[{allItems}]"
@@ -339,16 +377,13 @@ await Actor.create(
     img: "{img}",
     system: {{
         armour: {armour},
-        attribution: {{
-            source: "{source} [Troika! Community Jam: Backgrounds {complement}]",
-            link: "{link}"
-        }},
+        {attributionJsonText},
         special: "{special}",
         notes: "{notes}"
     }},
     items: {items},
     folder: moduleFolder.id
-}});"""
+}}, {{ pack:"troika-community-content.troika-community-content-backgrounds" }});"""
 
     command = (
         command.replace("True", "true")
@@ -361,7 +396,8 @@ await Actor.create(
 
 folder = sys.argv[1]
 complement = sys.argv[2]
-filter = sys.argv[3] if len(sys.argv) > 3 else ""
+filter = None # sys.argv[3] if len(sys.argv) > 3 else ""
+deleteExistingFolders = "--delete" in sys.argv
 
 result = [
     os.path.join(dp, f)
@@ -372,14 +408,30 @@ result = [
 if filter:
     result = [f for f in result if filter in f.lower()]
 
+
+
 with open("result.js", "w") as file:
+    if deleteExistingFolders:
+        file.write(f"""
+const moduleList = ["backgrounds", "skills", "spells", "gear"];
+for (const packName of moduleList) {{
+    moduleFolder = game.packs.get(`troika-community-content.troika-community-content-${{packName}}`).folders.getName("CJ: Backgrounds {complement}");
+    if (moduleFolder){{
+        console.log(packName, moduleFolder);
+        await moduleFolder.delete({{deleteSubfolders: true, deleteContents: true}});
+    }}
+}}
+""")
+
     file.write(
-        f"""moduleFolder = game.folders.getName("CJ: Backgrounds {complement}");
+        f"""moduleFolder = await game.packs.get("troika-community-content.troika-community-content-backgrounds").folders.getName("CJ: Backgrounds {complement}");
+
 if (moduleFolder == undefined){{
     moduleFolder = await Folder.create({{
         type: "Actor",
-        name: "CJ: Backgrounds {complement}"
-    }});
+        name: "CJ: Backgrounds {complement}",
+        color: "#AA0000"
+    }}, {{ pack:"troika-community-content.troika-community-content-backgrounds" }});
 }}
 """
     )
@@ -387,11 +439,84 @@ if (moduleFolder == undefined){{
 for file in result:
     errorList.clear()
     armour = 0
+
     with open(file, "r") as f:
         lines = f.readlines()
-    addBackground(lines)
-    if len(errorList):
-        print(clear(lines[0]))
-        for e in errorList:
-            print(f"- {e}")
-        print("=================================")
+    try:
+        addBackground(lines)
+        if len(errorList):
+            print(clear(lines[0]))
+            for e in errorList:
+                print(f"- {e}")
+            print("=================================")
+    except Exception as e:
+        print(file, e)
+
+
+
+with open("result.js", "a") as file:
+    file.write(
+        f"""
+moduleFolder = game.packs.get("troika-community-content.troika-community-content-skills").folders.getName("CJ: Backgrounds {complement}");
+
+if (moduleFolder == undefined){{
+    moduleFolder = await Folder.create({{
+        type: "Item",
+        name: "CJ: Backgrounds {complement}",
+        color: "#AA0000"
+    }}, {{ pack:"troika-community-content.troika-community-content-skills" }});
+}}
+await Item.createDocuments([
+"""
+    )
+
+    for newSkill in newSkillList:
+        newSkill = re.sub(rankRegex, "\"rank\": \"1\"", newSkill)
+        file.write(f"""{newSkill[:-2]}
+    folder: moduleFolder.id }},
+""")
+    file.write('], { pack:"troika-community-content.troika-community-content-skills" });')
+
+    file.write(
+        f"""
+moduleFolder = game.packs.get("troika-community-content.troika-community-content-spells").folders.getName("CJ: Backgrounds {complement}");
+
+if (moduleFolder == undefined){{
+    moduleFolder = await Folder.create({{
+        type: "Item",
+        name: "CJ: Backgrounds {complement}",
+        color: "#AA0000"
+    }}, {{ pack:"troika-community-content.troika-community-content-spells" }});
+}}
+await Item.createDocuments([
+"""
+    )
+
+    for newSpell in newSpellList:
+        newSpell = re.sub(rankRegex, "\"rank\": \"1\"", newSpell)
+        file.write(f"""{newSpell[:-2]}
+    folder: moduleFolder.id }},
+""")
+    file.write('], { pack:"troika-community-content.troika-community-content-spells" });')
+
+    file.write(
+        f"""
+moduleFolder = game.packs.get("troika-community-content.troika-community-content-gear").folders.getName("CJ: Backgrounds {complement}");
+
+if (moduleFolder == undefined){{
+    moduleFolder = await Folder.create({{
+        type: "Item",
+        name: "CJ: Backgrounds {complement}",
+        color: "#AA0000"
+    }}, {{ pack:"troika-community-content.troika-community-content-gear" }});
+}}
+await Item.createDocuments([
+"""
+    )
+
+    for newGear in newGearList:
+        file.write(f"""{newGear[:-2]}
+    folder: moduleFolder.id }},
+""")
+    file.write('], { pack:"troika-community-content.troika-community-content-gear" });')
+

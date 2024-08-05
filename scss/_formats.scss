@@ -62,7 +62,8 @@ div.page {
   @extend %page;
 }
 
-div.enemy {
+div.enemy,
+div.background {
   @extend %page;
   display: flex;
   flex-direction: row;
@@ -169,5 +170,11 @@ table {
         text-align: center;
       }
     }
+  }
+}
+
+ul {
+  p {
+    margin-bottom: 0;
   }
 }
