@@ -43,6 +43,13 @@ img {
   margin-bottom: 1em;
 }
 
+hr {
+  height: 3px;
+  $internalRed: #DD0000;
+  color: $internalRed;
+  background-color: $internalRed;
+}
+
 a.bookmark {
   text-decoration: none;
 }
@@ -163,5 +170,4 @@ table {
       }
     }
   }
-
 }

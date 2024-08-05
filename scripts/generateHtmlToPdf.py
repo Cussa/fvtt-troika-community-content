@@ -1,6 +1,7 @@
 import json
 import os
 import re
+from datetime import datetime
 
 
 nameRegex = re.compile(r"[^a-zA-Z0-9]")
@@ -58,7 +59,10 @@ def addNpc(npc):
     </div>
 </div>"""
 
-    link = f"""<li><a href="#{link}">{npc["name"]}</a></li>"""
+    author = system["attribution"]["source"][
+        : system["attribution"]["source"].index(" [") - 2
+    ]
+    link = f"""<li><a class="bookmark" href="https://index/Bestiary±{link}"><em>{npc["name"]}</em> by {author}</a></li>"""
 
     return [command, link]
 
@@ -72,6 +76,11 @@ result = [
 result.sort()
 info = []
 bestiaryList = []
+
+
+# datetime object containing current date and time
+now = datetime.now()
+dt_string = now.strftime("%m-%Y (%d.%H.%M)")
 
 for file in result:
 
@@ -100,22 +109,34 @@ with open("pdf.html", "w") as file:
 <li><a href="https://itch.io/jam/troika-community-jam-bestiary-2024" target="_blank">Troika! Community Jam: Bestiary 2024</a>
 </ul>
 <p>All creations included in this module were authorized by the authors.<br>Each author is attributed on the item created.</p>
+<p>Organization and compilation: <a href="https://discord.com/users/416651725060046859">Cussa Mitre</a><br>
+Layout and Cover Design: <a href="https://hodpub.com">Rodrigo Grola</a><br>
+<a href="https://hodpub.com" target="_blank">Hod Publishing</a><br>
+Cover Image: <a href="https://commons.wikimedia.org/wiki/File:James_Gillray_-_Weird_Sisters,_Ministers_of_Darkness,_Minions_of_the_Moon_(Thurlow,_Pitt,_and_Dundas)_-_B1981.25.853_-_Yale_Center_for_British_Art.jpg">James Gillray</a>, CC0, via Wikimedia Commons</p>
 
-<p class="italic">The Troika Community Content Foundry module is an independent production<br>by several creators and is not affiliated with the Melsonian Arts Council.</p>
-<img src="imgs/compatible-with-troika.png">
+<p class="italic">The Troika Community Content is an independent production<br>by several creators and is not affiliated with the Melsonian Arts Council.</p>
+<p>Download the Foundry Module with all the content for FREE here:<br><a href="https://foundryvtt.com/packages/troika-community-content">https://foundryvtt.com/packages/troika-community-content</a></p>
+<p>Version: {dt_string}</p>
+<img src="imgs/compatible-with-troika.png" style="width: 50%">
 </div>
 <table class="page">
-<thead><tr><td>Troika! Community Content</td></tr></thead>
-<tfoot><tr><td>Organized and Compiled by Cussa Mitre - Layout by Rodrigo Grola - Hod Publishing</td></tr></tfoot>
+<thead><tr><td><img src="assets/header.webp"></td></tr></thead>
+<tfoot><tr><td><hr>{dt_string}</td></tr></tfoot>
 <tbody><tr><td>
 <div class="title">
 <h1><a class="bookmark" href="https://group/Bestiary">Bestiary</a></h1>
 </div>
 {"".join(info)}
-<div class="title">
+<div class="page">
+<h1>Index</h1>
+<ul>
+{''.join(bestiaryList)}
+</ul>
+</div>
+<div class="page title">
 <h1>Thanks for supporting the Troika Community!</h1>
 </div>
-</td></tr></tfoot></table>
+</td></tr></tbody></table>
 </body>
 </html>
 """

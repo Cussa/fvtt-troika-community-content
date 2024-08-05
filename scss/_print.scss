@@ -19,12 +19,12 @@
     height: 100vh;
     text-align: center;
   }
-  // a.bookmark{
-  //   // display: none;
-  //   // visibility: hidden;
-  //   opacity: 0;
-  //   height: 0;
-  //   display: block;
-  //   // pointer-events: none;
-  // }
+
+  table {
+    td {
+      div.title {
+        height: 80vh;
+      }
+    }
+  }
 }
