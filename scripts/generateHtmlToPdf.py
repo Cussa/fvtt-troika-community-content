@@ -169,7 +169,7 @@ def addBackground(background):
     author = system["attribution"]["source"][
         : system["attribution"]["source"].index(" [") - 2
     ]
-    link = f"""<li><a class="bookmark" href="https://index/Backgrounds{link}"><em>{background["name"]}</em> by {author}</a></li>"""
+    link = f"""<li><a class="bookmark" href="https://index/Backgrounds±{link}"><em>{background["name"]}</em> by {author}</a></li>"""
 
     return [command, link]
 

@@ -22,7 +22,7 @@ bookmarkRoot = writer.add_outline_item("Troika! Community Content", 0)
 
 toc = {"Bestiary": {}, "Backgrounds": {}}
 
-colours = {"Bestiary": "#FCDAEE", "Bacgrounds": "#FCF9DA"}
+colours = {"Bestiary": "#FCDAEE", "Backgrounds": "#FCF9DA", "Index": "#FFFFFF"}
 
 currentColor = None
 
