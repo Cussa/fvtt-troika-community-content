@@ -8,10 +8,7 @@ Sources:
 All creations included in this module were authorized by the authors.
 Each author is attributed on the item created.
 
-Organization and compilation: [Cussa Mitre](https://discord.com/users/416651725060046859)
-Layout and Cover Design: [Rodrigo Grola](https://hodpub.com/)
-[Hod Publishing](https://hodpub.com/)
-Cover Image: [James Gillray](https://commons.wikimedia.org/wiki/File:James_Gillray_-_Weird_Sisters,_Ministers_of_Darkness,_Minions_of_the_Moon_(Thurlow,_Pitt,_and_Dundas)_-_B1981.25.853_-_Yale_Center_for_British_Art.jpg), CC0, via Wikimedia Commons
+Organization and compilation: [Cussa Mitre](https://discord.com/users/416651725060046859)<br>Layout and Cover Design: [Rodrigo Grola](https://hodpub.com/)<br>[Hod Publishing](https://hodpub.com/)<br>Cover Image: [James Gillray](https://commons.wikimedia.org/wiki/File:James_Gillray_-_Weird_Sisters,_Ministers_of_Darkness,_Minions_of_the_Moon_(Thurlow,_Pitt,_and_Dundas)_-_B1981.25.853_-_Yale_Center_for_British_Art.jpg), CC0, via Wikimedia Commons
 
 > *The Troika Community Content Foundry module is an independent production by several creators and is not affiliated with the Melsonian Arts Council.*
 
