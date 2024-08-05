@@ -64,7 +64,7 @@ def addNpc(npc):
 </div>"""
 
     author = system["attribution"]["source"][
-        : system["attribution"]["source"].index(" [") - 2
+        : system["attribution"]["source"].index(" [")
     ]
     link = f"""<li><a class="bookmark" href="https://index/Bestiary±{link}"><em>{npc["name"]}</em> by {author}</a></li>"""
 
@@ -167,7 +167,7 @@ def addBackground(background):
 </div>"""
 
     author = system["attribution"]["source"][
-        : system["attribution"]["source"].index(" [") - 2
+        : system["attribution"]["source"].index(" [")
     ]
     link = f"""<li><a class="bookmark" href="https://index/Backgrounds±{link}"><em>{background["name"]}</em> by {author}</a></li>"""
 
