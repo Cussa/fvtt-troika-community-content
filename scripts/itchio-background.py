@@ -396,8 +396,10 @@ await Actor.create(
 
 folder = sys.argv[1]
 complement = sys.argv[2]
-filter = None # sys.argv[3] if len(sys.argv) > 3 else ""
+filterIndex = sys.argv.index("--filter") if "--filter" in sys.argv else -1
+filter = sys.argv[filterIndex + 1] if filterIndex > -1 else ""
 deleteExistingFolders = "--delete" in sys.argv
+
 
 result = [
     os.path.join(dp, f)
@@ -409,10 +411,10 @@ if filter:
     result = [f for f in result if filter in f.lower()]
 
 
-
 with open("result.js", "w") as file:
     if deleteExistingFolders:
-        file.write(f"""
+        file.write(
+            f"""
 const moduleList = ["backgrounds", "skills", "spells", "gear"];
 for (const packName of moduleList) {{
     moduleFolder = game.packs.get(`troika-community-content.troika-community-content-${{packName}}`).folders.getName("CJ: Backgrounds {complement}");
@@ -421,7 +423,8 @@ for (const packName of moduleList) {{
         await moduleFolder.delete({{deleteSubfolders: true, deleteContents: true}});
     }}
 }}
-""")
+"""
+        )
 
     file.write(
         f"""moduleFolder = await game.packs.get("troika-community-content.troika-community-content-backgrounds").folders.getName("CJ: Backgrounds {complement}");
@@ -453,7 +456,6 @@ for file in result:
         print(file, e)
 
 
-
 with open("result.js", "a") as file:
     file.write(
         f"""
@@ -471,11 +473,15 @@ await Item.createDocuments([
     )
 
     for newSkill in newSkillList:
-        newSkill = re.sub(rankRegex, "\"rank\": \"1\"", newSkill)
-        file.write(f"""{newSkill[:-2]}
+        newSkill = re.sub(rankRegex, '"rank": "1"', newSkill)
+        file.write(
+            f"""{newSkill[:-2]}
     folder: moduleFolder.id }},
-""")
-    file.write('], { pack:"troika-community-content.troika-community-content-skills" });')
+"""
+        )
+    file.write(
+        '], { pack:"troika-community-content.troika-community-content-skills" });'
+    )
 
     file.write(
         f"""
@@ -493,11 +499,15 @@ await Item.createDocuments([
     )
 
     for newSpell in newSpellList:
-        newSpell = re.sub(rankRegex, "\"rank\": \"1\"", newSpell)
-        file.write(f"""{newSpell[:-2]}
+        newSpell = re.sub(rankRegex, '"rank": "1"', newSpell)
+        file.write(
+            f"""{newSpell[:-2]}
     folder: moduleFolder.id }},
-""")
-    file.write('], { pack:"troika-community-content.troika-community-content-spells" });')
+"""
+        )
+    file.write(
+        '], { pack:"troika-community-content.troika-community-content-spells" });'
+    )
 
     file.write(
         f"""
@@ -515,8 +525,9 @@ await Item.createDocuments([
     )
 
     for newGear in newGearList:
-        file.write(f"""{newGear[:-2]}
+        file.write(
+            f"""{newGear[:-2]}
     folder: moduleFolder.id }},
-""")
+"""
+        )
     file.write('], { pack:"troika-community-content.troika-community-content-gear" });')
-

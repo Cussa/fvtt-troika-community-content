@@ -1,0 +1,605 @@
+{
+  "name": "Indie Game Designer",
+  "type": "background",
+  "img": "modules/troika-community-content/assets/arts/backgrounds2024/indie-game-designer.webp",
+  "system": {
+    "armour": 0,
+    "attribution": {
+      "source": "Kirt A. Dankmyer (Ivanhoe Unbound) [Troika! Community Jam: Backgrounds 2024]",
+      "link": "https://xiombarg.itch.io/"
+    },
+    "special": "<p>Both of these abilities only work in an urban area that has access to other spheres (and their culture):</p><p>1. There's a joke that indie game designers pass around the same pence to each other to buy games. Every week, you may TEST YOUR LUCK. If you succeed, you earn 1 silver pence, profit from selling your games. If you failed, you spent that pence on a copy of someone else's game; add that to your inventory.</p><p>2. Depending on your \"day job,\" the GM might allow you to work for a day at that job. Every day you work, earn one silver pence. Each day, you may TEST YOUR LUCK. If you succeed, you earn an additional pence. If you fail, you earn nothing that day, but gain a copy of someone else's game; add that to your inventory. It's a deluxe edition!</p>",
+    "notes": "<p>You are an independent game designer; you design video games, tabletop roleplaying games, and/or board games. Your staff consists of you, yourself, and your own person. Sometimes you hire a collaborator or work together with a friend. You're in it for the love of the hobby, or so you tell yourself. You know a lot of other indie game designers, some personally, and many more by reputation. You also have (or recently had, you may have quit) a \"day job\" besides your game design gig that brought in enough money to live. Perhaps adventuring will be better? You may decide for yourself what your other job was, or roll 1d6 on the following table:</p><p>1: Retail, sales staff at Troika Toecovers (avant-garde shoe store)</p><p>2: Food service, short order cook at Night Pig's Repast (diner)</p><p>3: Office work, technical writer for Pretty Parchment LLC (print-on-demand company that serves the Parchment Witch community)</p><p>4: Illustrator at an advertising agency, Hradgimblot and Greck</p><p>5: First-year student at the Academy of Doors (don't know any spells yet)</p><p>6: Gig economy flying carriage driver, you rent your carriage and pegasi from Hoyst, a company that also provides you customers in return for a large cut of the profits</p>",
+    "skill": "1d3+3",
+    "stamina": "2d6+12",
+    "luck": "1d6+6",
+    "initiativeTokens": 2,
+    "monies": "2d6",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    }
+  },
+  "items": [
+    {
+      "name": "1d6 Pocket Gods",
+      "type": "gear",
+      "system": {
+        "inventorySlots": 1,
+        "equipped": true,
+        "quantity": 1,
+        "description": "",
+        "attribution": {
+          "source": "Kirt A. Dankmyer (Ivanhoe Unbound) [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://xiombarg.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "vOcxczW6QuyNoYuI",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!tbGv4D5Bv9UcgikG.vOcxczW6QuyNoYuI"
+    },
+    {
+      "name": "Copy of Your Game",
+      "type": "gear",
+      "img": "modules/troika-community-content/assets/tokens/item.svg",
+      "system": {
+        "description": "<p>Either a book, a handheld video game, or a box containing a board game</p>",
+        "inventorySlots": 1,
+        "equipped": true,
+        "quantity": 1,
+        "attribution": {
+          "source": "Kirt A. Dankmyer (Ivanhoe Unbound) [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://xiombarg.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "fds924PYXUkLntqJ",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!tbGv4D5Bv9UcgikG.fds924PYXUkLntqJ"
+    },
+    {
+      "name": "Copy of Someone Else's Game",
+      "type": "gear",
+      "img": "modules/troika-community-content/assets/tokens/item.svg",
+      "system": {
+        "description": "<p>A game by another designer that you admire, have worked with, or have a crush on</p>",
+        "inventorySlots": 1,
+        "equipped": true,
+        "quantity": 1,
+        "attribution": {
+          "source": "Kirt A. Dankmyer (Ivanhoe Unbound) [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://xiombarg.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "bRnug2nxaPiHHWMX",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!tbGv4D5Bv9UcgikG.bRnug2nxaPiHHWMX"
+    },
+    {
+      "name": "Heavy-Duty Adding Machine",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "attack": {
+          "dr1": "2",
+          "dr2": "4",
+          "dr3": "4",
+          "dr4": "6",
+          "dr5": "6",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "inventorySlots": 1,
+        "sortOrder": -1,
+        "canAttack": true,
+        "equipped": true,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 1,
+        "quantity": 1,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676774064882,
+        "modifiedTime": 1676827737964,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "wKwH60LudTt867Q2",
+      "_key": "!actors.items!tbGv4D5Bv9UcgikG.wKwH60LudTt867Q2"
+    },
+    {
+      "name": "Bag of polyhedral dice and tokens",
+      "type": "gear",
+      "img": "modules/troika-community-content/assets/tokens/item.svg",
+      "system": {
+        "description": "<p>For prototyping / brainstorming / playing games</p>",
+        "inventorySlots": 1,
+        "equipped": true,
+        "quantity": 1,
+        "attribution": {
+          "source": "Kirt A. Dankmyer (Ivanhoe Unbound) [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://xiombarg.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "fn1EHuNGToY2l4UU",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!tbGv4D5Bv9UcgikG.fn1EHuNGToY2l4UU"
+    },
+    {
+      "name": "Mathmology",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "description": "<p id=\"docs-internal-guid-56976a83-7fff-5674-fe85-6827a739c7d1\" dir=\"ltr\"><span id=\"docs-internal-guid-8c1f86c7-7fff-f2b2-c206-da5cdb4f829d\">Use this to gain insight into angles, pressures, numbers, and other such arcane arts. You could, for instance, Test your Mathmology to get a good idea of the surface tension of a ball of inert plasmic goo or to find the fulcrum for tripping a giant.</span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 3,
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Item.cF40jXjQ3ql3R4u4"
+        }
+      },
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676781942840,
+        "modifiedTime": 1676782632707,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "151aNq4cpkS9Zo1s",
+      "_key": "!actors.items!tbGv4D5Bv9UcgikG.151aNq4cpkS9Zo1s"
+    },
+    {
+      "name": "Secret Signs -- Memes",
+      "type": "skill",
+      "img": "modules/troika-community-content/assets/tokens/skill.svg",
+      "system": {
+        "description": "<p></p>",
+        "rank": 2,
+        "attribution": {
+          "source": "Kirt A. Dankmyer (Ivanhoe Unbound) [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://xiombarg.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "modifier": 0,
+        "improvement": false
+      },
+      "_id": "N5t41ea2UK4MYGPZ",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!tbGv4D5Bv9UcgikG.N5t41ea2UK4MYGPZ"
+    },
+    {
+      "name": "Job Skill",
+      "type": "skill",
+      "img": "modules/troika-community-content/assets/tokens/skill.svg",
+      "system": {
+        "description": "<p>Work out a skill with your GM related to your chosen non-designer \\\"day job\\\"</p>",
+        "rank": 2,
+        "attribution": {
+          "source": "Kirt A. Dankmyer (Ivanhoe Unbound) [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://xiombarg.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "modifier": 0,
+        "improvement": false
+      },
+      "_id": "pNhqPdeE4OWs9mMK",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!tbGv4D5Bv9UcgikG.pNhqPdeE4OWs9mMK"
+    },
+    {
+      "name": "Weapon Skill -- Swords",
+      "type": "skill",
+      "img": "modules/troika-community-content/assets/tokens/skill.svg",
+      "system": {
+        "description": "<p></p>",
+        "rank": 1,
+        "attribution": {
+          "source": "Kirt A. Dankmyer (Ivanhoe Unbound) [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://xiombarg.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "modifier": 0,
+        "improvement": false
+      },
+      "_id": "7kjRptYVhdcjC45U",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!tbGv4D5Bv9UcgikG.7kjRptYVhdcjC45U"
+    },
+    {
+      "name": "Weapon Skill -- Adding Machines",
+      "type": "skill",
+      "img": "modules/troika-community-content/assets/tokens/skill.svg",
+      "system": {
+        "description": "<p></p>",
+        "rank": 1,
+        "attribution": {
+          "source": "Kirt A. Dankmyer (Ivanhoe Unbound) [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://xiombarg.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "modifier": 0,
+        "improvement": false
+      },
+      "_id": "VSm3j3BFBnwxW3VZ",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!tbGv4D5Bv9UcgikG.VSm3j3BFBnwxW3VZ"
+    },
+    {
+      "name": "Decorative blade",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "attack": {
+          "dr1": "4",
+          "dr2": "4",
+          "dr3": "6",
+          "dr4": "6",
+          "dr5": "6",
+          "dr6": "6",
+          "dr7": "8"
+        },
+        "inventorySlots": 1,
+        "sortOrder": -1,
+        "canAttack": true,
+        "equipped": true,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0,
+        "quantity": 1,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.troika.troika-srd-weapons.Item.IS2sMKcvIOs65lkN"
+        }
+      },
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "1.5.0",
+        "coreVersion": "11.315",
+        "createdTime": 1676773855160,
+        "modifiedTime": 1722886622306,
+        "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+      },
+      "_id": "a3KM1yGbTyt6NHjZ",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3,
+        "7IDFZvOGXqWmmgkb": 3
+      },
+      "_key": "!actors.items!tbGv4D5Bv9UcgikG.a3KM1yGbTyt6NHjZ"
+    }
+  ],
+  "folder": "c7N2ahSL70XGOxrU",
+  "_id": "tbGv4D5Bv9UcgikG",
+  "prototypeToken": {
+    "name": "Indie Game Designer",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1722886559855,
+    "modifiedTime": 1722886622306,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!tbGv4D5Bv9UcgikG"
+}
