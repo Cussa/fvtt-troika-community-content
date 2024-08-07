@@ -56,7 +56,8 @@
       "p10": false,
       "p11": false,
       "p12": false
-    }
+    },
+    "mien": ""
   },
   "items": [
     {
@@ -106,7 +107,7 @@
   ],
   "folder": "Ek1HYsdcAISGniy4",
   "_id": "ORKGnCljWjA9aqzN",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/troika-community-content/assets/arts/bestiary2024/anti-dumpty.webp",
   "prototypeToken": {
     "name": "Anti Dumpty",
     "displayName": 0,
@@ -114,12 +115,13 @@
     "appendNumber": false,
     "prependAdjective": false,
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "modules/troika-community-content/assets/arts/bestiary2024/anti-dumpty.webp",
       "scaleX": 1,
       "scaleY": 1,
       "offsetX": 0,
       "offsetY": 0,
-      "rotation": 0
+      "rotation": 0,
+      "tint": null
     },
     "width": 1,
     "height": 1,
@@ -132,7 +134,7 @@
       "attribute": "stamina"
     },
     "bar2": {
-      "attribute": "luck"
+      "attribute": null
     },
     "light": {
       "alpha": 0.5,
@@ -154,7 +156,8 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "color": null
     },
     "sight": {
       "enabled": false,
@@ -164,7 +167,8 @@
       "attenuation": 0.1,
       "brightness": 0,
       "saturation": 0,
-      "contrast": 0
+      "contrast": 0,
+      "color": null
     },
     "detectionModes": [],
     "flags": {},
@@ -182,7 +186,7 @@
     "systemVersion": "1.5.0",
     "coreVersion": "11.315",
     "createdTime": 1720426925116,
-    "modifiedTime": 1720427084613,
+    "modifiedTime": 1723063208695,
     "lastModifiedBy": "7IDFZvOGXqWmmgkb"
   },
   "_key": "!actors!ORKGnCljWjA9aqzN"

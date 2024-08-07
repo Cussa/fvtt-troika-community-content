@@ -1,5 +1,6 @@
 import json
 import os
+import sys
 
 
 def handle_damage(damageInfo):
@@ -34,6 +35,18 @@ def take_item_for_damage(weapon):
     with open(result[0], "r") as f:
         items = f.read()
     return f"[{items}]"
+
+
+def handle_img(originalFileName):
+    fileName = originalFileName.lower().replace(" ", "-")
+    img = f"./assets/arts/{folder}/{fileName}.webp"
+    if os.path.isfile(img):
+        img = (
+            f"modules/troika-community-content/assets/arts/{folder}/{fileName}.webp"
+        )
+        return img
+
+    return "modules/troika-community-content/assets/tokens/backgrounds.svg"
 
 
 def clear_list(lines):
@@ -79,11 +92,14 @@ def addMonster(lines):
         newSpecial = damageResult["special"]
         special = f"<p>{newSpecial}</p>{special}"
 
+    img = handle_img(name)
+
     command = f"""
 await Actor.create(
 {{
     name: '{name}',
     type: "npc",
+    img: "{img}",
     system: {{
         initiativeTokens: {initative},
         stamina: {{
@@ -140,11 +156,12 @@ await Actor.create(
         file.write(command)
 
 
+folder = sys.argv[1]
 result = [
     os.path.join(dp, f)
-    for dp, dn, filenames in os.walk(f"./submissions")
+    for dp, dn, filenames in os.walk(f"./submissions/{folder}")
     for f in filenames
-    #if not f.startswith("imported_")
+    if not f.startswith(".")
 ]
 
 with open("result.js", "w") as file:
@@ -160,6 +177,6 @@ if (moduleFolder == undefined){{
     )
 
 for file in result:
-    with open(file, "r") as f:
+    with open(file, "r", encoding="UTF-8") as f:
         lines = f.readlines()
     addMonster(lines)
