@@ -216,16 +216,17 @@ with open("pdf.html", "w") as file:
 <div class="title">
 <h1>Troika!<br>Community Content</h1>
 
-<p>The content from this module is created by the Troika Community,<br>via the <a href="https://cussa.itch.io/" target="_blank">Jams</a> organized by <a href="https://hodpub.com" target="_blank">Cussa Mitre/Hod Publishing</a> and other resources.</p>
+<p>The content from this module is created by the Troika Community,<br>via the <a href="https://itch.io/jams/hosted-by-cussa" target="_blank">Jams</a> organized by <a href="https://cussa.itch.io" target="_blank">Cussa Mitre/Hod Publishing</a> and other resources.</p>
 
 <p style="margin:0">Sources:</p>
 <ul style="margin:0; margin-bottom: 1em;">
 <li><a href="https://itch.io/jam/troika-community-jam-bestiary-2024" target="_blank">Troika! Community Jam: Bestiary 2024</a>
+<li><a href="https://itch.io/jam/troika-community-jam-backgrounds-2024" target="_blank">Troika! Community Jam: Backgrounds 2024</a>
 </ul>
 <p>All creations included in this module were authorized by the authors.<br>Each author is attributed on the item created.</p>
 <p>Organization and compilation: <a href="https://discord.com/users/416651725060046859">Cussa Mitre</a><br>
-Layout and Cover Design: <a href="https://hodpub.com">Rodrigo Grola</a><br>
-<a href="https://hodpub.com" target="_blank">Hod Publishing</a><br>
+Layout and Cover Design: <a href="https://hodpub.com" target="_blank">Rodrigo Grola</a><br>
+Publisher: <a href="https://hodpub.com" target="_blank">Hod Publishing</a><br>
 Cover Image: <a href="https://commons.wikimedia.org/wiki/File:James_Gillray_-_Weird_Sisters,_Ministers_of_Darkness,_Minions_of_the_Moon_(Thurlow,_Pitt,_and_Dundas)_-_B1981.25.853_-_Yale_Center_for_British_Art.jpg">James Gillray</a>, CC0, via Wikimedia Commons</p>
 
 <p class="italic">The Troika Community Content is an independent production<br>by several creators and is not affiliated with the Melsonian Arts Council.</p>
