@@ -227,7 +227,8 @@ with open("pdf.html", "w") as file:
 <p>Organization and compilation: <a href="https://discord.com/users/416651725060046859">Cussa Mitre</a><br>
 Layout and Cover Design: <a href="https://hodpub.com" target="_blank">Rodrigo Grola</a><br>
 Publisher: <a href="https://hodpub.com" target="_blank">Hod Publishing</a><br>
-Cover Image: <a href="https://commons.wikimedia.org/wiki/File:James_Gillray_-_Weird_Sisters,_Ministers_of_Darkness,_Minions_of_the_Moon_(Thurlow,_Pitt,_and_Dundas)_-_B1981.25.853_-_Yale_Center_for_British_Art.jpg">James Gillray</a>, CC0, via Wikimedia Commons</p>
+Cover Image: <a href="https://commons.wikimedia.org/wiki/File:James_Gillray_-_Weird_Sisters,_Ministers_of_Darkness,_Minions_of_the_Moon_(Thurlow,_Pitt,_and_Dundas)_-_B1981.25.853_-_Yale_Center_for_British_Art.jpg">James Gillray</a>, CC0, via Wikimedia Commons<br>
+Icons: Lorc, Delapouite, Willdabeast. Available on <a href="https://game-icons.net" target="_blank">https://game-icons.net</a></p>
 
 <p class="italic">The Troika Community Content is an independent production<br>by several creators and is not affiliated with the Melsonian Arts Council.</p>
 <p>Download the Foundry Module with all the content for FREE here:<br><a href="https://foundryvtt.com/packages/troika-community-content">https://foundryvtt.com/packages/troika-community-content</a></p>
