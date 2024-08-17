@@ -2,6 +2,7 @@ import json
 import os
 import re
 import sys
+from unidecode import unidecode
 
 
 errorList = []
@@ -61,12 +62,24 @@ def handle_srd_possession(possession):
     return item
 
 
-def handle_armour(possession):
+def handle_armour(possession: str):
     global armour
     parenthesis = possession.index("(")
     armourName = possession[2 : parenthesis - 1]
     armourValueIndex = possession.index(": ")
-    armourValue = possession[armourValueIndex + 2 : -1]
+    armourEndIndex = (
+        possession[armourValueIndex:].index(" -") if " -" in possession else -1
+    )
+    armourValue = ""
+
+    description = ""
+    if armourEndIndex > -1:
+        armourValue = possession[
+            armourValueIndex + 2 : armourValueIndex + armourEndIndex
+        ]
+        description = f"<p>{possession[armourValueIndex + armourEndIndex + 3 :-1]}</p>"
+    else:
+        armourValue = possession[armourValueIndex + 2 : -1]
 
     armour = armourValue
     return f"""
@@ -74,6 +87,7 @@ def handle_armour(possession):
         "name": "{armourName}",
         "type": "gear",
         "system": {{
+            "description": "{description}",
             "inventorySlots": {int(armourValue) * 2},
             "equipped": true,
             "armourProvided": {armourValue},
@@ -85,7 +99,9 @@ def handle_armour(possession):
 
 def handle_srd_weapon(possession):
     baseWeaponIndex = possession.lower().index("damage as")
-    baseWeaponName = possession[baseWeaponIndex + 10 : -2]
+    baseWeaponName = possession[baseWeaponIndex + 10 : -1]
+    if "beast" in baseWeaponName.lower():
+        baseWeaponName = f"damage_as_{baseWeaponName}"
     baseWeaponJson = find_json(baseWeaponName, "weapon")
 
     if not baseWeaponJson:
@@ -120,9 +136,7 @@ def handle_new_item(possession):
     if "(" not in possession:
         return handle_new_item_simple(possession)
 
-    newItemRegex = (
-        r"^- (?P<name>.*) \(slot:?\s?(?P<slot>.*?)(?: - (?P<description>.*?))?\).?\s?$"
-    )
+    newItemRegex = r"^- (?P<name>.*) \([Ss]lot:?\s?(?P<slot>.*?)(?: - (?P<description>.*?))?\).?\s?$"
     clearItem = clear(possession)
     itemMatch = re.match(newItemRegex, clearItem)
 
@@ -133,6 +147,8 @@ def handle_new_item(possession):
     itemName = itemMatch.group("name")
     slots = itemMatch.group("slot") or 1
     description = itemMatch.group("description") or ""
+    if description:
+        description = f"<p>{clear(description)}</p>"
 
     newGear = f"""
     {{
@@ -140,7 +156,7 @@ def handle_new_item(possession):
         "type": "gear",
         "img": "modules/troika-community-content/assets/tokens/item.svg",
         "system": {{
-            "description": "<p>{description}</p>",
+            "description": "{description}",
             "inventorySlots": {slots},
             "equipped": true,
             "quantity": 1,
@@ -193,7 +209,7 @@ def handle_srd_skill(skill: str):
 def handle_new_skill(skill: str):
     global attributionJsonText
     newItemRegex = r"^(?P<rank>\d*?) (?P<name>.*?)(?:\s\((?P<description>.*?)\))?$"
-    clearSkill = clear(skill)
+    clearSkill = skill
     itemMatch = re.match(newItemRegex, clearSkill)
 
     if not itemMatch:
@@ -204,13 +220,16 @@ def handle_new_skill(skill: str):
     rank = itemMatch.group("rank")
     description = itemMatch.group("description") or ""
 
+    if description:
+        description = f"<p>{description}</p>"
+
     newSkill = f"""
     {{
         "name": "{itemName}",
         "type": "skill",
         "img": "modules/troika-community-content/assets/tokens/skill.svg",
         "system": {{
-            "description": "<p>{description}</p>",
+            "description": "{description}",
             "rank": "{rank}",
             {attributionJsonText},
         }},
@@ -235,7 +254,11 @@ def handle_skill(skill: str):
 def handle_srd_spell(spell: str):
     spaceIndex = spell.index(" ")
     item = find_json(
-        clear(spell[spaceIndex + 1 :]).lower().replace("spell - ", ""), "spell"
+        clear(spell[spaceIndex + 1 :])
+        .lower()
+        .replace("'", "_")
+        .replace("spell - ", ""),
+        "spell",
     )
     if not item:
         return item
@@ -244,9 +267,36 @@ def handle_srd_spell(spell: str):
     return item
 
 
+def handle_attack_spell(spell, spell_description: str):
+    if not spell_description.startswith("<p>damage: "):
+        return ""
+
+    damageRegex = r"\[(?P<damage>.*?)\]"
+    itemMatch = re.search(damageRegex, spell_description)
+
+    if not itemMatch:
+        errorList.append(f'NEW SPELL "{spell}" has format error')
+        return None
+
+    damageList = itemMatch.group("damage").split(",")
+
+    return f"""
+"canAttack": true,
+"attack": {{
+      "dr1": "{damageList[0].strip()}",
+      "dr2": "{damageList[1].strip()}",
+      "dr3": "{damageList[2].strip()}",
+      "dr4": "{damageList[3].strip()}",
+      "dr5": "{damageList[4].strip()}",
+      "dr6": "{damageList[5].strip()}",
+      "dr7": "{damageList[6].strip()}",
+    }},
+"""
+
+
 def handle_new_spell(spell: str):
     global attributionJsonText
-    newSpellRegex = r"^(?P<rank>\d*?) Spell [–-] (?P<name>.*?) \((?P<cost>\d*?) -\s?(?P<description>.*?)\)$"
+    newSpellRegex = r"^(?P<rank>\d*?) Spell [–-] (?P<name>.*?) \((?P<cost>.*?) -\s?(?P<description>.*?)\)$"
     clearSpell = clear(spell)
     itemMatch = re.match(newSpellRegex, clearSpell)
 
@@ -257,11 +307,18 @@ def handle_new_spell(spell: str):
     itemName = itemMatch.group("name")
     rank = itemMatch.group("rank")
     cost = itemMatch.group("cost")
-    description = itemMatch.group("description")
+    description = clear(itemMatch.group("description"))
+    if description:
+        description = f"<p>{description}</p>"
 
     if not cost or not description:
         errorList.append(f'NEW SPELL "{clearSpell}" has format error')
         return None
+
+    attackInfo = handle_attack_spell(spell, description)
+    if attackInfo:
+        descIndex = description.index("-")
+        description = f"<p>{description[descIndex+2:]}"
 
     newSpell = f"""
     {{
@@ -269,10 +326,11 @@ def handle_new_spell(spell: str):
         "type": "spell",
         "img": "modules/troika-community-content/assets/tokens/spell.svg",
         "system": {{
-            "description": "<p>{description}</p>",
+            "description": "{description}",
             "rank": "{rank}",
             "castingCost": "{cost}",
             {attributionJsonText},
+            {attackInfo}
         }},
     }}
 """
@@ -289,7 +347,7 @@ def handle_spell(spell: str):
 
 
 def handle_advanced_skill(advanced_skill: str):
-    if "spell" in advanced_skill.lower():
+    if "spell - " in advanced_skill.lower():
         return handle_spell(advanced_skill)
 
     return handle_skill(advanced_skill)
@@ -309,7 +367,7 @@ def handle_advanced_skills(adavnced_skills: list[str]):
 
 
 def handle_img(backgroundName):
-    fileName = backgroundName.lower().replace(" ", "-")
+    fileName = unidecode(backgroundName.lower().replace(" ", "-").replace(",", "").replace("[", "").replace("]", ""))
     backgroundImg = f"./assets/arts/{folder}/{fileName}.webp"
     if os.path.isfile(backgroundImg):
         backgroundImg = (
@@ -409,6 +467,8 @@ result = [
 
 if filter:
     result = [f for f in result if filter in f.lower()]
+
+result = sorted(result, key=str.casefold)
 
 
 with open("result.js", "w") as file:

@@ -1,0 +1,514 @@
+{
+  "name": "Brine Baron",
+  "type": "background",
+  "img": "modules/troika-community-content/assets/arts/backgrounds2024/brine-baron.webp",
+  "system": {
+    "armour": 0,
+    "attribution": {
+      "source": "Hunter Herminath [Troika! Community Jam: Backgrounds 2024]",
+      "link": "https://thatoneguy3200.itch.io/"
+    },
+    "special": "<p>Holding a food item in your hand for d6 minutes will completely pickle it.</p>",
+    "notes": "<p>If food can be soaked in brine to extend its shelf life, why not soak oneself in the brine barrel for a lengthy lifespan? You couldn’t argue with that logic. After countless nights pickling away in your brine barrel, you have extended your lifespan. Sure, you now reek of dill and vinegar and your skin is as sallow as a pickled garlic, but at least you had an additional two years added to your lifespan!</p>",
+    "skill": "1d3+3",
+    "stamina": "2d6+12",
+    "luck": "1d6+6",
+    "initiativeTokens": 2,
+    "monies": "2d6",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    }
+  },
+  "items": [
+    {
+      "name": "2d6 *Cucumbers or Eggs*",
+      "type": "gear",
+      "img": "modules/troika-community-content/assets/tokens/item.svg",
+      "system": {
+        "description": "<p>Consuming 2 counts as one ration</p>",
+        "inventorySlots": 1,
+        "equipped": true,
+        "quantity": 1,
+        "attribution": {
+          "source": "Hunter Herminath [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://thatoneguy3200.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "okpmlILAuYe66KrJ",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!wIaaEsS7klnFzln9.okpmlILAuYe66KrJ"
+    },
+    {
+      "name": "2 *Jars*",
+      "type": "gear",
+      "img": "modules/troika-community-content/assets/tokens/item.svg",
+      "system": {
+        "description": "<p>Good for holding liquads and pickles</p>",
+        "inventorySlots": 1,
+        "equipped": true,
+        "quantity": 1,
+        "attribution": {
+          "source": "Hunter Herminath [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://thatoneguy3200.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "fOimqGPNW1IL6QHP",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!wIaaEsS7klnFzln9.fOimqGPNW1IL6QHP"
+    },
+    {
+      "name": "Half a kilo of *Dill*",
+      "type": "gear",
+      "img": "modules/troika-community-content/assets/tokens/item.svg",
+      "system": {
+        "description": "<p>Why did you need to bring so much dill?</p>",
+        "inventorySlots": 1,
+        "equipped": true,
+        "quantity": 1,
+        "attribution": {
+          "source": "Hunter Herminath [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://thatoneguy3200.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "uiYXqHcs9lJiU0MN",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!wIaaEsS7klnFzln9.uiYXqHcs9lJiU0MN"
+    },
+    {
+      "name": "Club",
+      "type": "gear",
+      "system": {
+        "inventorySlots": 1,
+        "equipped": true,
+        "quantity": 1,
+        "description": "",
+        "attribution": {
+          "source": "Hunter Herminath [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://thatoneguy3200.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "uBv3HXKx2nOHyklc",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!wIaaEsS7klnFzln9.uBv3HXKx2nOHyklc"
+    },
+    {
+      "name": "*An Extra Two Years*",
+      "type": "gear",
+      "img": "modules/troika-community-content/assets/tokens/item.svg",
+      "system": {
+        "description": "<p>Which took you about three years in the barrel to get</p>",
+        "inventorySlots": 0,
+        "equipped": true,
+        "quantity": 1,
+        "attribution": {
+          "source": "Hunter Herminath [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://thatoneguy3200.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "FkrDyoN9CaqhNZl6",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!wIaaEsS7klnFzln9.FkrDyoN9CaqhNZl6"
+    },
+    {
+      "name": "Pickling",
+      "type": "skill",
+      "img": "modules/troika-community-content/assets/tokens/skill.svg",
+      "system": {
+        "description": "<p>The knowledge and skill for pickling food items</p>",
+        "rank": 3,
+        "attribution": {
+          "source": "Hunter Herminath [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://thatoneguy3200.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "modifier": 0,
+        "improvement": false
+      },
+      "_id": "7eGcexGxksZCnLQk",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!wIaaEsS7klnFzln9.7eGcexGxksZCnLQk"
+    },
+    {
+      "name": "Hold Breath",
+      "type": "skill",
+      "img": "modules/troika-community-content/assets/tokens/skill.svg",
+      "system": {
+        "description": "<p>for holding breathe underwater or in brine</p>",
+        "rank": 2,
+        "attribution": {
+          "source": "Hunter Herminath [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://thatoneguy3200.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "modifier": 0,
+        "improvement": false
+      },
+      "_id": "eqyhF0ryZwSlKZyQ",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!wIaaEsS7klnFzln9.eqyhF0ryZwSlKZyQ"
+    },
+    {
+      "name": "Club Fighting",
+      "type": "skill",
+      "img": "modules/troika-community-content/assets/tokens/skill.svg",
+      "system": {
+        "description": "",
+        "rank": 2,
+        "attribution": {
+          "source": "Hunter Herminath [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://thatoneguy3200.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "modifier": 0,
+        "improvement": false
+      },
+      "_id": "cLMATioS9K4hfJve",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!wIaaEsS7klnFzln9.cLMATioS9K4hfJve"
+    },
+    {
+      "name": "Stealth",
+      "type": "skill",
+      "img": "modules/troika-community-content/assets/tokens/skill.svg",
+      "system": {
+        "description": "",
+        "rank": 1,
+        "attribution": {
+          "source": "Hunter Herminath [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://thatoneguy3200.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "modifier": 0,
+        "improvement": false
+      },
+      "_id": "OLI4OW9zHpubLTRQ",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!wIaaEsS7klnFzln9.OLI4OW9zHpubLTRQ"
+    }
+  ],
+  "folder": "VQDsap64MLlBCSLh",
+  "_id": "wIaaEsS7klnFzln9",
+  "prototypeToken": {
+    "name": "Brine Baron",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1723905256025,
+    "modifiedTime": 1723905256025,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!wIaaEsS7klnFzln9"
+}

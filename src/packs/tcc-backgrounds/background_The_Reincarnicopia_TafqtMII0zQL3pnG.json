@@ -1,0 +1,597 @@
+{
+  "name": "The Reincarnicopia",
+  "type": "background",
+  "img": "modules/troika-community-content/assets/tokens/backgrounds.svg",
+  "system": {
+    "armour": 0,
+    "attribution": {
+      "source": "Wilderwhim [Troika! Community Jam: Backgrounds 2024]",
+      "link": "https://wilderwhim.itch.io/"
+    },
+    "special": "<p>When you roll The Reincarnicopia, you must immediately roll (or choose) another background that you will rejuvenate into in the event that you die. This character is functionally the same as rolling the background for the first time except that they inherit all memories of The Reincarnicopia and their past lives as well as any advanced skill from their list at a rank of one.</p><p>At GM’s discretion, The Reincarnicopia may take a mortal blow in the place of another party member. The Reincarnicopia is obliged to do this if possible.</p>",
+    "notes": "<p>The Timescape is home to many planar drifting loners, but you are the loneliest and driftiest. For eternity you have stood by watching from afar. You’ve witnessed all friends and acquaintances wither and die over time. The concept of age has lost meaning, given that everytime you “die”- you rejuvenate into a being with a new personality and values. You do remember in a strange distant kind of way, what happened in your past lives. Impressions and images locked behind bulletproof glass. More immediate is that you feel in your very bones, that the next life will be your last. You desperately want to spend it with this colorful band of weirdos on a road trip to save the multiverse, and everyone else’s chance at future life and love.</p>",
+    "skill": "1d3+3",
+    "stamina": "2d6+12",
+    "luck": "1d6+6",
+    "initiativeTokens": 2,
+    "monies": "2d6",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    }
+  },
+  "items": [
+    {
+      "name": "Well Tailored Fine Clothes",
+      "type": "gear",
+      "system": {
+        "inventorySlots": 1,
+        "equipped": true,
+        "quantity": 1,
+        "description": "",
+        "attribution": {
+          "source": "Wilderwhim [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://wilderwhim.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "4w7hoLmYgJCf4oZq",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!TafqtMII0zQL3pnG.4w7hoLmYgJCf4oZq"
+    },
+    {
+      "name": "The Velare",
+      "type": "gear",
+      "img": "modules/troika-community-content/assets/tokens/item.svg",
+      "system": {
+        "description": "<p>Beautiful Bolo Tie</p>",
+        "inventorySlots": 1,
+        "equipped": true,
+        "quantity": 1,
+        "attribution": {
+          "source": "Wilderwhim [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://wilderwhim.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "izJdbguoy30grbnO",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!TafqtMII0zQL3pnG.izJdbguoy30grbnO"
+    },
+    {
+      "name": "Nanotech Multitool",
+      "type": "gear",
+      "img": "modules/troika-community-content/assets/tokens/item.svg",
+      "system": {
+        "description": "<p>Can Transform into Any Mundane Hand Tool</p>",
+        "inventorySlots": 1,
+        "equipped": true,
+        "quantity": 1,
+        "attribution": {
+          "source": "Wilderwhim [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://wilderwhim.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "zZCKL1vJyZUGL53T",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!TafqtMII0zQL3pnG.zZCKL1vJyZUGL53T"
+    },
+    {
+      "name": "Chronicle of Your Past Lives",
+      "type": "gear",
+      "system": {
+        "inventorySlots": 1,
+        "equipped": true,
+        "quantity": 1,
+        "description": "",
+        "attribution": {
+          "source": "Wilderwhim [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://wilderwhim.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "5MWDWQBBbFTMa0pO",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!TafqtMII0zQL3pnG.5MWDWQBBbFTMa0pO"
+    },
+    {
+      "name": "Undo",
+      "type": "spell",
+      "img": "icons/svg/daze.svg",
+      "system": {
+        "description": "<p><span dir=\"ltr\" role=\"presentation\">The wizard disentangles a Spell from this instance of reality. To do so they</span><br role=\"presentation\"><span dir=\"ltr\" role=\"presentation\">must Roll Versus the original casting if disentanglement is possible at all.</span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 2,
+        "castingCost": "double cost of original Spell",
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1674434956209,
+        "modifiedTime": 1676771738846,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "v4Av6Uz8BD611LfD",
+      "_key": "!actors.items!TafqtMII0zQL3pnG.v4Av6Uz8BD611LfD"
+    },
+    {
+      "name": "Languages",
+      "type": "spell",
+      "img": "icons/svg/daze.svg",
+      "system": {
+        "description": "<p><span dir=\"ltr\" role=\"presentation\">The wizard forms a mouth with their hands through which they can speak </span><span dir=\"ltr\" role=\"presentation\">any language. They can simultaneously cup their other hand to their ear to </span><span dir=\"ltr\" role=\"presentation\">understand them in return. Lasts for one conversation.</span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 1,
+        "castingCost": "1",
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676769929160,
+        "modifiedTime": 1676771738841,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "yPR9q77i5InhPqtB",
+      "_key": "!actors.items!TafqtMII0zQL3pnG.yPR9q77i5InhPqtB"
+    },
+    {
+      "name": "Open",
+      "type": "spell",
+      "img": "icons/svg/daze.svg",
+      "system": {
+        "description": "<p><span dir=\"ltr\" role=\"presentation\">The wizard chooses a reality wherein the lock was open all along. May be </span><span dir=\"ltr\" role=\"presentation\">used to open any mundane door or container and counteract a Lock Spell.</span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 1,
+        "castingCost": "1",
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676770163294,
+        "modifiedTime": 1676771738842,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "TSPbsyBxyBGqYmrv",
+      "_key": "!actors.items!TafqtMII0zQL3pnG.TSPbsyBxyBGqYmrv"
+    },
+    {
+      "name": "Astrology",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "description": "<p id=\"docs-internal-guid-56976a83-7fff-5674-fe85-6827a739c7d1\" dir=\"ltr\">An essential Skill for anyone intent on travelling the stars. Can be used to identify stars and constellations, to gather hints on the destination of interdimensional portals, and to make star charts.</p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 3,
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Item.cF40jXjQ3ql3R4u4"
+        }
+      },
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676781942840,
+        "modifiedTime": 1676782632705,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "ZzzP5Ckn5LF9fq7T",
+      "_key": "!actors.items!TafqtMII0zQL3pnG.ZzzP5Ckn5LF9fq7T"
+    },
+    {
+      "name": "Evaluate",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "description": "<p id=\"docs-internal-guid-56976a83-7fff-5674-fe85-6827a739c7d1\" dir=\"ltr\"><span id=\"docs-internal-guid-a1079852-7fff-3eaf-a6d2-2e51045fe9f2\">Test this to get an idea of how much something is worth.</span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 1,
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Item.cF40jXjQ3ql3R4u4"
+        }
+      },
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676781942840,
+        "modifiedTime": 1676782632706,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "nuLo9D4LXthr8T6R",
+      "_key": "!actors.items!TafqtMII0zQL3pnG.nuLo9D4LXthr8T6R"
+    },
+    {
+      "name": "Healing",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "description": "<p id=\"docs-internal-guid-56976a83-7fff-5674-fe85-6827a739c7d1\" dir=\"ltr\"><span id=\"docs-internal-guid-2f95264f-7fff-2b0e-8399-2b0d43c28e66\">Used to stitch wounds and apply ointments, stop bleeding, slow poison and the like. Also used for stabilising dying people.</span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 1,
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Item.cF40jXjQ3ql3R4u4"
+        }
+      },
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676781942840,
+        "modifiedTime": 1676782632706,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "0JW5Y798bCzhJaaN",
+      "_key": "!actors.items!TafqtMII0zQL3pnG.0JW5Y798bCzhJaaN"
+    },
+    {
+      "name": "Secret Signs - Paradox Geometry",
+      "type": "skill",
+      "img": "modules/troika-community-content/assets/tokens/skill.svg",
+      "system": {
+        "description": "",
+        "rank": 1,
+        "attribution": {
+          "source": "Wilderwhim [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://wilderwhim.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "modifier": 0,
+        "improvement": false
+      },
+      "_id": "ps077dNXmHtUUkkE",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!TafqtMII0zQL3pnG.ps077dNXmHtUUkkE"
+    }
+  ],
+  "folder": "VQDsap64MLlBCSLh",
+  "_id": "TafqtMII0zQL3pnG",
+  "prototypeToken": {
+    "name": "The Reincarnicopia",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1723905257004,
+    "modifiedTime": 1723905257004,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!TafqtMII0zQL3pnG"
+}

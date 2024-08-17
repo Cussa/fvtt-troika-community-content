@@ -1,0 +1,329 @@
+{
+  "name": "Bookburner",
+  "type": "background",
+  "img": "modules/troika-community-content/assets/tokens/backgrounds.svg",
+  "system": {
+    "armour": 0,
+    "attribution": {
+      "source": "Robin Gibson [Troika! Community Jam: Backgrounds 2024]",
+      "link": "http://www.metalsnail.net/"
+    },
+    "special": "<p>Burning a book restores Stamina like eating a provision.</p>",
+    "notes": "<p>The fire and brimstone of your sermons became literal at some point, holy books and hymnals catching light during Sunday service, the flickering light of the conflagration illuminating the hidden truth of the folly of man. What is the written word but an affront to the true Word?</p>",
+    "skill": "1d3+3",
+    "stamina": "2d6+12",
+    "luck": "1d6+6",
+    "initiativeTokens": 2,
+    "monies": "2d6",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    }
+  },
+  "items": [
+    {
+      "name": "Soot-stained holy robes",
+      "type": "gear",
+      "system": {
+        "inventorySlots": 1,
+        "equipped": true,
+        "quantity": 1,
+        "description": "",
+        "attribution": {
+          "source": "Robin Gibson [Troika! Community Jam: Backgrounds 2024]",
+          "link": "http://www.metalsnail.net/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "hmpg38MdTpoin6ht",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!i6L0P6rk5PcveXYi.hmpg38MdTpoin6ht"
+    },
+    {
+      "name": "Brass brazier",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "4",
+          "dr5": "4",
+          "dr6": "6",
+          "dr7": "8"
+        },
+        "inventorySlots": 1,
+        "sortOrder": -1,
+        "canAttack": true,
+        "equipped": true,
+        "armourProvided": 1,
+        "requiresTwoHands": false,
+        "armourIgnored": 0,
+        "quantity": 1,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676774287404,
+        "modifiedTime": 1676827737964,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "t7nxT5ka2hLLiYmv",
+      "_key": "!actors.items!i6L0P6rk5PcveXYi.t7nxT5ka2hLLiYmv"
+    },
+    {
+      "name": "Find",
+      "type": "spell",
+      "img": "icons/svg/daze.svg",
+      "system": {
+        "description": "<p><span dir=\"ltr\" role=\"presentation\">When wizards lose their glasses they mumble to themselves until they </span><span dir=\"ltr\" role=\"presentation\">turn up. The thing being sought must be a specific object, not a general </span><span dir=\"ltr\" role=\"presentation\">category or type, and the direction is only given in terms of compass points.</span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 4,
+        "castingCost": "2",
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676769501489,
+        "modifiedTime": 1676771738840,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "tLCZNUhhMNyEcJHN",
+      "_key": "!actors.items!i6L0P6rk5PcveXYi.tLCZNUhhMNyEcJHN"
+    },
+    {
+      "name": "Ember",
+      "type": "spell",
+      "img": "icons/svg/daze.svg",
+      "system": {
+        "description": "<p><span dir=\"ltr\" role=\"presentation\">A simple but effective summoning of fire. Flames the size of a small bonfire </span><span dir=\"ltr\" role=\"presentation\">appear somewhere within 12 metres of the wizard. Once present there is </span><span dir=\"ltr\" role=\"presentation\">no accounting for its actions.</span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 4,
+        "castingCost": "2",
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676769291271,
+        "modifiedTime": 1676771738839,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "CHo1nkhDKnA8Jdid",
+      "_key": "!actors.items!i6L0P6rk5PcveXYi.CHo1nkhDKnA8Jdid"
+    },
+    {
+      "name": "Firebolt",
+      "type": "spell",
+      "img": "icons/svg/fire.svg",
+      "system": {
+        "description": "<p id=\"docs-internal-guid-adb37a32-7fff-f5cb-c40b-70276d0bd742\" dir=\"ltr\">Shoot impressive flames from your fingertips, dealing Damage to one target within 20 metres.&nbsp;</p>",
+        "attack": {
+          "dr1": "3",
+          "dr2": "3",
+          "dr3": "5",
+          "dr4": "7",
+          "dr5": "9",
+          "dr6": "12",
+          "dr7": "16"
+        },
+        "rank": 2,
+        "castingCost": "1",
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": true,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1673720730764,
+        "modifiedTime": 1676771738840,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "g7z0Gm1bRi4JZf5E",
+      "_key": "!actors.items!i6L0P6rk5PcveXYi.g7z0Gm1bRi4JZf5E"
+    }
+  ],
+  "folder": "VQDsap64MLlBCSLh",
+  "_id": "i6L0P6rk5PcveXYi",
+  "prototypeToken": {
+    "name": "Bookburner",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1723905255980,
+    "modifiedTime": 1723905255980,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!i6L0P6rk5PcveXYi"
+}

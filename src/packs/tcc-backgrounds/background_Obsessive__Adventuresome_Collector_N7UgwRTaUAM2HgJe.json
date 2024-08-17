@@ -1,0 +1,648 @@
+{
+  "name": "Obsessive, Adventuresome Collector",
+  "type": "background",
+  "img": "modules/troika-community-content/assets/arts/backgrounds2024/obsessive-adventuresome-collector.webp",
+  "system": {
+    "armour": 0,
+    "attribution": {
+      "source": "Evey Lockhart [Troika! Community Jam: Backgrounds 2024]",
+      "link": "https://violentmedia.itch.io/"
+    },
+    "special": "<p>Your Magical Portmanteau opens only for you. It can contain an infinite number of things so long as they are all related to your Collection.</p>",
+    "notes": "<p>O, it's always been a thing with you, collecting. Kids collecting pressed flowers, crow bones, or good rocks, that's just childhood. You're beyond that. You were always beyond that.</p><p>The things you collect become pieces of your soul. Every item lost remains a pain remembered. You NEED your things.</p><p>Now, a whole multiverse's worth of your singular passion awaits.</p>",
+    "skill": "1d3+3",
+    "stamina": "2d6+12",
+    "luck": "1d6+6",
+    "initiativeTokens": 2,
+    "monies": "2d6",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    }
+  },
+  "items": [
+    {
+      "name": "Collection Housing Magical Portmanteau",
+      "type": "gear",
+      "system": {
+        "inventorySlots": 1,
+        "equipped": true,
+        "quantity": 1,
+        "description": "",
+        "attribution": {
+          "source": "Evey Lockhart [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://violentmedia.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "Fv7CH0NtmfOkA9XR",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!N7UgwRTaUAM2HgJe.Fv7CH0NtmfOkA9XR"
+    },
+    {
+      "name": "Incomplete Collection",
+      "type": "gear",
+      "system": {
+        "inventorySlots": 1,
+        "equipped": true,
+        "quantity": 1,
+        "description": "",
+        "attribution": {
+          "source": "Evey Lockhart [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://violentmedia.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "Pwv68XturOMwcqDV",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!N7UgwRTaUAM2HgJe.Pwv68XturOMwcqDV"
+    },
+    {
+      "name": "Jeweler's Loupe",
+      "type": "gear",
+      "system": {
+        "inventorySlots": 1,
+        "equipped": true,
+        "quantity": 1,
+        "description": "",
+        "attribution": {
+          "source": "Evey Lockhart [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://violentmedia.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "pQr7wwgwr9rLMvTv",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!N7UgwRTaUAM2HgJe.pQr7wwgwr9rLMvTv"
+    },
+    {
+      "name": "Several Notebooks and Pens",
+      "type": "gear",
+      "system": {
+        "inventorySlots": 1,
+        "equipped": true,
+        "quantity": 1,
+        "description": "",
+        "attribution": {
+          "source": "Evey Lockhart [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://violentmedia.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "eOidQ5VJ6ffppsSF",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!N7UgwRTaUAM2HgJe.eOidQ5VJ6ffppsSF"
+    },
+    {
+      "name": "3 Bottles of Your Favorite Beverage",
+      "type": "gear",
+      "system": {
+        "inventorySlots": 1,
+        "equipped": true,
+        "quantity": 1,
+        "description": "",
+        "attribution": {
+          "source": "Evey Lockhart [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://violentmedia.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "G8FhxREvjUKI8YMC",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!N7UgwRTaUAM2HgJe.G8FhxREvjUKI8YMC"
+    },
+    {
+      "name": "Lead-weighted Cestus",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "attack": {
+          "dr1": "1",
+          "dr2": "1",
+          "dr3": "2",
+          "dr4": "3",
+          "dr5": "6",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "inventorySlots": 1,
+        "sortOrder": -1,
+        "canAttack": true,
+        "equipped": true,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0,
+        "quantity": 1,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676774220443,
+        "modifiedTime": 1676827737962,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "sY4XhR8x0UP1XTWf",
+      "_key": "!actors.items!N7UgwRTaUAM2HgJe.sY4XhR8x0UP1XTWf"
+    },
+    {
+      "name": "Spiked Cestus",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "inventorySlots": 1,
+        "sortOrder": -1,
+        "canAttack": true,
+        "equipped": true,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0,
+        "quantity": 1,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676773918462,
+        "modifiedTime": 1676827737963,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "19paGGx9LtAkovoH",
+      "_key": "!actors.items!N7UgwRTaUAM2HgJe.19paGGx9LtAkovoH"
+    },
+    {
+      "name": "Multiversal Compass",
+      "type": "gear",
+      "system": {
+        "inventorySlots": 1,
+        "equipped": true,
+        "quantity": 1,
+        "description": "",
+        "attribution": {
+          "source": "Evey Lockhart [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://violentmedia.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "knAh0M5jFCm9ghC3",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!N7UgwRTaUAM2HgJe.knAh0M5jFCm9ghC3"
+    },
+    {
+      "name": "Collector's Knowledge",
+      "type": "skill",
+      "img": "modules/troika-community-content/assets/tokens/skill.svg",
+      "system": {
+        "description": "",
+        "rank": 4,
+        "attribution": {
+          "source": "Evey Lockhart [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://violentmedia.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "modifier": 0,
+        "improvement": false
+      },
+      "_id": "6aIUPeQOHT5YqLV8",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!N7UgwRTaUAM2HgJe.6aIUPeQOHT5YqLV8"
+    },
+    {
+      "name": "Fist Fighting",
+      "type": "skill",
+      "img": "modules/troika-community-content/assets/tokens/skill.svg",
+      "system": {
+        "description": "",
+        "rank": 2,
+        "attribution": {
+          "source": "Evey Lockhart [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://violentmedia.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "modifier": 0,
+        "improvement": false
+      },
+      "_id": "GaViMjSaIVvTogK2",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!N7UgwRTaUAM2HgJe.GaViMjSaIVvTogK2"
+    },
+    {
+      "name": "Overland Navigation",
+      "type": "skill",
+      "img": "modules/troika-community-content/assets/tokens/skill.svg",
+      "system": {
+        "description": "",
+        "rank": 2,
+        "attribution": {
+          "source": "Evey Lockhart [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://violentmedia.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "modifier": 0,
+        "improvement": false
+      },
+      "_id": "5Nfkst8wIPVEPDO4",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!N7UgwRTaUAM2HgJe.5Nfkst8wIPVEPDO4"
+    },
+    {
+      "name": "Appraisal",
+      "type": "skill",
+      "img": "modules/troika-community-content/assets/tokens/skill.svg",
+      "system": {
+        "description": "",
+        "rank": 1,
+        "attribution": {
+          "source": "Evey Lockhart [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://violentmedia.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "modifier": 0,
+        "improvement": false
+      },
+      "_id": "8ZUKQq8UXIneBRkR",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!N7UgwRTaUAM2HgJe.8ZUKQq8UXIneBRkR"
+    }
+  ],
+  "folder": "VQDsap64MLlBCSLh",
+  "_id": "N7UgwRTaUAM2HgJe",
+  "prototypeToken": {
+    "name": "Obsessive, Adventuresome Collector",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1723905256670,
+    "modifiedTime": 1723905256670,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!N7UgwRTaUAM2HgJe"
+}

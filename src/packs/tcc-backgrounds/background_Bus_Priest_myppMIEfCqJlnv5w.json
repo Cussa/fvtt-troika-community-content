@@ -1,0 +1,466 @@
+{
+  "name": "Bus Priest",
+  "type": "background",
+  "img": "modules/troika-community-content/assets/tokens/backgrounds.svg",
+  "system": {
+    "armour": 0,
+    "attribution": {
+      "source": "Kass Fletcher [Troika! Community Jam: Backgrounds 2024]",
+      "link": "https://phoenixwrites2309.itch.io/"
+    },
+    "special": "<p>You may test Luck to predict the movement of the ineffable Buses. An unforgivable blasphemy, but a necessary one in times of need.</p>",
+    "notes": "<p>You worship at the alter of The Wheel, living in fear of the Great Engine that roars beneath. Your pilgrimage is unplanned, unknowable to all those save the great Buses that ferry you from holy site to holy site. You fear being abandoned by the great Transportation Network that binds the universe together, and study furiously its Eldritch truth.</p>",
+    "skill": "1d3+3",
+    "stamina": "2d6+12",
+    "luck": "1d6+6",
+    "initiativeTokens": 2,
+    "monies": "2d6",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    }
+  },
+  "items": [
+    {
+      "name": "Holy book",
+      "type": "gear",
+      "img": "modules/troika-community-content/assets/tokens/item.svg",
+      "system": {
+        "description": "<p>unreadable Bus Timetable</p>",
+        "inventorySlots": 1,
+        "equipped": true,
+        "quantity": 1,
+        "attribution": {
+          "source": "Kass Fletcher [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://phoenixwrites2309.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "SaSeI2EAPxq3RR8q",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!myppMIEfCqJlnv5w.SaSeI2EAPxq3RR8q"
+    },
+    {
+      "name": "1d6 Holy relics",
+      "type": "gear",
+      "img": "modules/troika-community-content/assets/tokens/item.svg",
+      "system": {
+        "description": "<p>bus tickets</p>",
+        "inventorySlots": 1,
+        "equipped": true,
+        "quantity": 1,
+        "attribution": {
+          "source": "Kass Fletcher [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://phoenixwrites2309.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "AnHX3h2Kk0gzropL",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!myppMIEfCqJlnv5w.AnHX3h2Kk0gzropL"
+    },
+    {
+      "name": "Relic Weapon",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "attack": {
+          "dr1": "4",
+          "dr2": "6",
+          "dr3": "6",
+          "dr4": "6",
+          "dr5": "6",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "inventorySlots": 1,
+        "sortOrder": -1,
+        "canAttack": true,
+        "equipped": true,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0,
+        "quantity": 1,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676773855160,
+        "modifiedTime": 1676827737965,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "NQ6xNWOdINYBVO96",
+      "_key": "!actors.items!myppMIEfCqJlnv5w.NQ6xNWOdINYBVO96"
+    },
+    {
+      "name": "A sense of ever-present dread",
+      "type": "gear",
+      "img": "modules/troika-community-content/assets/tokens/item.svg",
+      "system": {
+        "description": "<p>a deeply unsettling feeling that never quite goes away</p>",
+        "inventorySlots": 0,
+        "equipped": true,
+        "quantity": 1,
+        "attribution": {
+          "source": "Kass Fletcher [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://phoenixwrites2309.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "boV7aKQDRax63H96",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!myppMIEfCqJlnv5w.boV7aKQDRax63H96"
+    },
+    {
+      "name": "Navigation",
+      "type": "skill",
+      "img": "modules/troika-community-content/assets/tokens/skill.svg",
+      "system": {
+        "description": "<p>Skills used to determine location</p>",
+        "rank": 3,
+        "attribution": {
+          "source": "Kass Fletcher [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://phoenixwrites2309.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "modifier": 0,
+        "improvement": false
+      },
+      "_id": "fepHRFDi3liRLXd6",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!myppMIEfCqJlnv5w.fepHRFDi3liRLXd6"
+    },
+    {
+      "name": "Divination",
+      "type": "skill",
+      "img": "modules/troika-community-content/assets/tokens/skill.svg",
+      "system": {
+        "description": "<p>A sense of ominous oncoming events</p>",
+        "rank": 2,
+        "attribution": {
+          "source": "Kass Fletcher [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://phoenixwrites2309.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "modifier": 0,
+        "improvement": false
+      },
+      "_id": "X8o3z4T9oCpXcN79",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!myppMIEfCqJlnv5w.X8o3z4T9oCpXcN79"
+    },
+    {
+      "name": "Hope",
+      "type": "skill",
+      "img": "modules/troika-community-content/assets/tokens/skill.svg",
+      "system": {
+        "description": "<p>Emotion used to avoid depression</p>",
+        "rank": 2,
+        "attribution": {
+          "source": "Kass Fletcher [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://phoenixwrites2309.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "modifier": 0,
+        "improvement": false
+      },
+      "_id": "gOrXnGdEEYoeAEAI",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!myppMIEfCqJlnv5w.gOrXnGdEEYoeAEAI"
+    },
+    {
+      "name": "Relic Weapon Fighting",
+      "type": "skill",
+      "img": "modules/troika-community-content/assets/tokens/skill.svg",
+      "system": {
+        "description": "<p>Techniques used when wielding a Relic Weapon</p>",
+        "rank": 2,
+        "attribution": {
+          "source": "Kass Fletcher [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://phoenixwrites2309.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "modifier": 0,
+        "improvement": false
+      },
+      "_id": "JNJ4dG8VrXHB5uqQ",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!myppMIEfCqJlnv5w.JNJ4dG8VrXHB5uqQ"
+    }
+  ],
+  "folder": "VQDsap64MLlBCSLh",
+  "_id": "myppMIEfCqJlnv5w",
+  "prototypeToken": {
+    "name": "Bus Priest",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1723905256051,
+    "modifiedTime": 1723905256051,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!myppMIEfCqJlnv5w"
+}

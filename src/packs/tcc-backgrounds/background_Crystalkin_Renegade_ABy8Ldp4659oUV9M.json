@@ -1,0 +1,500 @@
+{
+  "name": "Crystalkin Renegade",
+  "type": "background",
+  "img": "modules/troika-community-content/assets/tokens/backgrounds.svg",
+  "system": {
+    "armour": 2,
+    "attribution": {
+      "source": "Daria James LeFevre [Troika! Community Jam: Backgrounds 2024]",
+      "link": "https://x.com/Hodag_Soup"
+    },
+    "special": "<p>Whenever you block a ranged attack, you can test your luck to reflect or ricochet the attack back at the source.</p><p>You are always considered moderately armored, and cannot wear additional armor.</p>",
+    "notes": "<p>Hulking humanoids of solid living crystal who've been hunted to near extinction for their valuable bodies. Crystalkin are some of the strangest life forms to come out of the humpbacked sky, as beautiful as they are rare.</p>",
+    "skill": "1d3+3",
+    "stamina": "2d6+12",
+    "luck": "1d6+6",
+    "initiativeTokens": 2,
+    "monies": "2d6",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    }
+  },
+  "items": [
+    {
+      "name": "A Gatling Laser",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "<p><span id=\"docs-internal-guid-0ae31bbb-7fff-892f-1438-e8f6b5bfddeb\">A fusil is a long Weapon that looks like a rifle and can be used in melee as a Club. A A Gatling Laser holds 6 charges before the plasmic core needs replacing.</span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "4",
+          "dr3": "4",
+          "dr4": "6",
+          "dr5": "12",
+          "dr6": "18",
+          "dr7": "24"
+        },
+        "inventorySlots": 1,
+        "sortOrder": -1,
+        "canAttack": true,
+        "equipped": true,
+        "armourProvided": 0,
+        "requiresTwoHands": true,
+        "armourIgnored": 1,
+        "quantity": 1,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676774368030,
+        "modifiedTime": 1676827741728,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "pXn5FfQvdTYZC96h",
+      "_key": "!actors.items!ABy8Ldp4659oUV9M.pXn5FfQvdTYZC96h"
+    },
+    {
+      "name": "1d6+6 Plasmic Cores",
+      "type": "gear",
+      "system": {
+        "inventorySlots": 1,
+        "equipped": true,
+        "quantity": 1,
+        "description": "",
+        "attribution": {
+          "source": "Daria James LeFevre [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://x.com/Hodag_Soup"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "ER2T82kpKtwF7lU0",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!ABy8Ldp4659oUV9M.ER2T82kpKtwF7lU0"
+    },
+    {
+      "name": "Crystal Body",
+      "type": "gear",
+      "system": {
+        "description": "",
+        "inventorySlots": 4,
+        "equipped": true,
+        "armourProvided": 2,
+        "quantity": 1,
+        "attribution": {},
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "9n9TquYfDuq4SHZ4",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!ABy8Ldp4659oUV9M.9n9TquYfDuq4SHZ4"
+    },
+    {
+      "name": "Block",
+      "type": "skill",
+      "img": "modules/troika-community-content/assets/tokens/skill.svg",
+      "system": {
+        "description": "",
+        "rank": 2,
+        "attribution": {
+          "source": "Daria James LeFevre [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://x.com/Hodag_Soup"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "modifier": 0,
+        "improvement": false
+      },
+      "_id": "k3Q3GZRZsVsQm5AK",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!ABy8Ldp4659oUV9M.k3Q3GZRZsVsQm5AK"
+    },
+    {
+      "name": "Fusil Fighting",
+      "type": "skill",
+      "img": "modules/troika-community-content/assets/tokens/skill.svg",
+      "system": {
+        "description": "",
+        "rank": 2,
+        "attribution": {
+          "source": "Daria James LeFevre [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://x.com/Hodag_Soup"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "modifier": 0,
+        "improvement": false
+      },
+      "_id": "m9xYX1Dq3Cq2wqxQ",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!ABy8Ldp4659oUV9M.m9xYX1Dq3Cq2wqxQ"
+    },
+    {
+      "name": "Strength",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "description": "<p id=\"docs-internal-guid-56976a83-7fff-5674-fe85-6827a739c7d1\" dir=\"ltr\"><span id=\"docs-internal-guid-89bb5dcd-7fff-6d16-6276-b06fb5b9499d\">Used for lifting and breaking things. May also be used to grapple people if no grappling-appropriate Weapon Skill is possessed, though it counts for half rounded up.</span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 2,
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Item.cF40jXjQ3ql3R4u4"
+        }
+      },
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676781942840,
+        "modifiedTime": 1676782632708,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "EmUYXNvMD7p9jZFC",
+      "_key": "!actors.items!ABy8Ldp4659oUV9M.EmUYXNvMD7p9jZFC"
+    },
+    {
+      "name": "Flash",
+      "type": "spell",
+      "img": "icons/svg/daze.svg",
+      "system": {
+        "description": "<p><span dir=\"ltr\" role=\"presentation\">The wizard claps neatly and issues forth the light of a thousand suns from </span><span dir=\"ltr\" role=\"presentation\">their hands. All within 20 metres must Test their Luck (or Skill for Enemies) </span><span dir=\"ltr\" role=\"presentation\">or be blinded for 1d6 minutes.</span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 1,
+        "castingCost": "3",
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676769553228,
+        "modifiedTime": 1676771738840,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "r3yGIKgitWQMJIZF",
+      "_key": "!actors.items!ABy8Ldp4659oUV9M.r3yGIKgitWQMJIZF"
+    },
+    {
+      "name": "Light",
+      "type": "spell",
+      "img": "icons/svg/daze.svg",
+      "system": {
+        "description": "<p><span dir=\"ltr\" role=\"presentation\">Create an ethereal orb of light that glows like a torch. Lasts 6 hours and </span><span dir=\"ltr\" role=\"presentation\">can be extinguished at will.</span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 1,
+        "castingCost": "1",
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676770069855,
+        "modifiedTime": 1676771738842,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "LG9Rljfc9Q3C4ADW",
+      "_key": "!actors.items!ABy8Ldp4659oUV9M.LG9Rljfc9Q3C4ADW"
+    },
+    {
+      "name": "Random",
+      "type": "spell",
+      "img": "icons/svg/daze.svg",
+      "system": {
+        "attribution": {},
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 1,
+        "modifier": 0,
+        "improvement": false,
+        "castingCost": "?",
+        "description": "<p>@UUID[Compendium.troika.troika-srd-roll-tables.RollTable.F5Hxv1QRaOCAVbpg]{SRD Random Spell Roll Table}</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "7IDFZvOGXqWmmgkb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "1.5.0",
+        "coreVersion": "11.315",
+        "createdTime": 1722686296626,
+        "modifiedTime": 1722686329115,
+        "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+      },
+      "_id": "gY560h5MoZBzIi7N",
+      "_key": "!actors.items!ABy8Ldp4659oUV9M.gY560h5MoZBzIi7N"
+    }
+  ],
+  "folder": "VQDsap64MLlBCSLh",
+  "_id": "ABy8Ldp4659oUV9M",
+  "prototypeToken": {
+    "name": "Crystalkin Renegade",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1723905256124,
+    "modifiedTime": 1723905256124,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!ABy8Ldp4659oUV9M"
+}

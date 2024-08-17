@@ -1,0 +1,643 @@
+{
+  "name": "PHENAKISTOMANCER",
+  "type": "background",
+  "img": "modules/troika-community-content/assets/tokens/backgrounds.svg",
+  "system": {
+    "armour": 0,
+    "attribution": {
+      "source": "Emanoel Melo. [Troika! Community Jam: Backgrounds 2024]",
+      "link": "cabinetofcuriosities.games"
+    },
+    "special": "<p>To cast an illusion you must use a mirror in conjunction with your Phenakistoscope set, reading the moving images as if they are an animated grimoire. Each imagery you conjure during your casting requires a different disc to be read, one that better represents the desired effects.</p><p>- Frogs and snakes crawling out of a pit.</p><p>- A maestro vigorously conducting.</p><p>- A beautiful visage turning into a monster.</p><p>- Two men brawling.</p><p>- A dragon devouring a carriage.</p><p>- A humanoid shifting between giant and small size.</p><p>To craft a new illusion, you need a blank disc and painting implements. Attempt a Painting check to produce the proper illustrations - on a failure the intended illusion will require an extra Stamina to coalesce.</p><p>PHENAKISTOMANCER is an independent production by Emanoel Melo and the Cabinet of Curiosities and is not affiliated with the Melsonian Arts Council.</p>",
+    "notes": "<p>Raised amidst sumptuous draperies of silk, idyllic tea parties and the grand ballrooms of High Gardens, you are part of a *soi-disant* aristocracy that sustains influence through crafty interplay of smoke and mirrors—indeed, quite literally. You have inherited the elder traditions of understanding and manipulating optical illusions by employing a most ingenuous apparatus known as the Phenakistoscope. Invested with such recondite knowledge, you occasionally indulge yourself in exquisite adventures wherein you bear witness to outlandish wonders with your own senses.</p>",
+    "skill": "1d3+3",
+    "stamina": "2d6+12",
+    "luck": "1d6+6",
+    "initiativeTokens": 2,
+    "monies": "2d6",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    }
+  },
+  "items": [
+    {
+      "name": "Aristocratic ensemble",
+      "type": "gear",
+      "img": "modules/troika-community-content/assets/tokens/item.svg",
+      "system": {
+        "description": "<p>The finest dress, undergarments, leather gloves and accessories carefully selected to complement one another</p>",
+        "inventorySlots": 1,
+        "equipped": true,
+        "quantity": 1,
+        "attribution": {
+          "source": "Emanoel Melo. [Troika! Community Jam: Backgrounds 2024]",
+          "link": "cabinetofcuriosities.games"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "782AHsl578TXUuf1",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!tme06YVLmFhqforR.782AHsl578TXUuf1"
+    },
+    {
+      "name": "Explorer boots",
+      "type": "gear",
+      "img": "modules/troika-community-content/assets/tokens/item.svg",
+      "system": {
+        "description": "<p>A pair of laced-up boots for hiking</p>",
+        "inventorySlots": 1,
+        "equipped": true,
+        "quantity": 1,
+        "attribution": {
+          "source": "Emanoel Melo. [Troika! Community Jam: Backgrounds 2024]",
+          "link": "cabinetofcuriosities.games"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "eAj1JiSVT3lwp1nq",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!tme06YVLmFhqforR.eAj1JiSVT3lwp1nq"
+    },
+    {
+      "name": "Handheld mirror",
+      "type": "gear",
+      "img": "modules/troika-community-content/assets/tokens/item.svg",
+      "system": {
+        "description": "<p>A delicate mirror with a lavishing baroque brass frame</p>",
+        "inventorySlots": 1,
+        "equipped": true,
+        "quantity": 1,
+        "attribution": {
+          "source": "Emanoel Melo. [Troika! Community Jam: Backgrounds 2024]",
+          "link": "cabinetofcuriosities.games"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "Fzeaf6opv8TTE3yg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!tme06YVLmFhqforR.Fzeaf6opv8TTE3yg"
+    },
+    {
+      "name": "Portable paint box",
+      "type": "gear",
+      "img": "modules/troika-community-content/assets/tokens/item.svg",
+      "system": {
+        "description": "<p>Brushes, charcoal pencil and paintings</p>",
+        "inventorySlots": 1,
+        "equipped": true,
+        "quantity": 1,
+        "attribution": {
+          "source": "Emanoel Melo. [Troika! Community Jam: Backgrounds 2024]",
+          "link": "cabinetofcuriosities.games"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "ObL5XW8FryzwiQ9x",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!tme06YVLmFhqforR.ObL5XW8FryzwiQ9x"
+    },
+    {
+      "name": "Phenakistoscope set",
+      "type": "gear",
+      "img": "modules/troika-community-content/assets/tokens/item.svg",
+      "system": {
+        "description": "<p>A spindle with a wooden handle and a collection of cardboard discs with beautifully painted imagery and a couple of blanks</p>",
+        "inventorySlots": 1,
+        "equipped": true,
+        "quantity": 1,
+        "attribution": {
+          "source": "Emanoel Melo. [Troika! Community Jam: Backgrounds 2024]",
+          "link": "cabinetofcuriosities.games"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "oW1MQk2WyHRsW3zZ",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!tme06YVLmFhqforR.oW1MQk2WyHRsW3zZ"
+    },
+    {
+      "name": "Illusion",
+      "type": "spell",
+      "img": "icons/svg/daze.svg",
+      "system": {
+        "description": "<p><span dir=\"ltr\" role=\"presentation\">Those viewing this illusion may Test their Luck (or Skill for Enemies) to </span><span dir=\"ltr\" role=\"presentation\">unveil the trickery. Lasts until the wizard leaves or falls asleep.</span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 3,
+        "castingCost": "2 (per viewer)",
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676769760837,
+        "modifiedTime": 1676771738841,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "CRZ41qXIzl59BnKL",
+      "_key": "!actors.items!tme06YVLmFhqforR.CRZ41qXIzl59BnKL"
+    },
+    {
+      "name": "Awareness",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "description": "<p id=\"docs-internal-guid-56976a83-7fff-5674-fe85-6827a739c7d1\" dir=\"ltr\"><span id=\"docs-internal-guid-d9f49cc2-7fff-b0f1-f430-8547d8c3155a\">Anything worth having is well hidden so one must look very carefully. Use this to spot traps, things normally hidden, or things out of the ordinary.</span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 2,
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Item.cF40jXjQ3ql3R4u4"
+        }
+      },
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676781942840,
+        "modifiedTime": 1676782632705,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "m8cJzbTsJ4pN6nv9",
+      "_key": "!actors.items!tme06YVLmFhqforR.m8cJzbTsJ4pN6nv9"
+    },
+    {
+      "name": "Etiquette",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "description": "<p id=\"docs-internal-guid-56976a83-7fff-5674-fe85-6827a739c7d1\" dir=\"ltr\"><span id=\"docs-internal-guid-e9394963-7fff-eef3-dd48-43e58195b62a\">When making a good impression is important Roll Versus your host&rsquo;s Etiquette. Represents a mechanical understanding of social conduct and those who are better at it are more discerning.</span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 2,
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Item.cF40jXjQ3ql3R4u4"
+        }
+      },
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676781942840,
+        "modifiedTime": 1676782632706,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "JoviwrOEm82GL0g0",
+      "_key": "!actors.items!tme06YVLmFhqforR.JoviwrOEm82GL0g0"
+    },
+    {
+      "name": "Second Sight",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "description": "<p id=\"docs-internal-guid-56976a83-7fff-5674-fe85-6827a739c7d1\" dir=\"ltr\"><span id=\"docs-internal-guid-e59d9e9d-7fff-4305-973a-a145ba36f0ec\">Use of this allows the detection of magic. On a successful Test you focus your inner eye and all sorcerous activity glows faintly for a moment. </span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 1,
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Item.cF40jXjQ3ql3R4u4"
+        }
+      },
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676781942840,
+        "modifiedTime": 1676782632707,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "xd0GURgj07b4kul8",
+      "_key": "!actors.items!tme06YVLmFhqforR.xd0GURgj07b4kul8"
+    },
+    {
+      "name": "Craft - Painting",
+      "type": "skill",
+      "img": "modules/troika-community-content/assets/tokens/skill.svg",
+      "system": {
+        "description": "",
+        "rank": 1,
+        "attribution": {
+          "source": "Emanoel Melo. [Troika! Community Jam: Backgrounds 2024]",
+          "link": "cabinetofcuriosities.games"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "modifier": 0,
+        "improvement": false
+      },
+      "_id": "Ahzkk9lvZZrrRO21",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!tme06YVLmFhqforR.Ahzkk9lvZZrrRO21"
+    },
+    {
+      "name": "Presence",
+      "type": "spell",
+      "img": "icons/svg/daze.svg",
+      "system": {
+        "description": "<p><span dir=\"ltr\" role=\"presentation\">This Spell creates the sense of being watched by a patriarchal figure. Some </span><span dir=\"ltr\" role=\"presentation\">find it comforting, others, not so much.</span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 1,
+        "castingCost": "1",
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676770375799,
+        "modifiedTime": 1676771738843,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "wrZsgkgMplgVc3pN",
+      "_key": "!actors.items!tme06YVLmFhqforR.wrZsgkgMplgVc3pN"
+    },
+    {
+      "name": "true Seeing",
+      "type": "spell",
+      "img": "icons/svg/daze.svg",
+      "system": {
+        "description": "<p><span dir=\"ltr\" role=\"presentation\">The wizard focuses their sight on the unambiguous truth of matter, </span><span dir=\"ltr\" role=\"presentation\">enabling them to see through illusions for the next 10 minutes.</span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 1,
+        "castingCost": "3",
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676770922829,
+        "modifiedTime": 1676771738846,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "MjWavKJYaIVjbdab",
+      "_key": "!actors.items!tme06YVLmFhqforR.MjWavKJYaIVjbdab"
+    }
+  ],
+  "folder": "VQDsap64MLlBCSLh",
+  "_id": "tme06YVLmFhqforR",
+  "prototypeToken": {
+    "name": "PHENAKISTOMANCER",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1723905257067,
+    "modifiedTime": 1723905257067,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!tme06YVLmFhqforR"
+}

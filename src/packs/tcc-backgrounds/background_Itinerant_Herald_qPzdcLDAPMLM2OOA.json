@@ -1,0 +1,466 @@
+{
+  "name": "Itinerant Herald",
+  "type": "background",
+  "img": "modules/troika-community-content/assets/arts/backgrounds2024/itinerant-herald.webp",
+  "system": {
+    "armour": 0,
+    "attribution": {
+      "source": "Mike Knee [Troika! Community Jam: Backgrounds 2024]",
+      "link": "https://gentlyrotting.itch.io"
+    },
+    "special": "<p>You may draw the heraldic device of any notable person or group on your slate</p><p>standard in chalk. If you're copying from a source (such as a flag or banner)</p><p>it is an accurate and passable rendition. If you're doing this from memory test</p><p>heraldry and on a failure, unbeknownst to yourself, you have made a minor error</p><p>that marks your rendition as a forgery to anyone familiar with the actual</p><p>device.</p><p>The GM may rule (where appropriate) that your mistake means the device you've</p><p>drawn actually represents a rival faction, bitter enemy, or other undesirable.</p>",
+    "notes": "<p>There's always one of two knobs and toffs who misplace, mistreat, or otherwise</p><p>misappropriate their all-important herald. Those unlucky few who, in the pomp</p><p>and pageantry of the formal war trenches, find themselves bereft of their trusty</p><p>banner-bearer. They always complain your voice isn't what they're used to,</p><p>muttering under their breath about your mispronunciation. Well, if they hadn't</p><p>shoved their aging retainer beneath the enemy lancer's thundering charger in</p><p>their bid to hop out of the way, then they wouldn't be in this mess would they?</p><p>Luckily you're an old hand, and pretty light on your feet. You've got to be if</p><p>you're going to wave the flag, after all.</p>",
+    "skill": "1d3+3",
+    "stamina": "2d6+12",
+    "luck": "1d6+6",
+    "initiativeTokens": 2,
+    "monies": "2d6",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    }
+  },
+  "items": [
+    {
+      "name": "Long-hafted slate standard",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "attack": {
+          "dr1": "2",
+          "dr2": "4",
+          "dr3": "4",
+          "dr4": "4",
+          "dr5": "4",
+          "dr6": "6",
+          "dr7": "8"
+        },
+        "inventorySlots": 1,
+        "sortOrder": -1,
+        "canAttack": true,
+        "equipped": true,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0,
+        "quantity": 1,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676773936552,
+        "modifiedTime": 1676827737965,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "JMpdR7UrXCLKU5HW",
+      "_key": "!actors.items!qPzdcLDAPMLM2OOA.JMpdR7UrXCLKU5HW"
+    },
+    {
+      "name": "Box of chalk",
+      "type": "gear",
+      "system": {
+        "inventorySlots": 1,
+        "equipped": true,
+        "quantity": 1,
+        "description": "",
+        "attribution": {
+          "source": "Mike Knee [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://gentlyrotting.itch.io"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "NJwrDAOdYDM69Ogc",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!qPzdcLDAPMLM2OOA.NJwrDAOdYDM69Ogc"
+    },
+    {
+      "name": "Well-worn bugle",
+      "type": "gear",
+      "system": {
+        "inventorySlots": 1,
+        "equipped": true,
+        "quantity": 1,
+        "description": "",
+        "attribution": {
+          "source": "Mike Knee [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://gentlyrotting.itch.io"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "reH6BQ4XGGlNGR1k",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!qPzdcLDAPMLM2OOA.reH6BQ4XGGlNGR1k"
+    },
+    {
+      "name": "Tub of bugle polish",
+      "type": "gear",
+      "system": {
+        "inventorySlots": 1,
+        "equipped": true,
+        "quantity": 1,
+        "description": "",
+        "attribution": {
+          "source": "Mike Knee [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://gentlyrotting.itch.io"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "Q448pYPULWCsgjf3",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!qPzdcLDAPMLM2OOA.Q448pYPULWCsgjf3"
+    },
+    {
+      "name": "Bugle playing",
+      "type": "skill",
+      "img": "modules/troika-community-content/assets/tokens/skill.svg",
+      "system": {
+        "description": "",
+        "rank": 3,
+        "attribution": {
+          "source": "Mike Knee [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://gentlyrotting.itch.io"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "modifier": 0,
+        "improvement": false
+      },
+      "_id": "hJYxqTIhbsztBw6w",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!qPzdcLDAPMLM2OOA.hJYxqTIhbsztBw6w"
+    },
+    {
+      "name": "Heraldry",
+      "type": "skill",
+      "img": "modules/troika-community-content/assets/tokens/skill.svg",
+      "system": {
+        "description": "",
+        "rank": 3,
+        "attribution": {
+          "source": "Mike Knee [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://gentlyrotting.itch.io"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "modifier": 0,
+        "improvement": false
+      },
+      "_id": "xbkwPHSVWRFKxtoW",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!qPzdcLDAPMLM2OOA.xbkwPHSVWRFKxtoW"
+    },
+    {
+      "name": "Announcing",
+      "type": "skill",
+      "img": "modules/troika-community-content/assets/tokens/skill.svg",
+      "system": {
+        "description": "",
+        "rank": 3,
+        "attribution": {
+          "source": "Mike Knee [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://gentlyrotting.itch.io"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "modifier": 0,
+        "improvement": false
+      },
+      "_id": "11v2MB64psOON5Ot",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!qPzdcLDAPMLM2OOA.11v2MB64psOON5Ot"
+    },
+    {
+      "name": "Standard fighting",
+      "type": "skill",
+      "img": "modules/troika-community-content/assets/tokens/skill.svg",
+      "system": {
+        "description": "",
+        "rank": 1,
+        "attribution": {
+          "source": "Mike Knee [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://gentlyrotting.itch.io"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "modifier": 0,
+        "improvement": false
+      },
+      "_id": "94301EIgbY9grwKh",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!qPzdcLDAPMLM2OOA.94301EIgbY9grwKh"
+    }
+  ],
+  "folder": "VQDsap64MLlBCSLh",
+  "_id": "qPzdcLDAPMLM2OOA",
+  "prototypeToken": {
+    "name": "Itinerant Herald",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1723905256460,
+    "modifiedTime": 1723905256460,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!qPzdcLDAPMLM2OOA"
+}

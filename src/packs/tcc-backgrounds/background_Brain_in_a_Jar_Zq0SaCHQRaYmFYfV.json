@@ -1,0 +1,458 @@
+{
+  "name": "Brain in a Jar",
+  "type": "background",
+  "img": "modules/troika-community-content/assets/tokens/backgrounds.svg",
+  "system": {
+    "armour": 2,
+    "attribution": {
+      "source": "Daria James LeFevre [Troika! Community Jam: Backgrounds 2024]",
+      "link": "https://x.com/Hodag_Soup"
+    },
+    "special": "<p>You do not breathe and you cannot consume provisions, but a Plasmic Core will restore 2d6 Stamina up to 3 times per day. You cannot wear armor or use weapons, but you are always considered moderately armored (encumbrance applied as normal for you), and do +1 damage on Jolt spells.</p>",
+    "notes": "<p>Once upon a time you were an especially smart, creative, or charismatic being, so much so that after you died the company you worked for wouldn't allow your brain to rest. Luckily (or perhaps, unfortunately), a few years later that same company had a merger and you were let go in the process.</p>",
+    "skill": "1d3+3",
+    "stamina": "2d6+12",
+    "luck": "1d6+6",
+    "initiativeTokens": 2,
+    "monies": "2d6",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    }
+  },
+  "items": [
+    {
+      "name": "A state of the art sense-o-matic glass-domed exocranial mech.",
+      "type": "gear",
+      "system": {
+        "description": "<p>Allows you to move, see, hear, smell, perceive, vocalize and otherwise interact with the world as normal</p>",
+        "inventorySlots": 4,
+        "equipped": true,
+        "armourProvided": 2,
+        "quantity": 1,
+        "attribution": {},
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "9opSWwNPvwbX7ruF",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Zq0SaCHQRaYmFYfV.9opSWwNPvwbX7ruF"
+    },
+    {
+      "name": "A severance pay of 4d6+6 Silver Pence",
+      "type": "gear",
+      "system": {
+        "inventorySlots": 1,
+        "equipped": true,
+        "quantity": 1,
+        "description": "",
+        "attribution": {
+          "source": "Daria James LeFevre [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://x.com/Hodag_Soup"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "VGbdZp2r7zcsLA4m",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Zq0SaCHQRaYmFYfV.VGbdZp2r7zcsLA4m"
+    },
+    {
+      "name": "Mathmology",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "description": "<p id=\"docs-internal-guid-56976a83-7fff-5674-fe85-6827a739c7d1\" dir=\"ltr\"><span id=\"docs-internal-guid-8c1f86c7-7fff-f2b2-c206-da5cdb4f829d\">Use this to gain insight into angles, pressures, numbers, and other such arcane arts. You could, for instance, Test your Mathmology to get a good idea of the surface tension of a ball of inert plasmic goo or to find the fulcrum for tripping a giant.</span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 4,
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Item.cF40jXjQ3ql3R4u4"
+        }
+      },
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676781942840,
+        "modifiedTime": 1676782632707,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "tpi9h89pc1nFf2LN",
+      "_key": "!actors.items!Zq0SaCHQRaYmFYfV.tpi9h89pc1nFf2LN"
+    },
+    {
+      "name": "Etiquette",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "description": "<p id=\"docs-internal-guid-56976a83-7fff-5674-fe85-6827a739c7d1\" dir=\"ltr\"><span id=\"docs-internal-guid-e9394963-7fff-eef3-dd48-43e58195b62a\">When making a good impression is important Roll Versus your host&rsquo;s Etiquette. Represents a mechanical understanding of social conduct and those who are better at it are more discerning.</span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 2,
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Item.cF40jXjQ3ql3R4u4"
+        }
+      },
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676781942840,
+        "modifiedTime": 1676782632706,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "3Bcli3RsWYrUfDAY",
+      "_key": "!actors.items!Zq0SaCHQRaYmFYfV.3Bcli3RsWYrUfDAY"
+    },
+    {
+      "name": "Hacking",
+      "type": "skill",
+      "img": "modules/troika-community-content/assets/tokens/skill.svg",
+      "system": {
+        "description": "",
+        "rank": 2,
+        "attribution": {
+          "source": "Daria James LeFevre [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://x.com/Hodag_Soup"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "modifier": 0,
+        "improvement": false
+      },
+      "_id": "AcRB35lpS1OeJWCp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Zq0SaCHQRaYmFYfV.AcRB35lpS1OeJWCp"
+    },
+    {
+      "name": "Jolt",
+      "type": "spell",
+      "img": "icons/svg/lightning.svg",
+      "system": {
+        "description": "<p><span dir=\"ltr\" role=\"presentation\">The mischievous apprentice&rsquo;s favourite Spell, Jolt sends an arc of electricity </span><span dir=\"ltr\" role=\"presentation\">from the wizard&rsquo;s outstretched hand towards a target. Ignores Armour.</span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "3",
+          "dr4": "3",
+          "dr5": "5",
+          "dr6": "7",
+          "dr7": "9"
+        },
+        "rank": 2,
+        "castingCost": "1",
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": true,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676769878211,
+        "modifiedTime": 1676771738841,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "v8u2ZmmrJqw9EtxH",
+      "_key": "!actors.items!Zq0SaCHQRaYmFYfV.v8u2ZmmrJqw9EtxH"
+    },
+    {
+      "name": "Helping Hands",
+      "type": "spell",
+      "img": "icons/svg/daze.svg",
+      "system": {
+        "description": "<p><span dir=\"ltr\" role=\"presentation\">Animate hands spring forth from an inanimate surface and perform any </span><span dir=\"ltr\" role=\"presentation\">task the wizard requires but are limited to being rooted to the spot from </span><span dir=\"ltr\" role=\"presentation\">which they sprang. They last until the wizard wills it or leaves the location.</span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 1,
+        "castingCost": "1",
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676769709810,
+        "modifiedTime": 1676771738841,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "ASzrRkPk0exx41xf",
+      "_key": "!actors.items!Zq0SaCHQRaYmFYfV.ASzrRkPk0exx41xf"
+    },
+    {
+      "name": "Random",
+      "type": "spell",
+      "img": "icons/svg/daze.svg",
+      "system": {
+        "attribution": {},
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 1,
+        "modifier": 0,
+        "improvement": false,
+        "castingCost": "?",
+        "description": "<p>@UUID[Compendium.troika.troika-srd-roll-tables.RollTable.F5Hxv1QRaOCAVbpg]{SRD Random Spell Roll Table}</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "7IDFZvOGXqWmmgkb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "1.5.0",
+        "coreVersion": "11.315",
+        "createdTime": 1722686296626,
+        "modifiedTime": 1722686329115,
+        "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+      },
+      "_id": "qgBPQllMn9mVCI3h",
+      "_key": "!actors.items!Zq0SaCHQRaYmFYfV.qgBPQllMn9mVCI3h"
+    }
+  ],
+  "folder": "VQDsap64MLlBCSLh",
+  "_id": "Zq0SaCHQRaYmFYfV",
+  "prototypeToken": {
+    "name": "Brain in a Jar",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1723905256000,
+    "modifiedTime": 1723905256000,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!Zq0SaCHQRaYmFYfV"
+}

@@ -1,0 +1,629 @@
+{
+  "name": "Almost-but-not-quite-yet ascendant god",
+  "type": "background",
+  "img": "modules/troika-community-content/assets/arts/backgrounds2024/almost-but-not-quite-yet-ascendant-god.webp",
+  "system": {
+    "armour": 0,
+    "attribution": {
+      "source": "Marcus Falk [Troika! Community Jam: Backgrounds 2024]",
+      "link": "attusfalk.itch.io"
+    },
+    "special": "<p>You need to stay ever vigilant - and awake - and devote a significant portion of your willpower to stave off your eventual ascension. You never need to sleep, though even for near-godly beings never sleeping is apparently not good for your general well-being. If you ever fall asleep, fall unconscious, or are reduced to 0 Stamina, roll Luck. If you fail, your concentration breaks and you instantly ascend to godhood - shedding your mortal form and traveling into the divine realms (yeah, roll up a new character).</p>",
+    "notes": "<p>You are a divine being on the cusp of godhood. Just as you were about to ascend and shed your mortal form you realized how much you would miss mortality, and through a supernatural feat of willpower you managed to halt your ascension before it could complete. However, this means that you are now constantly stuck in a state of divine ascension, and it takes almost all your mental strength to stay in mortal form. It is worth it, though; frankly speaking, the divine realms are pretty boring.</p>",
+    "skill": "1d3+3",
+    "stamina": "2d6+12",
+    "luck": "1d6+6",
+    "initiativeTokens": 2,
+    "monies": "2d6",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    }
+  },
+  "items": [
+    {
+      "name": "A glowing *Halo* around your head, you can dim it but never turn it off.",
+      "type": "gear",
+      "system": {
+        "inventorySlots": 1,
+        "equipped": true,
+        "quantity": 1,
+        "description": "",
+        "attribution": {
+          "source": "Marcus Falk [Troika! Community Jam: Backgrounds 2024]",
+          "link": "attusfalk.itch.io"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "YVH2iAJgXngQqKak",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!PiUB0YRBBodsEWsO.YVH2iAJgXngQqKak"
+    },
+    {
+      "name": "A *Reliquary* dedicated to yourself, made by one of your followers.",
+      "type": "gear",
+      "system": {
+        "inventorySlots": 1,
+        "equipped": true,
+        "quantity": 1,
+        "description": "",
+        "attribution": {
+          "source": "Marcus Falk [Troika! Community Jam: Backgrounds 2024]",
+          "link": "attusfalk.itch.io"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "1QAzi2DE296Ak65M",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!PiUB0YRBBodsEWsO.1QAzi2DE296Ak65M"
+    },
+    {
+      "name": "1d6 *Pocket gods*.",
+      "type": "gear",
+      "system": {
+        "inventorySlots": 1,
+        "equipped": true,
+        "quantity": 1,
+        "description": "",
+        "attribution": {
+          "source": "Marcus Falk [Troika! Community Jam: Backgrounds 2024]",
+          "link": "attusfalk.itch.io"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "fhzt2ZbzzRH6o3p5",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!PiUB0YRBBodsEWsO.fhzt2ZbzzRH6o3p5"
+    },
+    {
+      "name": "Language - Divine",
+      "type": "skill",
+      "img": "modules/troika-community-content/assets/tokens/skill.svg",
+      "system": {
+        "description": "",
+        "rank": 5,
+        "attribution": {
+          "source": "Marcus Falk [Troika! Community Jam: Backgrounds 2024]",
+          "link": "attusfalk.itch.io"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "modifier": 0,
+        "improvement": false
+      },
+      "_id": "7tUcni7F6tpL0GaK",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!PiUB0YRBBodsEWsO.7tUcni7F6tpL0GaK"
+    },
+    {
+      "name": "Second Sight",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "description": "<p id=\"docs-internal-guid-56976a83-7fff-5674-fe85-6827a739c7d1\" dir=\"ltr\"><span id=\"docs-internal-guid-e59d9e9d-7fff-4305-973a-a145ba36f0ec\">Use of this allows the detection of magic. On a successful Test you focus your inner eye and all sorcerous activity glows faintly for a moment. </span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 3,
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Item.cF40jXjQ3ql3R4u4"
+        }
+      },
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676781942840,
+        "modifiedTime": 1676782632707,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "Txb0qR3xwhI7o6YL",
+      "_key": "!actors.items!PiUB0YRBBodsEWsO.Txb0qR3xwhI7o6YL"
+    },
+    {
+      "name": "Read Stars",
+      "type": "spell",
+      "img": "icons/svg/daze.svg",
+      "system": {
+        "description": "<p><span dir=\"ltr\" role=\"presentation\">Rather than physical stars the wizard navigates by astral starlight that </span><span dir=\"ltr\" role=\"presentation\">peeks through the veil. This Spell enables the wizard to get a reasonable </span><span dir=\"ltr\" role=\"presentation\">sense of direction regardless of any obscuring factors.</span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 3,
+        "castingCost": "1",
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676770502447,
+        "modifiedTime": 1676771738844,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "oKJWv8v8mnnGOcS3",
+      "_key": "!actors.items!PiUB0YRBBodsEWsO.oKJWv8v8mnnGOcS3"
+    },
+    {
+      "name": "true Seeing",
+      "type": "spell",
+      "img": "icons/svg/daze.svg",
+      "system": {
+        "description": "<p><span dir=\"ltr\" role=\"presentation\">The wizard focuses their sight on the unambiguous truth of matter, </span><span dir=\"ltr\" role=\"presentation\">enabling them to see through illusions for the next 10 minutes.</span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 3,
+        "castingCost": "3",
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676770922829,
+        "modifiedTime": 1676771738846,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "hKAaqTLAWIevhxg2",
+      "_key": "!actors.items!PiUB0YRBBodsEWsO.hKAaqTLAWIevhxg2"
+    },
+    {
+      "name": "Blessings",
+      "type": "skill",
+      "img": "modules/troika-community-content/assets/tokens/skill.svg",
+      "system": {
+        "description": "<p>Knowledge about divine blessings, and ability to succesfully bless or consecrate</p>",
+        "rank": 2,
+        "attribution": {
+          "source": "Marcus Falk [Troika! Community Jam: Backgrounds 2024]",
+          "link": "attusfalk.itch.io"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "modifier": 0,
+        "improvement": false
+      },
+      "_id": "pwguZobEAtnoqth3",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!PiUB0YRBBodsEWsO.pwguZobEAtnoqth3"
+    },
+    {
+      "name": "Peace",
+      "type": "spell",
+      "img": "icons/svg/daze.svg",
+      "system": {
+        "description": "<p><span dir=\"ltr\" role=\"presentation\">Open up the mind to universal love and cause two subjects to Test their </span><span dir=\"ltr\" role=\"presentation\">Luck (or Skill for Enemies) or cease hostilities. They still defend themselves </span><span dir=\"ltr\" role=\"presentation\">if attacked but at least appreciate the pettiness of it.</span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 2,
+        "castingCost": "2",
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676770185438,
+        "modifiedTime": 1676771738842,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "KefrJ07H4ES0hwDR",
+      "_key": "!actors.items!PiUB0YRBBodsEWsO.KefrJ07H4ES0hwDR"
+    },
+    {
+      "name": "Wall of Power",
+      "type": "spell",
+      "img": "icons/svg/daze.svg",
+      "system": {
+        "description": "<p><span dir=\"ltr\" role=\"presentation\">What they call a wall is in fact a dome, but wizards always have worked in </span><span dir=\"ltr\" role=\"presentation\">mysterious ways. The wall is a shimmering bubble that causes 1d6 Damage </span><span dir=\"ltr\" role=\"presentation\">when touched. Nothing may pass without the wizard&rsquo;s permission (it is </span><span dir=\"ltr\" role=\"presentation\">recommended that they remember to allow air). Lasts for 12 minutes.</span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 2,
+        "castingCost": "2",
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676770972720,
+        "modifiedTime": 1676771738846,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "lvN9LU8tixb7arSv",
+      "_key": "!actors.items!PiUB0YRBBodsEWsO.lvN9LU8tixb7arSv"
+    },
+    {
+      "name": "Shatter",
+      "type": "spell",
+      "img": "icons/svg/daze.svg",
+      "system": {
+        "description": "<p><span dir=\"ltr\" role=\"presentation\">The wizard may wildly gesticulate at a brittle object no larger than an </span><span dir=\"ltr\" role=\"presentation\">umbrella and cause it to shatter into a million pieces. Living targets may </span><span dir=\"ltr\" role=\"presentation\">Test their Luck to avoid this unpleasant Spell.</span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 1,
+        "castingCost": "3",
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676770583081,
+        "modifiedTime": 1676771738844,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "lpQqXr7noqu0kWAL",
+      "_key": "!actors.items!PiUB0YRBBodsEWsO.lpQqXr7noqu0kWAL"
+    },
+    {
+      "name": "Curses",
+      "type": "skill",
+      "img": "modules/troika-community-content/assets/tokens/skill.svg",
+      "system": {
+        "description": "<p>Knowledge about divine cursesr, and ability to succesfully curse or desecrate</p>",
+        "rank": 1,
+        "attribution": {
+          "source": "Marcus Falk [Troika! Community Jam: Backgrounds 2024]",
+          "link": "attusfalk.itch.io"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "modifier": 0,
+        "improvement": false
+      },
+      "_id": "cRy6KQA6snOXnfTw",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!PiUB0YRBBodsEWsO.cRy6KQA6snOXnfTw"
+    }
+  ],
+  "folder": "VQDsap64MLlBCSLh",
+  "_id": "PiUB0YRBBodsEWsO",
+  "prototypeToken": {
+    "name": "Almost-but-not-quite-yet ascendant god",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1723905255851,
+    "modifiedTime": 1723905255851,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!PiUB0YRBBodsEWsO"
+}

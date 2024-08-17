@@ -1,0 +1,551 @@
+{
+  "name": "Longfolk Archer",
+  "type": "background",
+  "img": "modules/troika-community-content/assets/tokens/backgrounds.svg",
+  "system": {
+    "armour": 1,
+    "attribution": {
+      "source": "Text and Image Edit by The Furtive Goblin [Troika! Community Jam: Backgrounds 2024]",
+      "link": "https://furtivegoblingaming.blogspot.com/"
+    },
+    "special": "<p>You may challenge someone to an archery competition. The target must Test their Luck or be forced to accept. If you win, you may take their bow as a trophy and add it to your own like some kind of mismatched multi-recurve penta-bow abomination. For every trophy bow you add this way, you gain +1 to Damage rolls with your Longfolk Bow.</p><p>If you ever roll max damage with your bow (the damage die shows a natural 6), all your trophy bows explode from the force of the draw and your bonus resets to 0.</p><p>The Ash Ritual Paint only provides armour until it gets washed off.</p>",
+    "notes": "<p>You have done the forbidden, and ventured beyond the Axebitten Woods to hunt the corruption that squirms rotten and sickly-sweet from the depths of the Reossos Basin. Your elongated twelve-foot tall, ash-painted frame is unnerving to outsiders, as is your even taller longbow. But when the decaying monsters show up, they appreciate having you and your meters-long arrows to protect them. You've also developed a taste for archery competitions with little folk who call your bow too huge and unwieldy to use.</p><p>ORIGINAL IMAGE ATTRIBUTION: 19th century knowledge archery reflex bow by Horace A. Ford, W. Butt (Creative Commons)</p><p>IMAGE URL: https://i.imgur.com/MoLqBpj.jpeg</p>",
+    "skill": "1d3+3",
+    "stamina": "2d6+12",
+    "luck": "1d6+6",
+    "initiativeTokens": 2,
+    "monies": "2d6",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    }
+  },
+  "items": [
+    {
+      "name": "Prodigious Back Muscles",
+      "type": "gear",
+      "system": {
+        "inventorySlots": 1,
+        "equipped": true,
+        "quantity": 1,
+        "description": "",
+        "attribution": {
+          "source": "Text and Image Edit by The Furtive Goblin [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://furtivegoblingaming.blogspot.com/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "ZeUkXeUqZZZhUOdB",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Jatw7CluavG6G2Nd.ZeUkXeUqZZZhUOdB"
+    },
+    {
+      "name": "Longfolk Bow",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "<p><span id=\"docs-internal-guid-0ae31bbb-7fff-892f-1438-e8f6b5bfddeb\">A fusil is a long Weapon that looks like a rifle and can be used in melee as a Club. A Longfolk Bow holds 6 charges before the plasmic core needs replacing.</span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "4",
+          "dr3": "4",
+          "dr4": "6",
+          "dr5": "12",
+          "dr6": "18",
+          "dr7": "24"
+        },
+        "inventorySlots": 1,
+        "sortOrder": -1,
+        "canAttack": true,
+        "equipped": true,
+        "armourProvided": 0,
+        "requiresTwoHands": true,
+        "armourIgnored": 1,
+        "quantity": 1,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676774368030,
+        "modifiedTime": 1676827741728,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "gaKYGtEMkgmJYlkN",
+      "_key": "!actors.items!Jatw7CluavG6G2Nd.gaKYGtEMkgmJYlkN"
+    },
+    {
+      "name": "2d6 Spear-Sized Arrows",
+      "type": "gear",
+      "system": {
+        "inventorySlots": 1,
+        "equipped": true,
+        "quantity": 1,
+        "description": "",
+        "attribution": {
+          "source": "Text and Image Edit by The Furtive Goblin [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://furtivegoblingaming.blogspot.com/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "Fcqc7jlqU66oP9ge",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Jatw7CluavG6G2Nd.Fcqc7jlqU66oP9ge"
+    },
+    {
+      "name": "Ash Ritual Paint",
+      "type": "gear",
+      "system": {
+        "description": "",
+        "inventorySlots": 2,
+        "equipped": true,
+        "armourProvided": 1,
+        "quantity": 1,
+        "attribution": {},
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "DXvnhGAH00bepKw2",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Jatw7CluavG6G2Nd.DXvnhGAH00bepKw2"
+    },
+    {
+      "name": "Jar of Horn Glue",
+      "type": "gear",
+      "system": {
+        "inventorySlots": 1,
+        "equipped": true,
+        "quantity": 1,
+        "description": "",
+        "attribution": {
+          "source": "Text and Image Edit by The Furtive Goblin [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://furtivegoblingaming.blogspot.com/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "aGaEzOcmMx8l4ty7",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Jatw7CluavG6G2Nd.aGaEzOcmMx8l4ty7"
+    },
+    {
+      "name": "Bow Fighting",
+      "type": "skill",
+      "img": "modules/troika-community-content/assets/tokens/skill.svg",
+      "system": {
+        "description": "",
+        "rank": 3,
+        "attribution": {
+          "source": "Text and Image Edit by The Furtive Goblin [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://furtivegoblingaming.blogspot.com/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "modifier": 0,
+        "improvement": false
+      },
+      "_id": "B2RH9n8Te2d9OrLA",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Jatw7CluavG6G2Nd.B2RH9n8Te2d9OrLA"
+    },
+    {
+      "name": "Eagle-Eyed",
+      "type": "skill",
+      "img": "modules/troika-community-content/assets/tokens/skill.svg",
+      "system": {
+        "description": "",
+        "rank": 2,
+        "attribution": {
+          "source": "Text and Image Edit by The Furtive Goblin [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://furtivegoblingaming.blogspot.com/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "modifier": 0,
+        "improvement": false
+      },
+      "_id": "oSzGm7a4VTLBhuFW",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Jatw7CluavG6G2Nd.oSzGm7a4VTLBhuFW"
+    },
+    {
+      "name": "Firemaking",
+      "type": "skill",
+      "img": "modules/troika-community-content/assets/tokens/skill.svg",
+      "system": {
+        "description": "",
+        "rank": 2,
+        "attribution": {
+          "source": "Text and Image Edit by The Furtive Goblin [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://furtivegoblingaming.blogspot.com/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "modifier": 0,
+        "improvement": false
+      },
+      "_id": "MsfHeK1hNXQqrmaJ",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Jatw7CluavG6G2Nd.MsfHeK1hNXQqrmaJ"
+    },
+    {
+      "name": "Woodworking",
+      "type": "skill",
+      "img": "modules/troika-community-content/assets/tokens/skill.svg",
+      "system": {
+        "description": "",
+        "rank": 2,
+        "attribution": {
+          "source": "Text and Image Edit by The Furtive Goblin [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://furtivegoblingaming.blogspot.com/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "modifier": 0,
+        "improvement": false
+      },
+      "_id": "lMl8wk3Ua3lWly25",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Jatw7CluavG6G2Nd.lMl8wk3Ua3lWly25"
+    },
+    {
+      "name": "Mimic Tree",
+      "type": "skill",
+      "img": "modules/troika-community-content/assets/tokens/skill.svg",
+      "system": {
+        "description": "",
+        "rank": 1,
+        "attribution": {
+          "source": "Text and Image Edit by The Furtive Goblin [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://furtivegoblingaming.blogspot.com/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "modifier": 0,
+        "improvement": false
+      },
+      "_id": "UwErrRR4e3h9Kjeg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Jatw7CluavG6G2Nd.UwErrRR4e3h9Kjeg"
+    }
+  ],
+  "folder": "VQDsap64MLlBCSLh",
+  "_id": "Jatw7CluavG6G2Nd",
+  "prototypeToken": {
+    "name": "Longfolk Archer",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1723905256498,
+    "modifiedTime": 1723905256498,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!Jatw7CluavG6G2Nd"
+}

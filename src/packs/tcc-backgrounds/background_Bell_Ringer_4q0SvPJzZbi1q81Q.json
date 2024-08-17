@@ -1,0 +1,287 @@
+{
+  "name": "Bell Ringer",
+  "type": "background",
+  "img": "modules/troika-community-content/assets/arts/backgrounds2024/bell-ringer.webp",
+  "system": {
+    "armour": 0,
+    "attribution": {
+      "source": "Melanie C Green of Meldar16 [Troika! Community Jam: Backgrounds 2024]",
+      "link": "meldar16.com"
+    },
+    "special": "",
+    "notes": "<p>You have dedicated your body to the great vibrations of the sheres. The more bells you can ring, the stronger your mark on reality. You are connected to the sounds around you.</p>",
+    "skill": "1d3+3",
+    "stamina": "2d6+12",
+    "luck": "1d6+6",
+    "initiativeTokens": 2,
+    "monies": "2d6",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    }
+  },
+  "items": [
+    {
+      "name": "An assortment of bells",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "attack": {
+          "dr1": "1",
+          "dr2": "2",
+          "dr3": "4",
+          "dr4": "6",
+          "dr5": "8",
+          "dr6": "10",
+          "dr7": "12"
+        },
+        "inventorySlots": 1,
+        "sortOrder": -1,
+        "canAttack": true,
+        "equipped": true,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 1,
+        "quantity": 1,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676773960983,
+        "modifiedTime": 1676827737962,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "6SDZy6HjALZlVQ4K",
+      "_key": "!actors.items!4q0SvPJzZbi1q81Q.6SDZy6HjALZlVQ4K"
+    },
+    {
+      "name": "Music",
+      "type": "skill",
+      "img": "modules/troika-community-content/assets/tokens/skill.svg",
+      "system": {
+        "description": "",
+        "rank": 4,
+        "attribution": {
+          "source": "Melanie C Green of Meldar16 [Troika! Community Jam: Backgrounds 2024]",
+          "link": "meldar16.com"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "modifier": 0,
+        "improvement": false
+      },
+      "_id": "O2bCgoHHRHL5Fg0Q",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!4q0SvPJzZbi1q81Q.O2bCgoHHRHL5Fg0Q"
+    },
+    {
+      "name": "Secret Signs",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "description": "<p id=\"docs-internal-guid-56976a83-7fff-5674-fe85-6827a739c7d1\" dir=\"ltr\"><span id=\"docs-internal-guid-5ebd5f62-7fff-8a0d-912b-e28603b60d5f\">Used to identify marks, handshakes, code words, etc. of one specific society. You would, for example, be able to read the secret marks left on people&rsquo;s door posts by fellow hobos.</span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 3,
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Item.cF40jXjQ3ql3R4u4"
+        }
+      },
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676781942840,
+        "modifiedTime": 1676782632708,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "f0udwLkhESSImq8X",
+      "_key": "!actors.items!4q0SvPJzZbi1q81Q.f0udwLkhESSImq8X"
+    },
+    {
+      "name": "Befuddle",
+      "type": "spell",
+      "img": "icons/svg/daze.svg",
+      "system": {
+        "description": "<p><span dir=\"ltr\" role=\"presentation\">A</span> <span dir=\"ltr\" role=\"presentation\">wizard&rsquo;s</span> <span dir=\"ltr\" role=\"presentation\">touch</span> <span dir=\"ltr\" role=\"presentation\">can</span> <span dir=\"ltr\" role=\"presentation\">shake</span> <span dir=\"ltr\" role=\"presentation\">up</span> <span dir=\"ltr\" role=\"presentation\">someone&rsquo;s</span> <span dir=\"ltr\" role=\"presentation\">mind</span> <span dir=\"ltr\" role=\"presentation\">like</span> <span dir=\"ltr\" role=\"presentation\">a</span> <span dir=\"ltr\" role=\"presentation\">snow</span> <span dir=\"ltr\" role=\"presentation\">globe. </span><span dir=\"ltr\" role=\"presentation\">The</span> <span dir=\"ltr\" role=\"presentation\">target</span> <span dir=\"ltr\" role=\"presentation\">makes</span> <span dir=\"ltr\" role=\"presentation\">all</span> <span dir=\"ltr\" role=\"presentation\">rolls</span> <span dir=\"ltr\" role=\"presentation\">at</span> <span dir=\"ltr\" role=\"presentation\">a</span> <span dir=\"ltr\" role=\"presentation\">-1</span> <span dir=\"ltr\" role=\"presentation\">penalty</span> <span dir=\"ltr\" role=\"presentation\">until</span> <span dir=\"ltr\" role=\"presentation\">their</span> <span dir=\"ltr\" role=\"presentation\">head</span> <span dir=\"ltr\" role=\"presentation\">clears. </span><span dir=\"ltr\" role=\"presentation\">Lasts for 3 minutes.</span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 2,
+        "castingCost": "1",
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676768863032,
+        "modifiedTime": 1676771738837,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "v7yvxA1pONeBjYmH",
+      "_key": "!actors.items!4q0SvPJzZbi1q81Q.v7yvxA1pONeBjYmH"
+    }
+  ],
+  "folder": "VQDsap64MLlBCSLh",
+  "_id": "4q0SvPJzZbi1q81Q",
+  "prototypeToken": {
+    "name": "Bell Ringer",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1723905257116,
+    "modifiedTime": 1723905257116,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!4q0SvPJzZbi1q81Q"
+}

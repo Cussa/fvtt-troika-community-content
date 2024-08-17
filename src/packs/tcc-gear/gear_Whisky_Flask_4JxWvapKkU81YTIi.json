@@ -1,0 +1,47 @@
+{
+  "name": "Whisky Flask",
+  "type": "gear",
+  "img": "modules/troika-community-content/assets/tokens/item.svg",
+  "system": {
+    "description": "<p>Take a swig to regain 1d3 Stamina immediately after a fight. Sacrifice to ignore one lethal gunshot</p>",
+    "inventorySlots": 1,
+    "equipped": true,
+    "quantity": 1,
+    "attribution": {
+      "source": "Robin Gibson [Troika! Community Jam: Backgrounds 2024]",
+      "link": "http://www.metalsnail.net/"
+    },
+    "canAttack": false,
+    "attack": {
+      "dr1": "2",
+      "dr2": "2",
+      "dr3": "2",
+      "dr4": "2",
+      "dr5": "4",
+      "dr6": "8",
+      "dr7": "10"
+    },
+    "sortOrder": -1,
+    "armourProvided": 0,
+    "requiresTwoHands": false,
+    "armourIgnored": 0
+  },
+  "folder": "VrSbjWoLiY7Rw7Sq",
+  "_id": "4JxWvapKkU81YTIi",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1723905257408,
+    "modifiedTime": 1723905257408,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!items!4JxWvapKkU81YTIi"
+}

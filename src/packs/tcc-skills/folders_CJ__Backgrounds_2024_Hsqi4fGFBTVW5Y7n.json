@@ -1,0 +1,19 @@
+{
+  "type": "Item",
+  "name": "CJ: Backgrounds 2024",
+  "color": "#AA0000",
+  "_id": "Hsqi4fGFBTVW5Y7n",
+  "folder": null,
+  "sorting": "a",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1723905257366,
+    "modifiedTime": 1723905257366,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!folders!Hsqi4fGFBTVW5Y7n"
+}

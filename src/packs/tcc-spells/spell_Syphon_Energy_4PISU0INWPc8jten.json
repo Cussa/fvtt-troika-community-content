@@ -1,0 +1,44 @@
+{
+  "name": "Syphon Energy",
+  "type": "spell",
+  "img": "modules/troika-community-content/assets/tokens/spell.svg",
+  "system": {
+    "description": "<p>The caster touches an energy source, be it a living being or a locus of power, and absorbs energy from it. In addition to doing damage, the energy heals the caster for the amount of damage dealt.</p>",
+    "rank": 1,
+    "castingCost": "2",
+    "attribution": {
+      "source": "Noah M. Bartel [Troika! Community Jam: Backgrounds 2024]",
+      "link": "https://divinen.itch.io/"
+    },
+    "canAttack": true,
+    "attack": {
+      "dr1": "2",
+      "dr2": "2",
+      "dr3": "3",
+      "dr4": "3",
+      "dr5": "6",
+      "dr6": "8",
+      "dr7": "10"
+    },
+    "modifier": 0,
+    "improvement": false
+  },
+  "folder": "oD8QAsKnORlk9zmu",
+  "_id": "4PISU0INWPc8jten",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1723905257389,
+    "modifiedTime": 1723905257389,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!items!4PISU0INWPc8jten"
+}

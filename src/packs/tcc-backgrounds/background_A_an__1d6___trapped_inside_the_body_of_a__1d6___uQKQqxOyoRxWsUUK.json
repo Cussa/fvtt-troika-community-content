@@ -1,0 +1,502 @@
+{
+  "name": "A/an (1d6¹) trapped inside the body of a (1d6²)",
+  "type": "background",
+  "img": "modules/troika-community-content/assets/tokens/backgrounds.svg",
+  "system": {
+    "armour": 1,
+    "attribution": {
+      "source": "Peregrin Jones (WanderingFalcon) [Troika! Community Jam: Backgrounds 2024]",
+      "link": "https://wanderingfalcon.itch.io/"
+    },
+    "special": "<p>While your current shape may have limited your powers considerably, there are occasions where you can unleash just the smallest sliver of your old strength.</p><p>Once a week, or on a sensible timescale agreed with your GM, you may cast the spell Xed without paying its stamina cost.</p><p>Dave is a short, balding, middle-aged man of no real discerning features. He cannot fight, has no particular skills and is generally just a normal, humanish</p><p>sort of guy. If questioned about his presence he will reply: “Oh, I’m just here to carry the (1d6²)’s things.” in a cheerful, amiable voice.</p><p>No-one will ever feel particularly inclined to inquire further.</p>",
+    "notes": "<p>(1d6¹)</p><p>- 1 Unspeakable Horror</p><p>- 2 Living Nightmare</p><p>- 3 Primaeval Terror</p><p>- 4 Emissary Of The End Times</p><p>- 5 Sum Of All Fears</p><p>- 6 Thing That Dwells Below</p><p>(1d6²)</p><p>- 1 Small Dog</p><p>- 2 Micro-Pig</p><p>- 3 Baby Goat</p><p>- 4 Clumsy Duckling</p><p>- 5 Fluffy Bunny</p><p>- 6 Enormously Fat Guinea Pig</p><p>It’s the eyes… That infuriate you the most. The gormless, watery way they stare at you as if your outward appearance has quite simply</p><p>melted half their brain away. For millennia untold you have been actually causing the grey matter of these mortal fools to dribble from</p><p>their nostrils, but one little misjudgement of the best laid plans… and now look at you…</p><p>This new form is hardly ideal, but you didn’t become an immortal scourge upon the very fabric of creation by quitting so easily.</p><p>There must be some way to reclaim your true powers. You must be patient. You must use whatever advantages you do have. You cannot command</p><p>or whisper to the mewling masses anymore… but that does not mean you cannot bend them to your bidding. If they are going to insist on</p><p>carrying you around and feeding you and providing those delightful, behind-the-ear head scratches… Well, why not take advantage while you</p><p>can.</p>",
+    "skill": "1d3+3",
+    "stamina": "2d6+12",
+    "luck": "1d6+6",
+    "initiativeTokens": 2,
+    "monies": "2d6",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    }
+  },
+  "items": [
+    {
+      "name": "Tiny fangs/claws etc.",
+      "type": "gear",
+      "img": "icons/svg/pawprint.svg",
+      "system": {
+        "description": "",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "3",
+          "dr4": "3",
+          "dr5": "4",
+          "dr6": "5",
+          "dr7": "6"
+        },
+        "inventorySlots": 0,
+        "sortOrder": -1,
+        "canAttack": true,
+        "equipped": true,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0,
+        "quantity": 1,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676774542203,
+        "modifiedTime": 1676827731619,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "s3rOAS7b5rnZ6VAs",
+      "_key": "!actors.items!uQKQqxOyoRxWsUUK.s3rOAS7b5rnZ6VAs"
+    },
+    {
+      "name": "Aura of tiny cuteness",
+      "type": "gear",
+      "system": {
+        "description": "",
+        "inventorySlots": 2,
+        "equipped": true,
+        "armourProvided": 1,
+        "quantity": 1,
+        "attribution": {},
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "Tkha5jliAMeVby5D",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!uQKQqxOyoRxWsUUK.Tkha5jliAMeVby5D"
+    },
+    {
+      "name": "Dave",
+      "type": "gear",
+      "system": {
+        "inventorySlots": 1,
+        "equipped": true,
+        "quantity": 1,
+        "description": "",
+        "attribution": {
+          "source": "Peregrin Jones (WanderingFalcon) [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://wanderingfalcon.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "y5imrodO4c8ZeNa7",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!uQKQqxOyoRxWsUUK.y5imrodO4c8ZeNa7"
+    },
+    {
+      "name": "Xed",
+      "type": "spell",
+      "img": "modules/troika-community-content/assets/tokens/spell.svg",
+      "system": {
+        "description": "<p>With one glance at a living target, the unleasher of this raw, unearthly power can utterly eviscerate them in one of three ways. There is no possible protection from it, besides the unfathomable foresight of your GM themself. The caster must also immediately roll on the Oops! table, and apply the results, unless their stamina is reduced to 0 by casting this spell; in which case its effects are applied to both the target and the caster but no Oops! Roll is needed. Roll 1d3. - On a 1: The target immediately turns completely inside out… then explodes, messily. - On a 2: The target is reduced to a gibbering mess, their mind utterly, irrevocably destroyed. They can’t speak, think or remember anything ever again. - On a 3: The target never existed in the first place. Who are you talking about? What were we doing here?</p>",
+        "rank": 10,
+        "castingCost": "25",
+        "attribution": {
+          "source": "Peregrin Jones (WanderingFalcon) [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://wanderingfalcon.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "modifier": 0,
+        "improvement": false
+      },
+      "_id": "mub6x54ko6WtKS5k",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!uQKQqxOyoRxWsUUK.mub6x54ko6WtKS5k"
+    },
+    {
+      "name": "Cuteness",
+      "type": "skill",
+      "img": "modules/troika-community-content/assets/tokens/skill.svg",
+      "system": {
+        "description": "",
+        "rank": 4,
+        "attribution": {
+          "source": "Peregrin Jones (WanderingFalcon) [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://wanderingfalcon.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "modifier": 0,
+        "improvement": false
+      },
+      "_id": "PYr9L7ZlMX5tYb4y",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!uQKQqxOyoRxWsUUK.PYr9L7ZlMX5tYb4y"
+    },
+    {
+      "name": "Performance",
+      "type": "skill",
+      "img": "modules/troika-community-content/assets/tokens/skill.svg",
+      "system": {
+        "description": "",
+        "rank": 2,
+        "attribution": {
+          "source": "Peregrin Jones (WanderingFalcon) [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://wanderingfalcon.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "modifier": 0,
+        "improvement": false
+      },
+      "_id": "JkWV33kJc8aaOrZN",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!uQKQqxOyoRxWsUUK.JkWV33kJc8aaOrZN"
+    },
+    {
+      "name": "Second Sight",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "description": "<p id=\"docs-internal-guid-56976a83-7fff-5674-fe85-6827a739c7d1\" dir=\"ltr\"><span id=\"docs-internal-guid-e59d9e9d-7fff-4305-973a-a145ba36f0ec\">Use of this allows the detection of magic. On a successful Test you focus your inner eye and all sorcerous activity glows faintly for a moment. </span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 2,
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Item.cF40jXjQ3ql3R4u4"
+        }
+      },
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676781942840,
+        "modifiedTime": 1676782632707,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "jwENqcIwjUFbmbdK",
+      "_key": "!actors.items!uQKQqxOyoRxWsUUK.jwENqcIwjUFbmbdK"
+    },
+    {
+      "name": "Amity",
+      "type": "spell",
+      "img": "icons/svg/daze.svg",
+      "system": {
+        "description": "<p><span dir=\"ltr\" role=\"presentation\">The College of Friends always sends out its Factotums on nights after Amity </span><span dir=\"ltr\" role=\"presentation\">classes. Clearing out the bars and brothels of their drunken apprentices is </span><span dir=\"ltr\" role=\"presentation\">tiring work. Use of this Spell causes the target to Test their Luck (or Skill </span><span dir=\"ltr\" role=\"presentation\">for Enemies) or become very friendly towards the wizard, as though they </span><span dir=\"ltr\" role=\"presentation\">were an old friend. They won&rsquo;t act irrationally, though, and if they were </span><span dir=\"ltr\" role=\"presentation\">already a bit of a boor this might not change much.</span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 2,
+        "castingCost": "4",
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676768463333,
+        "modifiedTime": 1676771738836,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "9aIn6B8q9i8vn1r9",
+      "_key": "!actors.items!uQKQqxOyoRxWsUUK.9aIn6B8q9i8vn1r9"
+    },
+    {
+      "name": "Fear",
+      "type": "spell",
+      "img": "icons/svg/daze.svg",
+      "system": {
+        "description": "<p><span dir=\"ltr\" role=\"presentation\">In the eyes of one poor target the wizard grows into a primal monster </span><span dir=\"ltr\" role=\"presentation\">from the depths of their lizard brain. They attempt to flee, and if flight is </span><span dir=\"ltr\" role=\"presentation\">impossible they curl up in a ball and whimper. They may Test their Luck (or </span><span dir=\"ltr\" role=\"presentation\">Skill for Enemies) to resist the illusion.</span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 2,
+        "castingCost": "1",
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676769476754,
+        "modifiedTime": 1676771738840,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "oSdRHiHUvIOGEIvi",
+      "_key": "!actors.items!uQKQqxOyoRxWsUUK.oSdRHiHUvIOGEIvi"
+    }
+  ],
+  "folder": "VQDsap64MLlBCSLh",
+  "_id": "uQKQqxOyoRxWsUUK",
+  "prototypeToken": {
+    "name": "A/an (1d6¹) trapped inside the body of a (1d6²)",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1723905257036,
+    "modifiedTime": 1723905257036,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!uQKQqxOyoRxWsUUK"
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Continue the Cycle",
+  "type": "spell",
+  "img": "modules/troika-community-content/assets/tokens/spell.svg",
+  "system": {
+    "description": "<p>Maximum stamina of the caster. The caster plants themselves firmly into the ground, expelling all of their energy and transforming into a living basin capable only of producing eggs and fostering their hatching. This is the final stage of life for the Many. The Spell lasts until all energy is expelled and all eggs are hatched, resulting in the death of the caster.</p>",
+    "rank": 1,
+    "castingCost": "X",
+    "attribution": {
+      "source": "Noah M. Bartel [Troika! Community Jam: Backgrounds 2024]",
+      "link": "https://divinen.itch.io/"
+    },
+    "canAttack": false,
+    "attack": {
+      "dr1": "2",
+      "dr2": "2",
+      "dr3": "2",
+      "dr4": "2",
+      "dr5": "4",
+      "dr6": "8",
+      "dr7": "10"
+    },
+    "modifier": 0,
+    "improvement": false
+  },
+  "folder": "oD8QAsKnORlk9zmu",
+  "_id": "N35Z3kufo2Xn7FiN",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1723905257389,
+    "modifiedTime": 1723905257389,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!items!N35Z3kufo2Xn7FiN"
+}

@@ -1,0 +1,286 @@
+{
+  "name": "7th Dimensional Tourist",
+  "type": "background",
+  "img": "modules/troika-community-content/assets/tokens/backgrounds.svg",
+  "system": {
+    "armour": 0,
+    "attribution": {
+      "source": "Peregrin Jones (WanderingFalcon) [Troika! Community Jam: Backgrounds 2024]",
+      "link": "https://wanderingfalcon.itch.io/"
+    },
+    "special": "<p>As a being from a whole different level of the multiverse, your sense of self while existing on</p><p>this plane is… mutable. A fact that can both play to your advantage and disadvantage at</p><p>times. Whenever you receive a shock, be that physical damage of one sort or another, a</p><p>sudden onset of strong emotions… or a particularly large sneeze. You **must roll immediately</p><p>on the **Change! chart below, and transform accordingly.</p><p>You may also initiate a **Change! Roll yourself as an Action, at a cost of 3 stamina, and may</p><p>modify the result of the roll by up to your level in the Advanced Skill, higher or lower.</p><p>You may be under several **Change! effects at once, and can remove *one old effect when you</p><p>initiate a roll yourself but *not when the roll is due to any other cause.</p><p>##Roll on 2d6\t\t**Change! Transformation</p><p>- 2\t\tYou vanish back to your own plane of existence, returning to the exact spot in</p><p>an hour with no knowledge of what has transpired in the meantime.</p><p>- 3\t\tGravity suddenly changes for you, roll a 1d3 with 1 being ‘forward’, 2 being</p><p>‘backward’ or 3 being ‘up’ in relation to your current thinking. That way is now</p><p>‘down’ for you.</p><p>- 4\t\tYou are now a liquid. You still have some control over your movement, but will</p><p>always flow downwards if on any sloping gradient. You cannot hold or wear anything.</p><p>- 5\t\tYou are now a gas. You can keep yourself from diffusing too much and can even move</p><p>freely in still air, but will be blown along by any breeze or wind. You cannot hold</p><p>or wear anything.</p><p>- 6\t\tYou are suddenly affected by the ‘Diminish’ spell, shrinking to half your current size.</p><p>- 7\t\tYou take on the form of the last non-sentient creature you can remember seeing. You</p><p>have all the skills, attacks and natural abilities of said creature but retain your own</p><p>stamina. Your GM can always decide if a creature is off-limits for this effect and</p><p>instead choose another.</p><p>- 8\t\tYou are suddenly affected by the ‘Grow’ spell, growing to double your current size.</p><p>- 9\t\tYou take on the form of the last sentient being you looked at, or are currently looking</p><p>at. You can replicate their clothes and accessories, their voice and even mannerisms.</p><p>However you do not have their skills, abilities or knowledge.</p><p>- 10\t\tGravity suddenly has no effect on you. You may fly freely in any direction with just a</p><p>thought. This effect lasts only until you next roll on this chart, whatever the cause of</p><p>said roll. GM’s may provide inopportune sneezes at their whim.</p><p>- 11\t\tThere are now (+1) of you. Cut your current maximum stamina in half. That is the maximum</p><p>stamina any of you can have while the other exists. Add 1 extra token to the combat stack,</p><p>you may move or act with any of your bodies when one of your tokens is drawn. If you</p><p>voluntarily remove this effect, double your maximum stamina. You are fairly certain you’re</p><p>still the original.</p><p>- 12\t\tFor just a moment… you are freed from the passage of time itself. You may step backwards or</p><p>forwards to any point in the last or next hour, arriving at the place your ‘self’ in that</p><p>moment was/will be, but with/without any extra knowledge you would have gained in that</p><p>interim. If this roll was a result of damage, you may choose to jump back just that second</p><p>and completely avoid said damage.</p>",
+    "notes": "<p>'There are more worlds than these.' Is a common phrase across all the multitude of opened</p><p>spheres, thronging with multiversal travellers. Perhaps in an attempt to stave off the</p><p>inevitable disappointment of how shallow infinity can seem at times. Many who trek out</p><p>across the madness of it all are often searching for themselves, after all; and can become</p><p>quite frustrated when throughout literally limitless possibilities… they still cannot find it.</p><p>How cheering for them, then… to meet a visitor from somewhere wholly separate. From a plane</p><p>several steps above or below even the wisest mind's scope. Someone to whom 3-dimensional</p><p>space and time that only goes forward are frightfully novel concepts.</p><p>You left your intangible, indescribable dimension against all better advice. Taking on a</p><p>shape and form you certainly hoped would be inconspicuous among all these strange, lumpen</p><p>creatures and their ‘laws’ of physics and geometry. It is endlessly fascinating, to lumber</p><p>amongst them… trying to remember which way counts as ‘up’ and what ‘breathing’ is for.</p>",
+    "skill": "1d3+3",
+    "stamina": "2d6+12",
+    "luck": "1d6+6",
+    "initiativeTokens": 2,
+    "monies": "2d6",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    }
+  },
+  "items": [
+    {
+      "name": "A body",
+      "type": "gear",
+      "img": "modules/troika-community-content/assets/tokens/item.svg",
+      "system": {
+        "description": "<p>What are ‘clothes’?</p>",
+        "inventorySlots": 0,
+        "equipped": true,
+        "quantity": 1,
+        "attribution": {
+          "source": "Peregrin Jones (WanderingFalcon) [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://wanderingfalcon.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "lAOJ02KZYlZGRmNg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!bHp48eNhPgHjmZFi.lAOJ02KZYlZGRmNg"
+    },
+    {
+      "name": "Assume Shape",
+      "type": "spell",
+      "img": "icons/svg/daze.svg",
+      "system": {
+        "description": "<p><span dir=\"ltr\" role=\"presentation\">The wizard undergoes a distressing transformation into an inanimate </span><span dir=\"ltr\" role=\"presentation\">object no larger than a piano and no smaller than a cup. Lasts until ended.</span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 2,
+        "castingCost": "4",
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676768667876,
+        "modifiedTime": 1676771738836,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "6ZoP5rNxxJBqz2nM",
+      "_key": "!actors.items!bHp48eNhPgHjmZFi.6ZoP5rNxxJBqz2nM"
+    },
+    {
+      "name": "Thought Vapour",
+      "type": "spell",
+      "img": "icons/svg/daze.svg",
+      "system": {
+        "description": "<p><span dir=\"ltr\" role=\"presentation\">The wizard can cause their nose to exist in multiple alternative realities, </span><span dir=\"ltr\" role=\"presentation\">travel through various Spheres, and enable the olfactory sensation of </span><span dir=\"ltr\" role=\"presentation\">thought. Emotions, attitudes, and underlying feelings can be smelled. No </span><span dir=\"ltr\" role=\"presentation\">words or images are formed, just impressions. Any strong odour causes </span><span dir=\"ltr\" role=\"presentation\">this Spell to fail.</span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 2,
+        "castingCost": "1",
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676770782506,
+        "modifiedTime": 1676771738845,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "NG9jtEiQk3rSAxow",
+      "_key": "!actors.items!bHp48eNhPgHjmZFi.NG9jtEiQk3rSAxow"
+    },
+    {
+      "name": "Change!",
+      "type": "skill",
+      "img": "modules/troika-community-content/assets/tokens/skill.svg",
+      "system": {
+        "description": "",
+        "rank": 1,
+        "attribution": {
+          "source": "Peregrin Jones (WanderingFalcon) [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://wanderingfalcon.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "modifier": 0,
+        "improvement": false
+      },
+      "_id": "GuY1IOA7i5hYDL4u",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!bHp48eNhPgHjmZFi.GuY1IOA7i5hYDL4u"
+    }
+  ],
+  "folder": "VQDsap64MLlBCSLh",
+  "_id": "bHp48eNhPgHjmZFi",
+  "prototypeToken": {
+    "name": "7th Dimensional Tourist",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1723905257025,
+    "modifiedTime": 1723905257025,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!bHp48eNhPgHjmZFi"
+}

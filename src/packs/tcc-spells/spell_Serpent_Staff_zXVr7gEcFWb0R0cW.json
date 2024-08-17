@@ -1,0 +1,44 @@
+{
+  "name": "Serpent Staff",
+  "type": "spell",
+  "img": "modules/troika-community-content/assets/tokens/spell.svg",
+  "system": {
+    "description": "<p>A beginner spell that’s commonly used to frighten enemies or perform practical jokes on fellow arcanium scholars. The caster turns a nearby wooden staff or stick into a large snake. Once transmuted, the player rolls a d3 to determine the mein of the snake. 1. Snake is harmless and tries to gently constrict the nearest target. 2. Snake is aggressive and bites the nearest target (small beast damage) 3. Snake has two heads and looks rather confused.</p>",
+    "rank": 1,
+    "castingCost": "1",
+    "attribution": {
+      "source": "Hunter Herminath [Troika! Community Jam: Backgrounds 2024]",
+      "link": "https://thatoneguy3200.itch.io/"
+    },
+    "canAttack": false,
+    "attack": {
+      "dr1": "2",
+      "dr2": "2",
+      "dr3": "2",
+      "dr4": "2",
+      "dr5": "4",
+      "dr6": "8",
+      "dr7": "10"
+    },
+    "modifier": 0,
+    "improvement": false
+  },
+  "folder": "oD8QAsKnORlk9zmu",
+  "_id": "zXVr7gEcFWb0R0cW",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1723905257389,
+    "modifiedTime": 1723905257389,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!items!zXVr7gEcFWb0R0cW"
+}

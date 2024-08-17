@@ -1,0 +1,44 @@
+{
+  "name": "Xed",
+  "type": "spell",
+  "img": "modules/troika-community-content/assets/tokens/spell.svg",
+  "system": {
+    "description": "<p>With one glance at a living target, the unleasher of this raw, unearthly power can utterly eviscerate them in one of three ways. There is no possible protection from it, besides the unfathomable foresight of your GM themself. The caster must also immediately roll on the Oops! table, and apply the results, unless their stamina is reduced to 0 by casting this spell; in which case its effects are applied to both the target and the caster but no Oops! Roll is needed. Roll 1d3. - On a 1: The target immediately turns completely inside out… then explodes, messily. - On a 2: The target is reduced to a gibbering mess, their mind utterly, irrevocably destroyed. They can’t speak, think or remember anything ever again. - On a 3: The target never existed in the first place. Who are you talking about? What were we doing here?</p>",
+    "rank": 1,
+    "castingCost": "25",
+    "attribution": {
+      "source": "Peregrin Jones (WanderingFalcon) [Troika! Community Jam: Backgrounds 2024]",
+      "link": "https://wanderingfalcon.itch.io/"
+    },
+    "canAttack": false,
+    "attack": {
+      "dr1": "2",
+      "dr2": "2",
+      "dr3": "2",
+      "dr4": "2",
+      "dr5": "4",
+      "dr6": "8",
+      "dr7": "10"
+    },
+    "modifier": 0,
+    "improvement": false
+  },
+  "folder": "oD8QAsKnORlk9zmu",
+  "_id": "YK2Qt7vUZOL7ExDr",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1723905257389,
+    "modifiedTime": 1723905257389,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!items!YK2Qt7vUZOL7ExDr"
+}

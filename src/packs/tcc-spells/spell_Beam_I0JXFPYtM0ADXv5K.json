@@ -1,0 +1,44 @@
+{
+  "name": "Beam",
+  "type": "spell",
+  "img": "modules/troika-community-content/assets/tokens/spell.svg",
+  "system": {
+    "description": "<p>Shoot a beam of concentrated magical energy 6 meters (20 feet) in a straight line. Each creature in the beam may test their luck to avoid damage.</p>",
+    "rank": 1,
+    "castingCost": "2",
+    "attribution": {
+      "source": "Daria James LeFevre [Troika! Community Jam: Backgrounds 2024]",
+      "link": "https://x.com/Hodag_Soup"
+    },
+    "canAttack": true,
+    "attack": {
+      "dr1": "3",
+      "dr2": "3",
+      "dr3": "6",
+      "dr4": "6",
+      "dr5": "9",
+      "dr6": "9",
+      "dr7": "18"
+    },
+    "modifier": 0,
+    "improvement": false
+  },
+  "folder": "oD8QAsKnORlk9zmu",
+  "_id": "I0JXFPYtM0ADXv5K",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1723905257389,
+    "modifiedTime": 1723905257389,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!items!I0JXFPYtM0ADXv5K"
+}

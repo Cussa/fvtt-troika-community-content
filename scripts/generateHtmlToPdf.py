@@ -170,6 +170,8 @@ def addBackground(background):
         : system["attribution"]["source"].index(" [")
     ]
     link = f"""<li><a class="bookmark" href="https://index/Backgrounds±{link}"><em>{background["name"]}</em> by {author}</a></li>"""
+    command = re.sub(r"\*\*(.*?)\*\*", r"<strong>\1</strong>", command)
+    command = re.sub(r"\*(.*?)\*", r"<em>\1</em>", command)
 
     return [command, link]
 

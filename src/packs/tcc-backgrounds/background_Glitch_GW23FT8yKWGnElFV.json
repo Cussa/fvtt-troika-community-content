@@ -1,0 +1,552 @@
+{
+  "name": "Glitch",
+  "type": "background",
+  "img": "modules/troika-community-content/assets/tokens/backgrounds.svg",
+  "system": {
+    "armour": 0,
+    "attribution": {
+      "source": "Natalie Ash [Troika! Community Jam: Backgrounds 2024]",
+      "link": "https://www.byemberandash.com"
+    },
+    "special": "<p>Your physical existence has its own level of discontinuity with reality. Your appearance is inconsistent in minor ways; that is, every time someone looks at you, something about you is different — perhaps eye color, or hair color. This effect will never benefit you, nor will it especially hinder you.</p><p>Roll D4-1 to define the armour value.</p>",
+    "notes": "<p>The progress of science is made by the courageous leaps of thought and radical experiments... and that's what your employer espoused when they hired you to do technical maintenance on their experimental quantum de-entangler. On the plus side, your repairs were flawless and did not lead to the failure of the device. On the negative side, you picked up some side-effects. A little discontinuity with reality. Not a big deal, right?</p>",
+    "skill": "1d3+3",
+    "stamina": "2d6+12",
+    "luck": "1d6+6",
+    "initiativeTokens": 2,
+    "monies": "2d6",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    }
+  },
+  "items": [
+    {
+      "name": "Portable data-storage device with encrypted data",
+      "type": "gear",
+      "system": {
+        "inventorySlots": 1,
+        "equipped": true,
+        "quantity": 1,
+        "description": "",
+        "attribution": {
+          "source": "Natalie Ash [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://www.byemberandash.com"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "wtdHXfXxH5g3qLyn",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!GW23FT8yKWGnElFV.wtdHXfXxH5g3qLyn"
+    },
+    {
+      "name": "Small pouch with precision screw-drivers",
+      "type": "gear",
+      "system": {
+        "inventorySlots": 1,
+        "equipped": true,
+        "quantity": 1,
+        "description": "",
+        "attribution": {
+          "source": "Natalie Ash [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://www.byemberandash.com"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "o5p4vNdAbXvSBzys",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!GW23FT8yKWGnElFV.o5p4vNdAbXvSBzys"
+    },
+    {
+      "name": "Retractible box-cutter",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "inventorySlots": 1,
+        "sortOrder": -1,
+        "canAttack": true,
+        "equipped": true,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0,
+        "quantity": 1,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676773918462,
+        "modifiedTime": 1676827737963,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "kk0sJYx3cKMIaR2K",
+      "_key": "!actors.items!GW23FT8yKWGnElFV.kk0sJYx3cKMIaR2K"
+    },
+    {
+      "name": "Tech-hoodie, encumbered as light armour",
+      "type": "gear",
+      "system": {
+        "description": "",
+        "inventorySlots": 0,
+        "equipped": true,
+        "armourProvided": 0,
+        "quantity": 1,
+        "attribution": {},
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "zNJ51GuoV1F4JLPt",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!GW23FT8yKWGnElFV.zNJ51GuoV1F4JLPt"
+    },
+    {
+      "name": "Disguise",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "description": "<p id=\"docs-internal-guid-56976a83-7fff-5674-fe85-6827a739c7d1\" dir=\"ltr\"><span id=\"docs-internal-guid-3270f137-7fff-a5be-8ca9-e60768966dcf\">Covers the use of props to change your appearance. When in disguise you must Roll Under this when someone is liable to see through it. Opposed by Awareness when under scrutiny. </span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 3,
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Item.cF40jXjQ3ql3R4u4"
+        }
+      },
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676781942840,
+        "modifiedTime": 1676782632706,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "XbguydMSd7ABDDoq",
+      "_key": "!actors.items!GW23FT8yKWGnElFV.XbguydMSd7ABDDoq"
+    },
+    {
+      "name": "Locks",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "description": "<p id=\"docs-internal-guid-56976a83-7fff-5674-fe85-6827a739c7d1\" dir=\"ltr\"><span id=\"docs-internal-guid-2608bc48-7fff-b1bc-b6e6-dbb9b35e1729\">This allows a character to examine and open locks but does not detect traps. Roll Versus an imaginary locksmith whose Skill is somewhere between 6 and 12 with 6 being easy and 12 being very hard. </span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 2,
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Item.cF40jXjQ3ql3R4u4"
+        }
+      },
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676781942840,
+        "modifiedTime": 1676782632707,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "UMsI6L29eF7Uqb49",
+      "_key": "!actors.items!GW23FT8yKWGnElFV.UMsI6L29eF7Uqb49"
+    },
+    {
+      "name": "Sleight of Hand",
+      "type": "skill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "description": "<p id=\"docs-internal-guid-56976a83-7fff-5674-fe85-6827a739c7d1\" dir=\"ltr\"><span id=\"docs-internal-guid-6dd02e1d-7fff-d760-1d8c-9ccb00d9ab10\">Steal or hide small things. This is Tested only if someone is actively looking for them. A character may simply declare they are hiding something, only rolling this when the hiddenness is questioned.</span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 2,
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Item.cF40jXjQ3ql3R4u4"
+        }
+      },
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676781942840,
+        "modifiedTime": 1676782632708,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "izELTsza3XXEUzhT",
+      "_key": "!actors.items!GW23FT8yKWGnElFV.izELTsza3XXEUzhT"
+    },
+    {
+      "name": "Rewrite",
+      "type": "spell",
+      "img": "modules/troika-community-content/assets/tokens/spell.svg",
+      "system": {
+        "description": "<p>The Glitch can make a small rewrite to the world and change one object into another by changing one letter in the name of the targeted thing. The item remains in its \\\"glitched\\\" state for X hours, then returns to the state it was in prior to the Glitch using this spell.</p>",
+        "rank": 2,
+        "castingCost": "3+X",
+        "attribution": {
+          "source": "Natalie Ash [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://www.byemberandash.com"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "modifier": 0,
+        "improvement": false
+      },
+      "_id": "Isv4ynBU47HPMpLR",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!GW23FT8yKWGnElFV.Isv4ynBU47HPMpLR"
+    },
+    {
+      "name": "Babble",
+      "type": "spell",
+      "img": "icons/svg/daze.svg",
+      "system": {
+        "description": "<p><span dir=\"ltr\" role=\"presentation\">The wizard speaks nonsense while watching the intended target, causing </span><span dir=\"ltr\" role=\"presentation\">their words to trip and confuse. This may be done under their breath and </span><span dir=\"ltr\" role=\"presentation\">relatively subtly.</span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 1,
+        "castingCost": "2",
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676768771448,
+        "modifiedTime": 1676771738836,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "aqlntbfPfthunPCw",
+      "_key": "!actors.items!GW23FT8yKWGnElFV.aqlntbfPfthunPCw"
+    },
+    {
+      "name": "Befuddle",
+      "type": "spell",
+      "img": "icons/svg/daze.svg",
+      "system": {
+        "description": "<p><span dir=\"ltr\" role=\"presentation\">A</span> <span dir=\"ltr\" role=\"presentation\">wizard&rsquo;s</span> <span dir=\"ltr\" role=\"presentation\">touch</span> <span dir=\"ltr\" role=\"presentation\">can</span> <span dir=\"ltr\" role=\"presentation\">shake</span> <span dir=\"ltr\" role=\"presentation\">up</span> <span dir=\"ltr\" role=\"presentation\">someone&rsquo;s</span> <span dir=\"ltr\" role=\"presentation\">mind</span> <span dir=\"ltr\" role=\"presentation\">like</span> <span dir=\"ltr\" role=\"presentation\">a</span> <span dir=\"ltr\" role=\"presentation\">snow</span> <span dir=\"ltr\" role=\"presentation\">globe. </span><span dir=\"ltr\" role=\"presentation\">The</span> <span dir=\"ltr\" role=\"presentation\">target</span> <span dir=\"ltr\" role=\"presentation\">makes</span> <span dir=\"ltr\" role=\"presentation\">all</span> <span dir=\"ltr\" role=\"presentation\">rolls</span> <span dir=\"ltr\" role=\"presentation\">at</span> <span dir=\"ltr\" role=\"presentation\">a</span> <span dir=\"ltr\" role=\"presentation\">-1</span> <span dir=\"ltr\" role=\"presentation\">penalty</span> <span dir=\"ltr\" role=\"presentation\">until</span> <span dir=\"ltr\" role=\"presentation\">their</span> <span dir=\"ltr\" role=\"presentation\">head</span> <span dir=\"ltr\" role=\"presentation\">clears. </span><span dir=\"ltr\" role=\"presentation\">Lasts for 3 minutes.</span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 1,
+        "castingCost": "1",
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676768863032,
+        "modifiedTime": 1676771738837,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "OhSh4Triw2Ow85Cx",
+      "_key": "!actors.items!GW23FT8yKWGnElFV.OhSh4Triw2Ow85Cx"
+    }
+  ],
+  "folder": "VQDsap64MLlBCSLh",
+  "_id": "GW23FT8yKWGnElFV",
+  "prototypeToken": {
+    "name": "Glitch",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1723905256348,
+    "modifiedTime": 1723905256348,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!GW23FT8yKWGnElFV"
+}

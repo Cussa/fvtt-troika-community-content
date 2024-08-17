@@ -1,0 +1,588 @@
+{
+  "name": "Dark Lord Drop Out",
+  "type": "background",
+  "img": "modules/troika-community-content/assets/arts/backgrounds2024/dark-lord-drop-out.webp",
+  "system": {
+    "armour": 2,
+    "attribution": {
+      "source": "cacatuca [Troika! Community Jam: Backgrounds 2024]",
+      "link": "https://cacatuca.itch.io/"
+    },
+    "special": "<p>The Stamina cost for casting spells against anybody who claims to be the Chosen One is increased by 1. The claim has to be somehow credible.</p>",
+    "notes": "<p>You know the Chosen One is out there, growing up and getting stronger.</p><p>You know you should be studying the forbidden magic and enslaving armies and such.</p><p>But you couldn't be bothered a second longer by those old, droning teachers at E.P.A (Evil Prophecies Academy), so you bundled up whatever obscure possessions you owned and started out on your own journey, in the city of endless possibilities.</p><p>Are you really just a kid with some basic knowledge of the Dark Arts or... is there something much bigger to accomplish in your destiny?</p>",
+    "skill": "1d3+3",
+    "stamina": "2d6+12",
+    "luck": "1d6+6",
+    "initiativeTokens": 2,
+    "monies": "2d6",
+    "provisions": {
+      "p1": true,
+      "p2": true,
+      "p3": true,
+      "p4": true,
+      "p5": true,
+      "p6": true,
+      "p7": false,
+      "p8": false,
+      "p9": false,
+      "p10": false,
+      "p11": false,
+      "p12": false
+    }
+  },
+  "items": [
+    {
+      "name": "Soul-withering Greatsword",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "attack": {
+          "dr1": "2",
+          "dr2": "4",
+          "dr3": "8",
+          "dr4": "10",
+          "dr5": "12",
+          "dr6": "14",
+          "dr7": "18"
+        },
+        "inventorySlots": 2,
+        "sortOrder": -1,
+        "canAttack": true,
+        "equipped": true,
+        "armourProvided": 0,
+        "requiresTwoHands": true,
+        "armourIgnored": 0,
+        "quantity": 1,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676774181760,
+        "modifiedTime": 1676827737962,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "kBkN4yk0WBYksiP8",
+      "_key": "!actors.items!2WC50Udxy3I408IR.kBkN4yk0WBYksiP8"
+    },
+    {
+      "name": "Black Helm of Terror",
+      "type": "gear",
+      "system": {
+        "description": "",
+        "inventorySlots": 4,
+        "equipped": true,
+        "armourProvided": 2,
+        "quantity": 1,
+        "attribution": {},
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "ECXKZEZiGuuZj6GU",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!2WC50Udxy3I408IR.ECXKZEZiGuuZj6GU"
+    },
+    {
+      "name": "Academy's black velvet Tunic",
+      "type": "gear",
+      "system": {
+        "inventorySlots": 1,
+        "equipped": true,
+        "quantity": 1,
+        "description": "",
+        "attribution": {
+          "source": "cacatuca [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://cacatuca.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "n5Wa7JyPwaMiDjvE",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!2WC50Udxy3I408IR.n5Wa7JyPwaMiDjvE"
+    },
+    {
+      "name": "Amulet of the Light-Eater",
+      "type": "gear",
+      "img": "modules/troika-community-content/assets/tokens/item.svg",
+      "system": {
+        "description": "<p>when the gem is crushed the bearer can cast Darkness once</p>",
+        "inventorySlots": 1,
+        "equipped": true,
+        "quantity": 1,
+        "attribution": {
+          "source": "cacatuca [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://cacatuca.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "OzSKS0KZxcJomjFZ",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!2WC50Udxy3I408IR.OzSKS0KZxcJomjFZ"
+    },
+    {
+      "name": "Ring of the Invisible Council",
+      "type": "gear",
+      "img": "modules/troika-community-content/assets/tokens/item.svg",
+      "system": {
+        "description": "<p>the bearer can cast Invisibility once. The ring then quietly slips off the bearer's finger, becoming forever lost</p>",
+        "inventorySlots": 0,
+        "equipped": true,
+        "quantity": 1,
+        "attribution": {
+          "source": "cacatuca [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://cacatuca.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "sortOrder": -1,
+        "armourProvided": 0,
+        "requiresTwoHands": false,
+        "armourIgnored": 0
+      },
+      "_id": "4jiwAysgG5IIBjb6",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!2WC50Udxy3I408IR.4jiwAysgG5IIBjb6"
+    },
+    {
+      "name": "Greatsword Fighting",
+      "type": "skill",
+      "img": "modules/troika-community-content/assets/tokens/skill.svg",
+      "system": {
+        "description": "",
+        "rank": 2,
+        "attribution": {
+          "source": "cacatuca [Troika! Community Jam: Backgrounds 2024]",
+          "link": "https://cacatuca.itch.io/"
+        },
+        "canAttack": false,
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "modifier": 0,
+        "improvement": false
+      },
+      "_id": "BLx1N7OFSzkBrjEI",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!2WC50Udxy3I408IR.BLx1N7OFSzkBrjEI"
+    },
+    {
+      "name": "Amity",
+      "type": "spell",
+      "img": "icons/svg/daze.svg",
+      "system": {
+        "description": "<p><span dir=\"ltr\" role=\"presentation\">The College of Friends always sends out its Factotums on nights after Amity </span><span dir=\"ltr\" role=\"presentation\">classes. Clearing out the bars and brothels of their drunken apprentices is </span><span dir=\"ltr\" role=\"presentation\">tiring work. Use of this Spell causes the target to Test their Luck (or Skill </span><span dir=\"ltr\" role=\"presentation\">for Enemies) or become very friendly towards the wizard, as though they </span><span dir=\"ltr\" role=\"presentation\">were an old friend. They won&rsquo;t act irrationally, though, and if they were </span><span dir=\"ltr\" role=\"presentation\">already a bit of a boor this might not change much.</span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 2,
+        "castingCost": "4",
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676768463333,
+        "modifiedTime": 1676771738836,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "qdNLwNRV7tSfjOYq",
+      "_key": "!actors.items!2WC50Udxy3I408IR.qdNLwNRV7tSfjOYq"
+    },
+    {
+      "name": "Befuddle",
+      "type": "spell",
+      "img": "icons/svg/daze.svg",
+      "system": {
+        "description": "<p><span dir=\"ltr\" role=\"presentation\">A</span> <span dir=\"ltr\" role=\"presentation\">wizard&rsquo;s</span> <span dir=\"ltr\" role=\"presentation\">touch</span> <span dir=\"ltr\" role=\"presentation\">can</span> <span dir=\"ltr\" role=\"presentation\">shake</span> <span dir=\"ltr\" role=\"presentation\">up</span> <span dir=\"ltr\" role=\"presentation\">someone&rsquo;s</span> <span dir=\"ltr\" role=\"presentation\">mind</span> <span dir=\"ltr\" role=\"presentation\">like</span> <span dir=\"ltr\" role=\"presentation\">a</span> <span dir=\"ltr\" role=\"presentation\">snow</span> <span dir=\"ltr\" role=\"presentation\">globe. </span><span dir=\"ltr\" role=\"presentation\">The</span> <span dir=\"ltr\" role=\"presentation\">target</span> <span dir=\"ltr\" role=\"presentation\">makes</span> <span dir=\"ltr\" role=\"presentation\">all</span> <span dir=\"ltr\" role=\"presentation\">rolls</span> <span dir=\"ltr\" role=\"presentation\">at</span> <span dir=\"ltr\" role=\"presentation\">a</span> <span dir=\"ltr\" role=\"presentation\">-1</span> <span dir=\"ltr\" role=\"presentation\">penalty</span> <span dir=\"ltr\" role=\"presentation\">until</span> <span dir=\"ltr\" role=\"presentation\">their</span> <span dir=\"ltr\" role=\"presentation\">head</span> <span dir=\"ltr\" role=\"presentation\">clears. </span><span dir=\"ltr\" role=\"presentation\">Lasts for 3 minutes.</span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 2,
+        "castingCost": "1",
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676768863032,
+        "modifiedTime": 1676771738837,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "hDN3CNmVvja2HRka",
+      "_key": "!actors.items!2WC50Udxy3I408IR.hDN3CNmVvja2HRka"
+    },
+    {
+      "name": "Fear",
+      "type": "spell",
+      "img": "icons/svg/daze.svg",
+      "system": {
+        "description": "<p><span dir=\"ltr\" role=\"presentation\">In the eyes of one poor target the wizard grows into a primal monster </span><span dir=\"ltr\" role=\"presentation\">from the depths of their lizard brain. They attempt to flee, and if flight is </span><span dir=\"ltr\" role=\"presentation\">impossible they curl up in a ball and whimper. They may Test their Luck (or </span><span dir=\"ltr\" role=\"presentation\">Skill for Enemies) to resist the illusion.</span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 1,
+        "castingCost": "1",
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676769476754,
+        "modifiedTime": 1676771738840,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "fnLACu5yAo2tP1L3",
+      "_key": "!actors.items!2WC50Udxy3I408IR.fnLACu5yAo2tP1L3"
+    },
+    {
+      "name": "Undo",
+      "type": "spell",
+      "img": "icons/svg/daze.svg",
+      "system": {
+        "description": "<p><span dir=\"ltr\" role=\"presentation\">The wizard disentangles a Spell from this instance of reality. To do so they</span><br role=\"presentation\"><span dir=\"ltr\" role=\"presentation\">must Roll Versus the original casting if disentanglement is possible at all.</span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 1,
+        "castingCost": "double cost of original Spell",
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1674434956209,
+        "modifiedTime": 1676771738846,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "ZIPgpblG4y0E2FcF",
+      "_key": "!actors.items!2WC50Udxy3I408IR.ZIPgpblG4y0E2FcF"
+    },
+    {
+      "name": "Quench",
+      "type": "spell",
+      "img": "icons/svg/daze.svg",
+      "system": {
+        "description": "<p><span dir=\"ltr\" role=\"presentation\">Snuff a small flame with the wave of a hand.</span></p>",
+        "attack": {
+          "dr1": "2",
+          "dr2": "2",
+          "dr3": "2",
+          "dr4": "2",
+          "dr5": "4",
+          "dr6": "8",
+          "dr7": "10"
+        },
+        "rank": 1,
+        "castingCost": "1",
+        "modifier": 0,
+        "improvement": false,
+        "canAttack": false,
+        "attribution": {}
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "troika",
+        "systemVersion": "0.2.7",
+        "coreVersion": "10.291",
+        "createdTime": 1676770450137,
+        "modifiedTime": 1676771738844,
+        "lastModifiedBy": "iubUFLpmPB0vkjXq"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iubUFLpmPB0vkjXq": 3
+      },
+      "_id": "YALCT8vTV5Ko7plZ",
+      "_key": "!actors.items!2WC50Udxy3I408IR.YALCT8vTV5Ko7plZ"
+    }
+  ],
+  "folder": "VQDsap64MLlBCSLh",
+  "_id": "2WC50Udxy3I408IR",
+  "prototypeToken": {
+    "name": "Dark Lord Drop Out",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "luck"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7IDFZvOGXqWmmgkb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "troika",
+    "systemVersion": "1.5.0",
+    "coreVersion": "11.315",
+    "createdTime": 1723905256145,
+    "modifiedTime": 1723905256145,
+    "lastModifiedBy": "7IDFZvOGXqWmmgkb"
+  },
+  "_key": "!actors!2WC50Udxy3I408IR"
+}

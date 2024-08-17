@@ -13,6 +13,7 @@
       "args": [
         "backgrounds2024",
         "2024",
+        "--filter",
         "${command:pickArgs}"
       ]
     }
