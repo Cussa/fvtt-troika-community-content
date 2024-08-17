@@ -172,7 +172,7 @@
       "type": "gear",
       "system": {
         "description": "<p>slot: 0</p>",
-        "inventorySlots": 4,
+        "inventorySlots": 0,
         "equipped": true,
         "armourProvided": 2,
         "quantity": 1,

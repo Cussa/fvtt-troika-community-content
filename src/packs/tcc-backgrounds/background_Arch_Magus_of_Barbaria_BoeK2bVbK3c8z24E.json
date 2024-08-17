@@ -32,7 +32,7 @@
   },
   "items": [
     {
-      "name": "utal Longsword",
+      "name": "Brutal Longsword",
       "type": "gear",
       "img": "icons/svg/item-bag.svg",
       "system": {
@@ -76,7 +76,7 @@
       "_key": "!actors.items!BoeK2bVbK3c8z24E.Xfhhs8tvm6pSeRol"
     },
     {
-      "name": "iked Half-plate",
+      "name": "Spiked Half-plate",
       "type": "gear",
       "system": {
         "description": "",
