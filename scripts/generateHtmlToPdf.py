@@ -76,11 +76,15 @@ def handlePossession(item):
     inventorySlots = item["system"]["inventorySlots"]
     description = ""
     attribution = item["system"]["attribution"]
+    armour = ""
     if attribution and attribution["source"]:
         description = item["system"]["description"].replace("<p></p>", "")
         if description:
             description = f"<em>{description}</em>"
-    return f"<li>{name} (Slot: {inventorySlots}){description}</li>"
+    if item["system"]["armourProvided"] > 0:
+        armourValue = item["system"]["armourProvided"]
+        armour = f" - Armour: {armourValue}"
+    return f"<li>{name} (Slot: {inventorySlots}{armour}){description}</li>"
 
 
 def handleSkill(item):
@@ -123,6 +127,8 @@ def addBackground(background):
     possessionsList = []
     advancedSkillsList = []
 
+    damage = ""
+
     for item in background["items"]:
         if item["type"] == "gear":
             possessionsList.append(handlePossession(item))
@@ -130,6 +136,15 @@ def addBackground(background):
             advancedSkillsList.append(handleSkill(item))
         elif item["type"] == "spell":
             advancedSkillsList.append(handleSpell(item))
+
+        if item["system"]["canAttack"]:
+            damage += f"""
+<table class="attack">
+    <caption>{item["name"]}</caption>
+    <tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7+</td></tr>
+    <tr><td>{item["system"]["attack"]["dr1"]}</td><td>{item["system"]["attack"]["dr2"]}</td><td>{item["system"]["attack"]["dr3"]}</td><td>{item["system"]["attack"]["dr4"]}</td><td>{item["system"]["attack"]["dr5"]}</td><td>{item["system"]["attack"]["dr6"]}</td><td>{item["system"]["attack"]["dr7"]}</td></tr>
+</table>
+"""
 
     advancedSkillsList.sort(reverse=True)
 
@@ -163,6 +178,11 @@ def addBackground(background):
     </div>
     <div class="info">
         {image}
+        <p><span class="bold">SKILL:</span> <span class="italic">{system["skill"]}</span></p>
+        <p><span class="bold">STAMINA:</span> <span class="italic">{system["stamina"]}</span></p>
+        <p><span class="bold">INITIATIVE:</span> <span class="italic">{system["initiativeTokens"]}</span></p>
+        <p><span class="bold">ARMOUR:</span> <span class="italic">{system["armour"]}</span></p>
+        {damage}
     </div>
 </div>"""
 
