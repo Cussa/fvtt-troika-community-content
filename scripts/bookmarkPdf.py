@@ -5,6 +5,7 @@ from pypdf.generic import Fit
 writer = PdfWriter()  # open output
 reader = PdfReader("Troika! Community Content_source.pdf")  # open input
 cover = PdfReader("cover.pdf")
+ads = PdfReader("ads.pdf")
 
 writer.append(cover)
 
@@ -111,6 +112,7 @@ for p in reader.pages:
 
 
 # write_outline(writer.outline)
+writer.append(ads)
 
 writer.page_mode = "/UseOutlines"
 with open("Troika! Community Content.pdf", "wb") as fp:  # creating result pdf JCT
